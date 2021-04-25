@@ -1,0 +1,35 @@
+[
+	{
+		"name": "League of Elibe",
+		"leaderName": "Roy",
+		"adjective": ["Elibean"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		
+		"declaringWar": "I do not wish for it to come to this, but your existence threatens the safety of our people. Prepare for war!",
+		"attacked": "We do not fear you, for all of us have faced even greater threats than you!",
+		"defeated": "Father, Lilina... Please forgive me, for I have failed you all.",
+		"introduction": "Greetings! I am Roy!",
+		
+		"neutralHello": "Well met, glorious leader!",
+		"neutralLetsHearIt": ["Please proceed.", "I'm listening", "Go on"],
+		"neutralYes": ["Excellent deal!", "Great!", "It is irrefusable."],
+		"neutralNo": ["We kindly refuse your humble offer.", "We refuse", "No thank you."],
+		
+		"hateHello": "...",
+		"hateLetsHearIt": ["Speak." "Proceed!" "..."],
+		"hateYes": ["Very well.", "So be it.", "Fine."],
+		"hateNo": ["No!", "I refuse.", "That is unacceptable."],
+		
+		"afterPeace": "It is great to hear that you seek peace as well. War is terrible for our people anyway. Let us continue this for an enternity, shall we?",
+		"tradeRequest": "We are interested to have an exchange with you.",
+		
+		"outerColor": [255,0,0],
+		"innerColor": [0,71,171],
+		"uniqueName": "Blessings of the 8 Generals",
+		"uniques": ["[Antiquity sites] provides [+3] Production," "[Antiquity sites] also provide [+5] Science."],
+		"cities": ["Pherae", "Ostia", "Bern"],
+	}
+]
