@@ -29,7 +29,7 @@
 		"outerColor": [255,0,0],
 		"innerColor": [0,71,171],
 		"uniqueName": "Blessings of the 8 Generals",
-		"uniques": ["[Antiquity sites] provides [+3] Production," "[Antiquity sites] also provide [+5] Science."],
+		"uniques": ["[Antiquity sites] provides [+3] Production", "[Antiquity sites] also provide [+5] Science."],
 		"cities": ["Pherae", "Ostia", "Bern"],
 	}
 ]
