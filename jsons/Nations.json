@@ -3,7 +3,6 @@
 		"name": "League of Elibe",
 		"leaderName": "Roy",
 		"adjective": ["Elibean"],
-		"preferredVictoryType": "Diplomatic",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -19,7 +18,7 @@
 		"neutralNo": ["We kindly refuse your humble offer.", "We refuse", "No thank you."],
 		
 		"hateHello": "...",
-		"hateLetsHearIt": ["Speak." "Proceed!" "..."],
+		"hateLetsHearIt": ["Speak.", "Proceed!", "..."],
 		"hateYes": ["Very well.", "So be it.", "Fine."],
 		"hateNo": ["No!", "I refuse.", "That is unacceptable."],
 		
@@ -29,7 +28,8 @@
 		"outerColor": [255,0,0],
 		"innerColor": [0,71,171],
 		"uniqueName": "Blessings of the 8 Generals",
-		"uniques": ["[Antiquity sites] provides [+3] Production", "[Antiquity sites] also provide [+5] Science."],
+                "uniqueText": "+3 Science and +5 Production from Antiquity Sites"
+		"uniques": ["[+3 Science, +5 Production] from every [Antiquity Site]"],
 		"cities": ["Pherae", "Ostia", "Bern"],
 	}
 ]
