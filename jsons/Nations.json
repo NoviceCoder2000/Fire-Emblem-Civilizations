@@ -1,6 +1,6 @@
 [
 	{
-		"name": "League of Elibe",
+		"name": "Elibe",
 		"leaderName": "Roy",
 		"adjective": ["Elibean"],
 		
@@ -14,19 +14,19 @@
 		
 		"neutralHello": "Well met, glorious leader!",
 		"neutralLetsHearIt": ["Please proceed.","I'm listening.","Go on."],
-		"neutralYes": ["Excellent deal!","Great!","It is irrefusable."],
 		"neutralNo": ["We kindly refuse your humble offer.","We refuse","No thank you."],
-		
+		"neutralYes": ["Excellent deal!","Great!","It is irrefusable."],
+
 		"hateHello": "...",
 		"hateLetsHearIt": ["Speak.","Proceed!","..."],
-		"hateYes": ["Very well.","So be it.","Fine."],
 		"hateNo": ["No!","I refuse.","That is unacceptable."],
+		"hateYes": ["Very well.","So be it.","Fine."],
 		
 		"afterPeace": "It is great to hear that you seek peace as well. War is terrible for our people anyway. Let us continue this for an enternity, shall we?",
 		"tradeRequest": "We are interested to have an exchange with you.",
-		
+
 		"outerColor": [255,0,0],
-		"innerColor": [0,71,171],
+		"innerColor": [0,71,171],,
 		"uniqueName": "Blessings of the 8 Generals",
 		"uniqueText": "+3 Science and +5 Production from Antiquity Sites",
 		"uniques": ["[+3 Science, +5 Production] from every [Antiquity Site]"],
