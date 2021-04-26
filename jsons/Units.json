@@ -11,6 +11,6 @@
 		"upgradesTo:" "Cavalry",
 		"requiredResources:" "Horses",
 		"uniques:" ["Can move after attacking", "No defensive terrain bonus", "Penalty vs City 33%"],
-		"attackSound:" "Horse",
+		"attackSound:" "Horse"
 	}
 ]
