@@ -7,6 +7,23 @@
 		"strength:" "17",
 		"cost:" "100",
 		"hurryCostModifier:" "20",
+		"requiredTech:" "Chivalry",
+		"obsoleteTech:" "Metallurgy",
+		"upgradesTo:" "Cavalry",
+		"requiredResources:" "Horses",
+		"uniques:" ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
+		"attackSound:" "Horse"
+	},
+	
+	{
+		"name:" "Pegasus Knight",
+		"unitType:" "Mounted",
+		"replaces:" "Knight",
+		"movement:" "3",
+		"strength:" "17",
+		"cost:" "100",
+		"hurryCostModifier:" "20",
+		"requiredResources:" "Chivalry",
 		"obsoleteTech:" "Metallurgy",
 		"upgradesTo:" "Cavalry",
 		"requiredResources:" "Horses",
