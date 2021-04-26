@@ -3,6 +3,7 @@
 		"name": "Elibe",
 		"leaderName": "Roy",
 		"adjective": ["Elibean"],
+                "preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
