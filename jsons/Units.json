@@ -23,7 +23,7 @@
 		"strength": "17",
 		"cost": "100",
 		"hurryCostModifier": "20",
-		"requiredResources": "Chivalry",
+		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Cavalry",
 		"requiredResources": "Horses",
