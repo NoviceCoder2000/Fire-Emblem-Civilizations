@@ -1,17 +1,17 @@
 [
 	{
-		"name": "Elibe",
+		"name": "Elibean Alliance",
 		"leaderName": "Roy",
 		"adjective": ["Elibean"],
-                "preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
 		
-		"declaringWar": "I do not wish for it to come to this, but your existence threatens the safety of our people. Prepare for war!",
-		"attacked": "We do not fear you, for all of us have faced even greater threats than you!",
-		"defeated": "Father, Lilina... Please forgive me, for I have failed you all.",
-		"introduction": "Greetings! I am Roy!",
+		"declaringWar": "We do not wish for it to come to this, but your very existence threatens the safety of our people. Therefore, prepare for war!",
+		"attacked": "What did we do to deserve this? By my blade, I shall not let your evil heart prevail!",
+		"defeated": "Father, Lilina... please forgive me, for I have failed you all.",
+		"introduction": "Greetings! I am Roy of Pherae, I represent Elibe as a whole. I am pleased to make your acquaintance.",
 		
 		"neutralHello": "Well met, glorious leader!",
 		"neutralLetsHearIt": ["Please proceed.","I'm listening.","Go on."],
@@ -19,18 +19,18 @@
 		"neutralYes": ["Excellent deal!","Great!","It is irrefusable."],
 
 		"hateHello": "...",
-		"hateLetsHearIt": ["Speak.","Proceed!","..."],
+		"hateLetsHearIt": ["Speak.","Proceed.","..."],
 		"hateNo": ["No!","I refuse.","That is unacceptable."],
 		"hateYes": ["Very well.","So be it.","Fine."],
 		
-		"afterPeace": "It is great to hear that you seek peace as well. War is terrible for our people anyway. Let us continue this for an enternity, shall we?",
+		"afterPeace": "It is great to hear that you seek peace as well. War is terrible for our people anyways. Let us continue this not for ourselves, but for our people, shall we?",
 		"tradeRequest": "We are interested to have an exchange with you.",
 
 		"outerColor": [255,0,0],
 		"innerColor": [0,71,171],
 		"uniqueName": "Blessings of the 8 Generals",
-		"uniqueText": "+3 Science and +5 Production from Antiquity Sites",
-		"uniques": ["[+3 Science, +5 Production] from every [Antiquity Site]"],
-		"cities": ["Pherae","Ostia","Bern","Caelin","Santaruz","Jutes","Aba","Sa","Lowe","Lol","Stad","Pol","Lama"]
+		"uniqueText": "+3 Science and +5 Production from Antiquity Sites. Extra bonuses from Iron resources.",
+		"uniques": ["[+3 Science, +5 Production] from every [Antiquity Site]","Double quantity of [Iron] produced","[+1 Science, +3 Production] from every [Iron]"]
+		"cities": ["Pherae","Bern","Aquleia","Edessa","Bulgar","Ostia","Caelin","Laus","Santaruz","Carhae","Reglay","Jutes","Caerleon","Caldonia","Araphen","Tuscana","Remi","Badon","Dia","Armagh","Eburacum","Ryerde","Worde","Ciaran","Tania","Kathelet","Valor"]
 	}
 ]
