@@ -1,5 +1,5 @@
 # Fire-Emblem-6-Mod
-A Unciv mod that hopes to bring Fire Emblem 6 units into the game by adding a custom civilization, units, etc. 
+An UnCiv mod that hopes to bring Fire Emblem 6 units into the game by adding a custom civilization, units, etc. 
 
 # Features:
 
