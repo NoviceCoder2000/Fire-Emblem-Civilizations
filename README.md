@@ -6,7 +6,7 @@ A unciv mod that hopes to bring Fire Emblem 6 units into the game by adding cust
 - Roy: As the leader of the Civilization.
 - A United Alliance of Lycia: Along with the cities and towns featured in game.
 - Fire Emblem 6 Units: Featuring Pegasus Knights, Paladins, Snipers, Wyvern Lords, Etc.
-- Roy as a unit!
+- Roy as a hero unit!
 - And more!
 
 (Disclaimer: I do not own Fire Emblem or its franchise. This mod is based over Nintendo and Intelligent System's game Fire Emblem, and this mod is absolutely NON-PROFIT and made just for fun.)
