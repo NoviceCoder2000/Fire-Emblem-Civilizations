@@ -13,4 +13,4 @@ An UnCiv mod that hopes to bring Fire Emblem 6 units into the game by adding a c
 
 # Disclaimer:
 
-I do not own Fire Emblem or its franchise. This mod and the art is based over Nintendo and Intelligent System's game Fire Emblem 6: The Binding Blade. This mod is absolutely NON-PROFIT and made just for fun.
+I do not own Fire Emblem or its franchise. This mod and the art is based over Nintendo and Intelligent System's game, Fire Emblem 6: The Binding Blade. This mod is absolutely NON-PROFIT and made just for fun.
