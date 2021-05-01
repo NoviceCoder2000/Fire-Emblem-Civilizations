@@ -3,15 +3,16 @@
 		"name": "Elibean Alliance",
 		"leaderName": "Roy",
 		"adjective": ["Elibean"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
 		
-		"declaringWar": "We do not wish for it to come to this, but your very existence threatens the safety of our people. Therefore, prepare for war!",
-		"attacked": "What did we do to deserve this? By my blade, I shall not let your evil heart prevail!",
-		"defeated": "Father, Lilina... please forgive me, for I have failed you all.",
-		"introduction": "Greetings! I am Roy of Pherae, I represent Elibe as a whole. I am pleased to make your acquaintance.",
+		"declaringWar": "We do not wish for it to come to this, but your very existence threatens the safety of our people. Therefore, prepare yourselves for war!",
+		"attacked": "What did we do to deserve this? Black-heart! I shall not allow you to hurt my people!",
+		"defeated": "Lilina, everyone... please forgive me... for I have failed you all.",
+		"introduction": "Greetings! I am Roy of Pherae and I represent Elibe as a whole. I am glad to make your acquaintance.",
 		
 		"neutralHello": "Well met, glorious leader!",
 		"neutralLetsHearIt": ["Please proceed.","I'm listening.","Go on."],
@@ -23,14 +24,14 @@
 		"hateNo": ["No!","I refuse.","That is unacceptable."],
 		"hateYes": ["Very well.","So be it.","Fine."],
 		
-		"afterPeace": "It is great to hear that you seek peace as well. War is terrible for our people anyways. Let us continue this not for ourselves, but for our people, shall we?",
+		"afterPeace": "It is great to hear that you seek peace as well. Let us continue this not for ourselves, but for our people, shall we?",
 		"tradeRequest": "We are interested to have an exchange with you.",
 
 		"outerColor": [255,0,0],
-		"innerColor": [0,71,171],
+		"innerColor": [0,0,128],
 		"uniqueName": "Blessings of the 8 Generals",
-		"uniqueText": "+3 Science and +5 Production from Antiquity Sites. Extra bonuses from Iron resources.",
-		"uniques": ["[+3 Science, +5 Production] from every [Antiquity Site]","Double quantity of [Iron] produced","[+1 Science, +3 Production] from every [Iron]"]
+		"uniqueText": "+3 Science and +5 Production from Antiquity Sites and extra bonuses from Iron resources. Great Generals appear infrequently, in exchange a hero unit can be built once Steel is discovered.",
+		"uniques": ["[+3 Science, +5 Production] from every [Antiquity Site]","Double quantity of [Iron] produced","[+1 Science, +3 Production] from every [Iron]","[Great General] is earned [-80]% faster"],
 		"cities": ["Pherae","Bern","Aquleia","Edessa","Bulgar","Ostia","Caelin","Laus","Santaruz","Carhae","Reglay","Jutes","Caerleon","Caldonia","Araphen","Tuscana","Remi","Badon","Dia","Armagh","Eburacum","Ryerde","Worde","Ciaran","Tania","Kathelet","Valor"]
 	}
 ]

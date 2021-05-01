@@ -1,16 +1,37 @@
 [
 	{
-		"name": "Cavaliers",
+		"name": "Nomad",
+		"unitType": "Ranged",
+		"replaces": "Horseman",
+		"movement": "4",
+		"strength": "10",
+		"rangedStrength": "13",
+		"cost": "70",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Elibean Alliance" 
+		"requiredTech": "Horseback Riding",
+		"obsoleteTech": "Chivalry",
+		"upgradesTo": "Cavalier",
+		"requiredResource": "Horses",
+		"promotions": ["Mobility"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus",],
+		"attackSound": "Horse"
+	},
+	
+	{
+		"name": "Cavalier",
 		"unitType": "Mounted",
 		"replaces": "Knight",
-		"movement": "3",
+		"movement": "4",
 		"strength": "17",
 		"cost": "100",
 		"hurryCostModifier": "20",
+		"uniqueTo": "Elibean Alliance" 
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
-		"upgradesTo": "Cavalry",
-		"requiredResources": "Horses",
+		"upgradesTo": "Paladin",
+		"requiredResource": "Horses",
+		"promotions": ["Mobility"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
 		"attackSound": "Horse"
 	},
@@ -18,16 +39,144 @@
 	{
 		"name": "Pegasus Knight",
 		"unitType": "Mounted",
-		"replaces": "Knight",
-		"movement": "3",
+		"movement": "5",
 		"strength": "17",
-		"cost": "100",
+		"cost": "120",
 		"hurryCostModifier": "20",
+		"uniqueTo": "Elibean Alliance"
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Dragon Lord",
+		"promotions": ["Mobility"],
+		"uniques": ["Can move after attacking","Penalty vs City 33%","Consumes [2] [Horses]","No defensive terrain bonus","Can pass through impassable tiles","-[50]% Strength vs [Ranged]"],
+		"attackSound": "Horse"
+	},
+	
+	{
+		"name": "Armored Knight",
+		"unitType": "Melee",
+		"replaces": "Pikeman",
+		"movement": "1",
+		"strength": "30",
+		"cost": "125",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Elibean Alliance"
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "General",
+		"promotions": ["Cover I"],
+		"uniques": ["+[25]% Strength vs Mounted","Consumes [2] [Iron]"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Mage",
+		"unitType": "Ranged",
+		"movement": "2",
+		"strength": "15",
+		"rangedStrength": "25",
+		"range": "2",
+		"cost": "225",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Elibean Alliance",
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Cavalry",
-		"requiredResources": "Horses",
+		"uniques": ["+[25]% Strength when attacking","+[25]% Strength vs Armor","+[25]% Strength vs Melee"],
+		"attackSound": "shot"
+	},
+	
+	{
+		"name": "Paladin",
+		"unitType": "Mounted",
+		"replaces": "Lancer",
+		"movement": "4",
+		"strength": "27",
+		"cost": "195",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Elibean Alliance" 
+		"requiredTech": "Metallurgy",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"requiredResource": "Horses",
+		"promotions": ["Mobility"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
 		"attackSound": "Horse"
+	},
+	
+	{
+		"name": "Dragon Lord",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"movement": "5",
+		"strength": "35",
+		"cost": "250",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Elibean Alliance"
+		"requiredTech": "Metallurgy",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"promotions": ["Mobility"],
+		"uniques": ["Can move after attacking","Penalty vs City 33%","Consumes [2] [Horses]","No defensive terrain bonus","Can pass through impassable tiles","-[50]% Strength vs [Ranged]"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "General",
+		"unitType": "Melee",
+		"movement": "1",
+		"strength": "45",
+		"cost": "250",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Elibean Alliance"
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"promotions": ["Cover I","Cover II","Mobility"],
+		"uniques": ["+[25]% Strength vs Mounted"]
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Sage",
+		"unitType": "Ranged",
+		"movement": "2",
+		"strength": "40",
+		"rangedStrength": "50",
+		"range": "2",
+		"cost": "350",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Elibean Alliance",
+		"requiredTech": "Combined Arms",
+		"uniques": ["+[50]% Strength when attacking","+[50]% Strength vs Armor","+[25]% Strength vs Melee"] 
+		"attackSound": "shot"
+	},
+	
+	{
+		"name": "Roy",
+		"unitType": "Melee",
+		"movement": "2",
+		"strength": "30",
+		"cost": "0",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Elibean Alliance", 
+		"requiredTech": "Steel",
+		"upgradesTo": "Roy the Young Lion",
+		"uniques": ["Unbuildable","Bonus for units in 2 tile radius 30%","Will not be displayed in Civilopedia"],
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Roy the Young Lion",
+		"unitType": "Melee",
+		"movement": "2",
+		"strength": "80",
+		"cost": "500",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Elibean Alliance",
+		"requiredTech": "Plastics",
+		"uniques": ["Unbuildable","Bonus for units in 2 tile radius 30%","Will not be displayed in Civilopedia"],
+		"attackSound": "metalhit"
 	}
 ]

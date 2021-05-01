@@ -1,0 +1,10 @@
+[
+	{
+	"name": "Sealed Sword",
+	"cost": "200",
+	"requiredTech": "Steel",
+	"isNationalWonder": true,
+	"uniqueTo": "Elibean Alliance",
+	"uniques": ["Unsellable","Free [Roy] appears","Will not be displayed in Civilopedia"]
+	}
+]
