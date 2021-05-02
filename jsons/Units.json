@@ -8,7 +8,7 @@
 		"rangedStrength": "13",
 		"cost": "70",
 		"hurryCostModifier": "20",
-		"uniqueTo": "Elibean Alliance" 
+		"uniqueTo": "League of Elibe" 
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Cavalier",
@@ -26,7 +26,7 @@
 		"strength": "17",
 		"cost": "100",
 		"hurryCostModifier": "20",
-		"uniqueTo": "Elibean Alliance" 
+		"uniqueTo": "League of Elibe" 
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Paladin",
@@ -37,30 +37,30 @@
 	},
 	
 	{
-		"name": "Pegasus Knight",
+		"name": "Wyvern Rider",
 		"unitType": "Mounted",
 		"movement": "5",
 		"strength": "17",
 		"cost": "120",
 		"hurryCostModifier": "20",
-		"uniqueTo": "Elibean Alliance"
+		"uniqueTo": "League of Elibe"
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Dragon Lord",
 		"promotions": ["Mobility"],
-		"uniques": ["Can move after attacking","Penalty vs City 33%","Consumes [2] [Horses]","No defensive terrain bonus","Can pass through impassable tiles","-[50]% Strength vs [Ranged]"],
+		"uniques": ["Can move after attacking","Penalty vs City 33%","Consumes [2] [Horses]","No defensive terrain bonus","Can pass through impassable tiles","-[50]% Strength vs [Ranged]","Ignores terrain cost"],
 		"attackSound": "Horse"
 	},
 	
 	{
 		"name": "Armored Knight",
-		"unitType": "Melee",
+		"unitType": "Armor",
 		"replaces": "Pikeman",
 		"movement": "1",
 		"strength": "30",
 		"cost": "125",
 		"hurryCostModifier": "20",
-		"uniqueTo": "Elibean Alliance"
+		"uniqueTo": "League of Elibe"
 		"requiredTech": "Civil Service",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "General",
@@ -76,13 +76,13 @@
 		"strength": "15",
 		"rangedStrength": "25",
 		"range": "2",
-		"cost": "225",
+		"cost": "150",
 		"hurryCostModifier": "20",
-		"uniqueTo": "Elibean Alliance",
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combined Arms",
-		"upgradesTo": "Cavalry",
-		"uniques": ["+[25]% Strength when attacking","+[25]% Strength vs Armor","+[25]% Strength vs Melee"],
+		"uniqueTo": "League of Elibe",
+		"requiredTech": "Theology",
+		"obsoleteTech": "Dynamite",
+		"upgradesTo": "Sage",
+		"uniques": ["+[75]% Strength vs Armor","+[25]% Strength vs Melee"],
 		"attackSound": "shot"
 	},
 	
@@ -94,7 +94,7 @@
 		"strength": "27",
 		"cost": "195",
 		"hurryCostModifier": "20",
-		"uniqueTo": "Elibean Alliance" 
+		"uniqueTo": "League of Elibe" 
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
@@ -109,30 +109,30 @@
 		"unitType": "Mounted",
 		"replaces": "Cavalry",
 		"movement": "5",
-		"strength": "35",
+		"strength": "36",
 		"cost": "250",
 		"hurryCostModifier": "20",
-		"uniqueTo": "Elibean Alliance"
+		"uniqueTo": "League of Elibe"
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"promotions": ["Mobility"],
-		"uniques": ["Can move after attacking","Penalty vs City 33%","Consumes [2] [Horses]","No defensive terrain bonus","Can pass through impassable tiles","-[50]% Strength vs [Ranged]"],
+		"uniques": ["Can move after attacking","Penalty vs City 33%","Consumes [2] [Horses]","No defensive terrain bonus","Can pass through impassable tiles","-[50]% Strength vs [Ranged]","Ignores terrain cost"],
 		"attackSound": "metalhit"
 	},
 	
 	{
 		"name": "General",
-		"unitType": "Melee",
+		"unitType": "Armor",
 		"movement": "1",
 		"strength": "45",
 		"cost": "250",
 		"hurryCostModifier": "20",
-		"uniqueTo": "Elibean Alliance"
+		"uniqueTo": "League of Elibe"
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		"promotions": ["Cover I","Cover II","Mobility"],
+		"promotions": ["Cover I","Mobility"],
 		"uniques": ["+[25]% Strength vs Mounted"]
 		"attackSound": "metalhit"
 	},
@@ -141,14 +141,14 @@
 		"name": "Sage",
 		"unitType": "Ranged",
 		"movement": "2",
-		"strength": "40",
+		"strength": "50",
 		"rangedStrength": "50",
 		"range": "2",
 		"cost": "350",
 		"hurryCostModifier": "20",
-		"uniqueTo": "Elibean Alliance",
-		"requiredTech": "Combined Arms",
-		"uniques": ["+[50]% Strength when attacking","+[50]% Strength vs Armor","+[25]% Strength vs Melee"] 
+		"uniqueTo": "League of Elibe",
+		"requiredTech": "Dynamite",
+		"uniques": ["+[75]% Strength vs Armor","+[25]% Strength vs Melee"] 
 		"attackSound": "shot"
 	},
 	
@@ -159,10 +159,11 @@
 		"strength": "30",
 		"cost": "0",
 		"hurryCostModifier": "20",
-		"uniqueTo": "Elibean Alliance", 
+		"uniqueTo": "League of Elibe", 
 		"requiredTech": "Steel",
 		"upgradesTo": "Roy the Young Lion",
-		"uniques": ["Unbuildable","Bonus for units in 2 tile radius 30%","Will not be displayed in Civilopedia"],
+		"promotions": ["March","Quick Study","Great Generals I"],
+		"uniques": ["Unbuildable","Bonus for units in 2 tile radius 15%","Will not be displayed in Civilopedia","+[50]% Strength vs Mounted"],
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
 	},
@@ -174,9 +175,10 @@
 		"strength": "80",
 		"cost": "500",
 		"hurryCostModifier": "20",
-		"uniqueTo": "Elibean Alliance",
+		"uniqueTo": "League of Elibe",
 		"requiredTech": "Plastics",
-		"uniques": ["Unbuildable","Bonus for units in 2 tile radius 30%","Will not be displayed in Civilopedia"],
+		"promotions": ["March","Quick Study","Great Generals I"],
+		"uniques": ["Unbuildable","Bonus for units in 2 tile radius 15%","Will not be displayed in Civilopedia","+[50]% Strength vs Armor"],
 		"attackSound": "metalhit"
 	}
 ]

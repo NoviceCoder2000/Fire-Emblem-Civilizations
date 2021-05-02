@@ -1,10 +1,10 @@
 [
 	{
-	"name": "Sealed Sword",
+	"name": "Binding Blade",
 	"cost": "200",
 	"requiredTech": "Steel",
 	"isNationalWonder": true,
-	"uniqueTo": "Elibean Alliance",
+	"uniqueTo": "League of Elibe",
 	"uniques": ["Unsellable","Free [Roy] appears","Will not be displayed in Civilopedia"]
 	}
 ]
