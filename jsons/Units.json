@@ -1,38 +1,40 @@
 [
+	//FE6 Units 
 	{
 		"name": "Nomad",
 		"unitType": "Ranged",
 		"replaces": "Horseman",
 		"movement": "4",
-		"strength": "10",
-		"rangedStrength": "13",
+		"strength": "8",
+		"rangedStrength": "12",
 		"cost": "70",
 		"hurryCostModifier": "20",
 		"uniqueTo": "League of Elibe" 
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Chivalry",
-		"upgradesTo": "Cavalier",
+		"upgradesTo": "Nomadic Trooper",
 		"requiredResource": "Horses",
 		"promotions": ["Mobility"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus",],
-		"attackSound": "Horse"
+		"attackSound": "arrow"
 	},
 	
 	{
-		"name": "Cavalier",
-		"unitType": "Mounted",
+		"name": "Nomadic Trooper",
+		"unitType": "Ranged",
 		"replaces": "Knight",
 		"movement": "4",
-		"strength": "17",
-		"cost": "100",
+		"strength": "20",
+		"cost": "120",
+		"rangedStrength": "20",
 		"hurryCostModifier": "20",
 		"uniqueTo": "League of Elibe" 
 		"requiredTech": "Chivalry",
-		"obsoleteTech": "Metallurgy",
-		"upgradesTo": "Paladin",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"promotions": ["Mobility"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "Horse"
 	},
 	
@@ -40,7 +42,7 @@
 		"name": "Wyvern Rider",
 		"unitType": "Mounted",
 		"movement": "5",
-		"strength": "17",
+		"strength": "20",
 		"cost": "120",
 		"hurryCostModifier": "20",
 		"uniqueTo": "League of Elibe"
@@ -48,67 +50,15 @@
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Dragon Lord",
 		"promotions": ["Mobility"],
-		"uniques": ["Can move after attacking","Penalty vs City 33%","Consumes [2] [Horses]","No defensive terrain bonus","Can pass through impassable tiles","-[50]% Strength vs [Ranged]","Ignores terrain cost"],
-		"attackSound": "Horse"
-	},
-	
-	{
-		"name": "Armored Knight",
-		"unitType": "Armor",
-		"replaces": "Pikeman",
-		"movement": "1",
-		"strength": "30",
-		"cost": "125",
-		"hurryCostModifier": "20",
-		"uniqueTo": "League of Elibe"
-		"requiredTech": "Civil Service",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "General",
-		"promotions": ["Cover I"],
-		"uniques": ["+[25]% Strength vs Mounted","Consumes [2] [Iron]"],
+		"uniques": ["Can move after attacking","Penalty vs City 33%","Consumes [2] [Horses]","No defensive terrain bonus","Can pass through impassable tiles","-[75]% Strength vs [Ranged]","Ignores terrain cost"],
 		"attackSound": "metalhit"
-	},
-	
-	{
-		"name": "Mage",
-		"unitType": "Ranged",
-		"movement": "2",
-		"strength": "15",
-		"rangedStrength": "25",
-		"range": "2",
-		"cost": "150",
-		"hurryCostModifier": "20",
-		"uniqueTo": "League of Elibe",
-		"requiredTech": "Theology",
-		"obsoleteTech": "Dynamite",
-		"upgradesTo": "Sage",
-		"uniques": ["+[75]% Strength vs Armor","+[25]% Strength vs Melee"],
-		"attackSound": "shot"
-	},
-	
-	{
-		"name": "Paladin",
-		"unitType": "Mounted",
-		"replaces": "Lancer",
-		"movement": "4",
-		"strength": "27",
-		"cost": "195",
-		"hurryCostModifier": "20",
-		"uniqueTo": "League of Elibe" 
-		"requiredTech": "Metallurgy",
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Landship",
-		"requiredResource": "Horses",
-		"promotions": ["Mobility"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
-		"attackSound": "Horse"
 	},
 	
 	{
 		"name": "Dragon Lord",
 		"unitType": "Mounted",
-		"replaces": "Cavalry",
-		"movement": "5",
+		"replaces": "Lancer",
+		"movement": "6",
 		"strength": "36",
 		"cost": "250",
 		"hurryCostModifier": "20",
@@ -117,38 +67,41 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"promotions": ["Mobility"],
-		"uniques": ["Can move after attacking","Penalty vs City 33%","Consumes [2] [Horses]","No defensive terrain bonus","Can pass through impassable tiles","-[50]% Strength vs [Ranged]","Ignores terrain cost"],
+		"uniques": ["Can move after attacking","Penalty vs City 33%","Consumes [2] [Horses]","No defensive terrain bonus","Can pass through impassable tiles","-[75]% Strength vs [Ranged]","Ignores terrain cost"],
 		"attackSound": "metalhit"
 	},
 	
 	{
-		"name": "General",
-		"unitType": "Armor",
-		"movement": "1",
-		"strength": "45",
-		"cost": "250",
-		"hurryCostModifier": "20",
-		"uniqueTo": "League of Elibe"
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Landship",
-		"promotions": ["Cover I","Mobility"],
-		"uniques": ["+[25]% Strength vs Mounted"]
-		"attackSound": "metalhit"
-	},
-
-	{
-		"name": "Sage",
+		"name": "Shaman",
 		"unitType": "Ranged",
-		"movement": "2",
-		"strength": "50",
-		"rangedStrength": "50",
+		"movement": "1",
+		"strength": "10",
+		"rangedStrength": "25",
+		"range": "2",
+		"cost": "175",
+		"hurryCostModifier": "20",
+		"uniqueTo": "League of Elibe",
+		"requiredTech": "Theology",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Druid",
+		"promotions": ["Mobility"],
+		"uniques": ["+[75]% Strength vs Armor","-[25]% Strength vs Ranged"], 
+		"attackSound": "shot"
+	},
+	
+	{
+		"name": "Druid",
+		"unitType": "Ranged",
+		"movement": "1",
+		"strength": "30",
+		"rangedStrength": "60",
 		"range": "2",
 		"cost": "350",
 		"hurryCostModifier": "20",
 		"uniqueTo": "League of Elibe",
-		"requiredTech": "Dynamite",
-		"uniques": ["+[75]% Strength vs Armor","+[25]% Strength vs Melee"] 
+		"requiredTech": "Combined Arms",
+		"promotions": ["Mobility","Medic"],
+		"uniques": ["+[75]% Strength vs Armor","-[25]% Strength vs Ranged"], 
 		"attackSound": "shot"
 	},
 	

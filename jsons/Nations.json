@@ -4,7 +4,7 @@
 		"leaderName": "Roy",
 		"adjective": ["Elibean"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural",
+//		"preferredVictoryType": "Diplomatic",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -34,4 +34,5 @@
 		"uniques": ["[+3 Science, +5 Gold] from every [Antiquity Site]","Double quantity of [Iron] produced","[+1 Science, +1 Production] from every [Iron]","[Great General] is earned [-75]% faster"],
 		"cities": ["Pherae","Bern","Aquleia","Edessa","Bulgar","Ostia","Caelin","Laus","Santaruz","Carhae","Reglay","Jutes","Caerleon","Caldonia","Araphen","Tuscana","Remi","Badon","Dia","Armagh","Eburacum","Ryerde","Worde","Ciaran","Tania","Kathelet","Valor"]
 	}
+	
 ]
