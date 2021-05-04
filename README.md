@@ -1,16 +1,16 @@
-# Fire-Emblem-6-Mod
-An UnCiv mod that hopes to bring Fire Emblem 6 units into the game by adding a custom civilization, units, etc. 
+# Fire-Emblem-Civ
+An UnCiv mod that brings Nintendo's Fire Emblem into the game, by adding custom nations, units and leaders!
 
 # Features:
 
-- Roy: As the leader of the Civilization.
-- A United Alliance of Lycia: Along with the cities and towns featured in FE6 and FE7.
-- Fire Emblem 6 Units: Featuring Pegasus Knights, Paladins, Snipers, Wyvern Lords, Etc.
-- Roy as a hero unit!
+- Fire Emblem Lords as Nation Leaders
+- Civilizations based on the lore of Fire Emblem such as a United Elibe and Magvel!
+- Fire Emblem Units: Includes the infamous Dragon Lords from FE6 and the Great Knights from FE8
+- Hero Units
 - And more!
 
-(Note: For Fire Emblem Fans, this civilization is set after the end of the war against Bern, meaning it occurs after the events of FE6. Everything related to this mod is mainly non-canonical and the author doesn't consider it as canon. Inadvisable to use on tournaments or serious games.)
+(Note: This mod is still work and progress and currently features the FE6 Universe in the game.)
 
 # Disclaimer:
 
-I do not own Fire Emblem or its franchise. This mod and the art is based over Nintendo and Intelligent System's game, Fire Emblem 6: The Binding Blade. This mod is absolutely NON-PROFIT and made just for fun.
+I do not own Fire Emblem or its franchise. This mod is based over Nintendo and Intelligent System's game, Fire Emblem 6: The Binding Blade. This mod is absolutely NON-PROFIT and made just for fun.
