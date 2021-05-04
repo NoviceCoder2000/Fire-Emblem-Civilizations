@@ -9,8 +9,8 @@ An UnCiv mod that brings Nintendo's Fire Emblem into the game, by adding custom 
 - Hero Units
 - And more!
 
-(Note: This mod is still work and progress and currently features the FE6 Universe in the game.)
+(Note: This mod is still work and progress and currently features the FE6 & 7 Universe in the mod.)
 
 # Disclaimer:
 
-I do not own Fire Emblem or its franchise. This mod is based over Nintendo and Intelligent System's game, Fire Emblem 6: The Binding Blade. This mod is absolutely NON-PROFIT and made just for fun.
+I do not own Fire Emblem or its franchise. This mod is based over Nintendo and Intelligent System's game, Fire Emblem. This mod is absolutely NON-PROFIT and made just for fun.
