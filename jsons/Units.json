@@ -2,136 +2,186 @@
 	//FE6 Units 
 	{
 		"name": "Nomad",
-		"unitType": "Ranged",
-		"replaces": "Horseman",
-		"movement": "4",
-		"strength": "8",
-		"rangedStrength": "12",
-		"cost": "70",
-		"hurryCostModifier": "20",
+		"unitType": "Archery",
 		"uniqueTo": "League of Elibe" 
-		"requiredTech": "Horseback Riding",
+		"replaces": "Chariot Archer",
+		"cost": "50",
+		"range": "2",
+		"movement": "4",
+		"strength": "6",
+		"rangedStrength": "10",
+		"requiredTech": "The Wheel",
 		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Nomadic Trooper",
 		"requiredResource": "Horses",
-		"promotions": ["Mobility"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus",],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Upgrades to stronger versions"],
 		"attackSound": "arrow"
 	},
 	
 	{
 		"name": "Nomadic Trooper",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"replaces": "Knight",
-		"movement": "4",
-		"strength": "20",
 		"cost": "120",
-		"rangedStrength": "20",
-		"hurryCostModifier": "20",
+		"movement": "4",
+		"strength": "16",
+		"rangedStrength": "16",
 		"uniqueTo": "League of Elibe" 
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"promotions": ["Mobility"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"attackSound": "Horse"
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Will not be displayed in Civilopedia"],
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "Nomadic Cavalry",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Cavalry",
+		"cost": "225",
+		"range": "1",
+		"movement": "4",
+		"strength": "34",
+		"rangedStrength": "34",
+		"uniqueTo": "League of Elibe" 
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Will not be displayed in Civilopedia"],
+		"attackSound": "shot"
 	},
 	
 	{
 		"name": "Wyvern Rider",
-		"unitType": "Mounted",
+		"unitType": "Flying Mount",
 		"movement": "5",
-		"strength": "20",
+		"strength": "24",
 		"cost": "120",
-		"hurryCostModifier": "20",
 		"uniqueTo": "League of Elibe"
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Dragon Lord",
-		"promotions": ["Mobility"],
-		"uniques": ["Can move after attacking","Penalty vs City 33%","Consumes [2] [Horses]","No defensive terrain bonus","Can pass through impassable tiles","-[75]% Strength vs [Ranged]","Ignores terrain cost"],
+		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Can pass through impassable tiles","[-75]% Strength <vs [Archery] units>","[-75]% Strength <vs [Ranged Gunpowder] units>","[-15]% Strength <vs [Gunpowder] units> <when defending>","Ignores terrain cost"],
 		"attackSound": "metalhit"
 	},
 	
 	{
 		"name": "Dragon Lord",
-		"unitType": "Mounted",
+		"unitType": "Flying Mount",
 		"replaces": "Lancer",
 		"movement": "6",
 		"strength": "36",
-		"cost": "250",
-		"hurryCostModifier": "20",
+		"cost": "195",
 		"uniqueTo": "League of Elibe"
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
-		"upgradesTo": "Landship",
-		"promotions": ["Mobility"],
-		"uniques": ["Can move after attacking","Penalty vs City 33%","Consumes [2] [Horses]","No defensive terrain bonus","Can pass through impassable tiles","-[75]% Strength vs [Ranged]","Ignores terrain cost"],
+		"upgradesTo": "Helicopter Gunship",
+		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Can pass through impassable tiles","[-75]% Strength <vs [Archery] units>","[-75]% Strength <vs [Ranged Gunpowder] units>","[-10]% Strength <vs [Gunpowder] units>","Ignores terrain cost","Will not be displayed in Civilopedia"],
 		"attackSound": "metalhit"
 	},
 	
 	{
-		"name": "Shaman",
-		"unitType": "Ranged",
-		"movement": "1",
-		"strength": "10",
-		"rangedStrength": "25",
-		"range": "2",
-		"cost": "175",
-		"hurryCostModifier": "20",
-		"uniqueTo": "League of Elibe",
-		"requiredTech": "Theology",
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Druid",
-		"promotions": ["Mobility"],
-		"uniques": ["+[75]% Strength vs Armor","-[25]% Strength vs Ranged"], 
-		"attackSound": "shot"
-	},
-	
-	{
-		"name": "Druid",
-		"unitType": "Ranged",
-		"movement": "1",
-		"strength": "30",
-		"rangedStrength": "60",
-		"range": "2",
-		"cost": "350",
-		"hurryCostModifier": "20",
-		"uniqueTo": "League of Elibe",
-		"requiredTech": "Combined Arms",
-		"promotions": ["Mobility","Medic"],
-		"uniques": ["+[75]% Strength vs Armor","-[25]% Strength vs Ranged"], 
-		"attackSound": "shot"
-	},
-	
-	{
-		"name": "Roy",
-		"unitType": "Melee",
+		"name": "Roy (Medieval)",
+		"unitType": "Lord Melee",
+		"uniqueTo": "The Lycian League",
 		"movement": "2",
-		"strength": "30",
-		"cost": "0",
+		"strength": "20",
+		"cost": "80",
 		"hurryCostModifier": "20",
-		"uniqueTo": "League of Elibe", 
-		"requiredTech": "Steel",
-		"upgradesTo": "Roy the Young Lion",
-		"promotions": ["March","Quick Study","Great Generals I"],
-		"uniques": ["Unbuildable","Bonus for units in 2 tile radius 15%","Will not be displayed in Civilopedia","+[50]% Strength vs Mounted"],
-		"obsoleteTech": "Metallurgy",
+		"requiredTech": "Metal Casting",
+		"requiredResource": "Binding Blade"
+		"upgradesTo": "Roy (Renaissance)",
+		"uniques": ["Can be upgraded each era","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
 	},
 
 	{
-		"name": "Roy the Young Lion",
-		"unitType": "Melee",
+		"name": "Roy (Renaissance)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Roy (Industrial)",
 		"movement": "2",
-		"strength": "80",
-		"cost": "500",
+		"strength": "25",
+		"cost": "175",
 		"hurryCostModifier": "20",
-		"uniqueTo": "League of Elibe",
-		"requiredTech": "Plastics",
-		"promotions": ["March","Quick Study","Great Generals I"],
-		"uniques": ["Unbuildable","Bonus for units in 2 tile radius 15%","Will not be displayed in Civilopedia","+[50]% Strength vs Armor"],
+		"uniqueTo": "The Lycian League",
+		"requiredTech": "Gunpowder",
+		"requiredResource": "Binding Blade"
+		"obsoleteTech": "Rifling",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
 		"attackSound": "metalhit"
-	}
+	},
+	
+	{
+		"name": "Roy (Industrial)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Great Lord Roy (Modern)",
+		"movement": "2",
+		"strength": "35",
+		"cost": "250",
+		"hurryCostModifier": "20",
+		"uniqueTo": "The Lycian League",
+		"requiredTech": "Rifling",
+		"requiredResource": "Binding Blade",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Great Lord Roy (Modern)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Great Lord Roy (Atomic)",
+		"movement": "2",
+		"strength": "65",
+		"cost": "375",
+		"hurryCostModifier": "20",
+		"uniqueTo": "The Lycian League",
+		"requiredTech": "Replaceable Parts",
+		"requiredResource": "Binding Blade",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Great Lord Roy (Atomic)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Great Lord Roy (Information)",
+		"movement": "2",
+		"strength": "75",
+		"cost": "375",
+		"hurryCostModifier": "20",
+		"uniqueTo": "The Lycian League",
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Binding Blade"
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Great Lord Roy (Information)",
+		"unitType": "Lord Melee",
+		"movement": "2",
+		"strength": "90",
+		"cost": "400",
+		"hurryCostModifier": "20",
+		"uniqueTo": "The Lycian League",
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Binding Blade",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	//Lords but with more upgrades
 ]

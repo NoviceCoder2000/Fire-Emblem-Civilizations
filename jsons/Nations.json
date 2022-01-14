@@ -1,38 +1,37 @@
 [
 	{
-		"name": "League of Elibe",
+		"name": "The Lycian League",
 		"leaderName": "Roy",
-		"adjective": ["Elibean"],
+		"adjective": ["Lycian"],
 		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Eliminism",
 		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
+		"startIntroPart1": "May the favor of Elimine, may be given upon you o' master Roy! For years, Lycia has been a loosely connected set of lands held by different Marquesses. There is no real unity among us and were constantly divided by conflicting interests. This was the case until the Kingdom of Bern has decided to wage war across the whole continet of Elibe, subduing many countries and people to their control. But under your guidance despite being such a young man, you were able to defeat the most powerful kingdom in the continent and even had defeated the Demon Dragon Idunn with your own hands.",
+		"startIntroPart2": "Master Roy, times has changed, the people needs you to lead for once more. Can you unite the people once more? Can you bring peace to this world of chaos? Can you build a great civilization that can stand the test of time?",
 		
-		"declaringWar": "We do not wish for it to come to this, but your very existence threatens the safety of our people. Therefore, prepare yourselves for war!",
+		"declaringWar": "I am not keen in engaging in war, but your hostilities are unacceptable. Therefore prepare for war!",
 		"attacked": "What did we do to deserve this? Black-heart! I shall not allow you to hurt my people!",
-		"defeated": "Nngh... Lilina, everyone... please forgive me... for I have failed you all.",
-		"introduction": "Greetings! I am Roy of Pherae. I represent the kingdoms of Elibe as a whole. I am glad to make your acquaintance.",
+		"defeated": "Nngh... everyone... please forgive me... for I have failed you all.",
+		"introduction": "Greetings! I am Roy of Pherae, son of Eliwood. I am pleased to make your acquaintance.",
 		
-		"neutralHello": "Well met, glorious leader!",
-		"neutralLetsHearIt": ["Please proceed.","I'm listening.","Go on."],
-		"neutralNo": ["We kindly refuse your humble offer.","We refuse","No thank you."],
-		"neutralYes": ["Excellent deal!","Great!","It is irrefusable."],
+		"neutralHello": "Hello there.",
+		"neutralLetsHearIt": ["Please proceed.","I'm listening.","Go ahead."],
+		"neutralNo": ["We kindly refuse your humble offer.","Certainly not.","No thank you."],
+		"neutralYes": ["That is excellent.","Great!","That could work."],
 
 		"hateHello": "...",
-		"hateLetsHearIt": ["Speak.","Proceed.","..."],
+		"hateLetsHearIt": ["Speak.","What is it now?","..."],
 		"hateNo": ["No!","I refuse.","That is unacceptable."],
-		"hateYes": ["Very well.","So be it.","Fine."],
+		"hateYes": ["Very well.","So be it.","We cannot refuse."],
 		
 		"afterPeace": "It is great to hear that you seek peace as well. Let us continue this not for ourselves, but for our people, shall we?",
-		"tradeRequest": "We are interested to have this trade with you.",
+		"tradeRequest": "Friend, does this sound reasonable to you?",
 
 		"outerColor": [255,0,0],
 		"innerColor": [0,0,128],
-		"uniqueName": "Blessings of the 8 Generals",
-		"uniqueText": "+3 Science and +5 Gold from Antiquity Sites and extra bonuses from Iron resources. Great Generals appear infrequently, in exchange a hero unit can be built once Steel is discovered.",
-		"uniques": ["[+3 Science, +5 Gold] from every [Antiquity Site]","Double quantity of [Iron] produced","[+1 Science, +1 Production] from every [Iron]","[Great General] is earned [-75]% faster"],
-		"cities": ["Pherae","Bern","Aquleia","Edessa","Bulgar","Ostia","Caelin","Laus","Santaruz","Carhae","Reglay","Jutes","Caerleon","Caldonia","Araphen","Tuscana","Remi","Badon","Dia","Armagh","Eburacum","Ryerde","Worde","Ciaran","Tania","Kathelet","Valor"]
+		"uniqueName": "The Lycian Alliance",
+		"uniques": ["City-State territory always counts as friendly territory","Militaristic City-States grant units [2] times as fast when you are at war with a common nation","Military Units gifted from City-States start with [+15] XP"],
+		"cities": ["Pherae","Santaruz","Laus","Port Badon","Araphen","Thria","Khathelet","Worde","Tania","Tuscana","Ryerde","Cornwell","Valor","Egina","Rodos","Russex","Branfurt",]
 	}
-	
 ]

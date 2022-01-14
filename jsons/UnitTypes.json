@@ -1,0 +1,58 @@
+[   
+	// Lords
+    {
+        "name": "Lord Melee",
+        "movementType": "Land",
+		"uniques": ["Bonus for units in 2 tile radius 15%"]
+    },
+	
+	{
+		"name": "Lord Ranged",
+		"movementType": "Land",
+		"uniques": ["Bonus for units in 2 tile radius 15%"]
+	},
+	
+	{
+		"name": "Lord Magic",
+		"movementType": "Land",
+		"uniques": ["Bonus for units in 2 tile radius 15%"]
+	},
+	
+	{
+		"name": "Lord Mounted",
+		"movementType": "Land",
+		"uniques": ["Bonus for units in 2 tile radius 15%"]
+	},
+	
+	//Magic
+	{
+		"name": "Dark Magic",
+		"movementType": "Land",
+		"uniques": ["[+33]% Strength <vs [Anima Magic] units>"]
+	},
+	
+	{
+		"name": "Light Magic",
+		"movementType": "Land",
+		"uniques": ["[+33]% Strength <vs [Dark Magic] units>"]
+	},
+	
+	{
+		"name": "Anima Magic",
+		"movementType": "Land",
+		"uniques": ["[+33]% Strength <vs [Light Magic] units>"]
+	},
+	
+	//Others
+	{
+        "name": "Flying Mount",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles"]
+    },
+	
+	{
+        "name": "King of Liberation",
+        "movementType": "Land"
+		"uniques": ["Bonus for units in 2 tile radius 15%"]
+    }
+]

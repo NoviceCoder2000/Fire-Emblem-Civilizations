@@ -1,0 +1,250 @@
+[
+
+//New Promotions
+
+//Magical Units
+	{
+		"name": "Retainment I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
+	},
+	{
+		"name": "Retainment II",
+		"prerequisites": ["Retainment I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
+	},
+	{
+		"name": "Retainment III",
+		"prerequisites": ["Retainment II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
+	},
+
+	{
+		"name": "Mastery I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
+	},
+	{
+		"name": "Mastery II",
+		"prerequisites": ["Mastery I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
+	},
+	{
+		"name": "Mastery III",
+		"prerequisites": ["Barrage II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
+	},
+
+	{
+		"name": "Concentration",
+		"prerequisites": ["Retainment I","Mastery I"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
+	},
+	
+	{
+		"name": "Teleportation",
+		"prerequisites": ["Retainment III","Mastery III"],
+		"uniques": ["Ignores terrain cost"],
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
+	},
+	
+	{
+		"name": "Tomebreaker",
+		"prerequisites": ["Retainment II", "Mastery II"],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine"]
+	},
+
+	{
+		"name": "Staff I",
+		"prerequisites": ["Retainment II", "Mastery II"],
+		"uniques": ["All adjacent units heal [+5] HP when healing"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"]
+	},
+
+	{
+		"name": "Staff II",
+		"prerequisites": ["Staff I"],
+		"uniques": ["All adjacent units heal [+5] HP when healing"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"]	
+	},
+	
+	//Others
+	{
+		"name": "Resistance I",
+		"uniques": ["[+33]% Strength <vs [Dark Magic] units> <when defending>","[+33]% Strength <vs [Light Magic] units> <when defending>","[+33]% Strength <vs [Anima Magic] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted","Flying Mount","Dark Magic","Light Magic","Anima Magic","Lord Melee","Lord Ranged","Lord Mounted","Lord Magic","King of Liberation"]
+	},
+	{
+		"name": "Resistance II",
+		"prerequisites": ["Resistance I"],
+		"uniques": ["[+33]% Strength <vs [Dark Magic] units> <when defending>","[+33]% Strength <vs [Light Magic] units> <when defending>","[+33]% Strength <vs [Anima Magic] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted","Flying Mount","Dark Magic","Light Magic","Anima Magic","Lord Melee"]
+	},
+	
+	{
+		"name": "Flier Shield",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["[+75]% Strength <vs [Archery] units>","[+75]% Strength <vs [Ranged Gunpowder] units>"],
+		"unitTypes": ["Flying Mount"]
+	},
+	
+	{
+		"name": "Royal Pardon"
+		"uniques": ["May capture killed [Military] units"]
+	},
+	
+	{
+		"name": "Noble Fortitude", // should be exclusive to lord units only
+		"uniques": ["[+100]% XP gained from combat"]
+	},
+	//Updated for New Unit Types
+	{
+		"name": "Heal Instantly",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Flying Mount","Dark Magic","Light Magic","Anima Magic","Lord Melee","Lord Ranged","Lord Mounted","Lord Magic","King of Liberation"]
+	},
+	
+	//Melee/Mounted/Flying Mounts/KoL
+	{
+		"name": "Shock I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+	},
+	{
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+	},
+	{
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+	},
+
+	{
+		"name": "Drill I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+	},
+	{
+		"name": "Drill II",
+		"prerequisites": ["Drill I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+	},
+	{
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+	},	
+	
+	{
+		"name": "Charge",
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Mounted","Armored","Flying Mount"]
+	},
+	
+	{
+		"name": "Formation I",
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Flying Mount","Lord Melee"]
+	},
+	{
+		"name": "Formation II",
+		"prerequisites": ["Formation I"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Flying Mount","Lord Melee"]
+	},
+	
+	{
+		"name": "Blitz",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+	},
+	
+	{
+		"name": "Mobility",
+		"prerequisites": ["Shock II","Drill II","Targeting I",
+			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","Flying Mount"]
+	},
+	{
+		"name": "Sentry",
+		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water","Flying Mount","Lord Melee"]
+	},
+	
+	//Non-Mounted Units
+	{
+		"name": "Cover I",
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Lord Melee"]
+	},
+	{
+		"name": "Cover II",
+		"prerequisites": ["Cover I"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Lord Melee"]
+	},
+	
+	{
+		"name": "Ambush I",
+		"uniques": ["[+33]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber","Lord Melee"]
+	},
+	{
+		"name": "Ambush II",
+		"prerequisites": ["Ambush I"],
+		"uniques": ["[+33]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber","Lord Melee"]
+	},
+	
+	{
+		"name": "Woodsman",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
+		"unitTypes": ["Sword","Gunpowder","Lord Melee"]
+	},
+	{
+		"name": "Amphibious",
+		"prerequisites": ["Shock I", "Drill I"],
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking from the sea"],
+		"unitTypes": ["Sword","Gunpowder","Lord Melee"]
+	},
+	
+	//Mixed
+	{
+		"name": "March",
+		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted","Flying Mount","Lord Melee"]
+	},
+
+	//Non-Lord Abilities
+	{
+		"name": "Medic",
+		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
+		"uniques": ["All adjacent units heal [+5] HP when healing"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Flying Mount"]
+	},
+	{
+		"name": "Medic II",
+		"prerequisites": ["Medic"],
+		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "All adjacent units heal [+5] HP when healing"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Flying Mount"]
+	},
+]

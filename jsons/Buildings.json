@@ -1,10 +1,39 @@
 [
+//Elibean
+	{
+		"name": "Marquess's Castle",
+		"cost": "160",
+		"uniqueTo": "The Lycian League",
+		"replaces": "Castle",
+		"cityStrength": 5,
+		"cityHealth": 18,
+		"happiness": 1.
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": ["Destroyed when the city is captured","[35]% Production when constructing [Mounted] units [in this city]<when at war>"]
+	},
+
+
+//Three Houses
+	{
+	"name": "Holy Tomb"
+	"cost": 125,
+	"culture": 1,
+	"faith": 8,
+	"uniqueTo": "The Church of Seiros",
+	"uniques": ["Requires a [Temple] in all cities", "Cost increases by [30] per owned city", "[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
+	"requiredTech": "Theology",
+	"isNationalWonder": true
+	},
+
+// For Lords
 	{
 	"name": "Binding Blade",
 	"cost": "200",
-	"requiredTech": "Steel",
+	"requiredTech": "Metal Casting",
 	"isNationalWonder": true,
-	"uniqueTo": "League of Elibe",
-	"uniques": ["Unsellable","Free [Roy] appears","Will not be displayed in Civilopedia"]
+	"uniqueTo": "The Lycian League",
+	"uniques": ["Unsellable","Free [Roy (Medieval)] appears","Will not be displayed in Civilopedia","Provides [1] [Binding Blade]","Cannot be purchased"]
 	}
 ]
