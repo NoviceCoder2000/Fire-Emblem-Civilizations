@@ -57,21 +57,21 @@
 		"name": "Tomebreaker",
 		"prerequisites": ["Retainment II", "Mastery II"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine"]
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
 	},
 
 	{
 		"name": "Staff I",
 		"prerequisites": ["Retainment II", "Mastery II"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"]
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
 	},
 
 	{
 		"name": "Staff II",
 		"prerequisites": ["Staff I"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"]	
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
 	},
 	
 	//Others

@@ -32,6 +32,42 @@
 		"innerColor": [0,0,128],
 		"uniqueName": "The Lycian Alliance",
 		"uniques": ["City-State territory always counts as friendly territory","Militaristic City-States grant units [2] times as fast when you are at war with a common nation","Military Units gifted from City-States start with [+15] XP"],
-		"cities": ["Pherae","Santaruz","Laus","Port Badon","Araphen","Thria","Khathelet","Worde","Tania","Tuscana","Ryerde","Cornwell","Valor","Egina","Rodos","Russex","Branfurt",]
+		"cities": ["Pherae","Santaruz","Laus","Port Badon","Araphen","Khathelet","Worde","Tania","Tuscana","Ryerde","Cornwell","Valor","Egina","Rodos","Russex","Branfurt",]
+	},
+	
+	{
+		"name": "Duchy of Ostia",
+		"leaderName": "Lilina",
+		"adjective": ["Ostian"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Eliminism",
+		"startBias": ["Avoid [Tundra]","Avoid [Desert]"],
+		
+		"startIntroPart1": "Greetings benevolent Lilina, Princess of Ostia and the daughter of Hector the mighty! Ostia is a member of the Lycian League and the most powerful among them, making Ostia the unofficial capital of the territory of Lycia. But such fact was tested when a war that Bern waged has unfolded. Lycia was invaded and were ravaged by the powerful foe. And amidst the chaos of war, your father had died in the fields of battle making you inherit what is left within the lands. Nevertheless, despite such great responsibility that was left behind, you had managed to rebuild and made Ostia prosperous again despite being in such a young age.",
+		"startIntroPart2": "Oh, noble and generous princess, the people needs you once more for you to lead them for a better future. Can you build a mighty and prosperous nation? Can you craft a peaceful future with no bloodshed? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "I'm sorry, but it's the people who wish for this to happen. I'm too frail to stop them all.",
+		"attacked": "Is this war truly necessary? It saddens me to know that the people has to endure another conflict.",
+		"defeated": "Father, mother... I can finally meet you again.",
+		"introduction": "Oh, hello there! I am Lilina of Ostia. I hope both of us can be good friends.",
+		
+		"neutralHello": "Hello!",
+		"neutralLetsHearIt": ["Can you tell me?","I'm interested.","Let me hear it then."],
+		"neutralNo": ["I'm sorry.","I don't think that would work.","No thank you."],
+		"neutralYes": ["I accept it.","That is great!","That could work."],
+
+		"hateHello": "What is it?",
+		"hateLetsHearIt": ["I see...","Yes?","Hmm?"],
+		"hateNo": ["No.","I refuse.","Certainly not."],
+		"hateYes": ["It's okay.","Alright.","This is good."],
+		
+		"afterPeace": "If this is what is necessary for peace then so be it.",
+		"tradeRequest": "Do you think this is good enough?",
+
+		"outerColor": [50,74,178],
+		"innerColor": [194,59,34],
+		"uniqueName": "Ostian Fortress",
+		"uniques": ["[-25]% Culture cost of acquiring tiles [in capital]","Gain a Free [Ostian Walls] [in capital]"],
+		"cities": ["Castle Ostia","Thria","Caelin","Antica","Fusano","Levant","Fiumincia","Zigarinim","Pomezin","Aranova","Ardea","Aprilia","Anziticum","Vecolomi","Torvarian","Ardentum","Mare","Carpocot","Vittiny","Palidor"]
 	}
 ]

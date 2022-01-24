@@ -1,6 +1,39 @@
 [
 	//FE6 Units 
 	{
+		"name": "Armored Knight",
+		"unitType": "Armored",
+		"uniqueTo": "Duchy of Ostia",
+		"replaces": "Pikeman",
+		"movement": 1,
+		"strength": 23,
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"requiredResource": "Iron",
+		"upgradesTo": "General",
+		"promotions": ["Cover I"],
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit" 
+	},
+
+	{
+		"name": "General",
+		"unitType": "Armored",
+		"uniqueTo": "Duchy of Ostia",
+		"replaces": "Lancer",
+		"movement": 2,
+		"strength": 32,
+		"cost": 200,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Iron",
+		"promotions": ["Cover I"],
+		"uniques": ["Will not be displayed in Civilopedia"],
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"attackSound": "metalhit"
+	},
+	
+	{
 		"name": "Nomad",
 		"unitType": "Archery",
 		"uniqueTo": "League of Elibe" 

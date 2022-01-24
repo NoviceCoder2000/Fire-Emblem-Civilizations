@@ -7,17 +7,28 @@
 		"replaces": "Castle",
 		"cityStrength": 5,
 		"cityHealth": 18,
-		"happiness": 1.
+		"happiness": 1,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry",
 		"uniques": ["Destroyed when the city is captured","[35]% Production when constructing [Mounted] units [in this city]<when at war>"]
 	},
+	
+	{
+		"name": "Ostian Walls",
+		"cost": "75"
+		"uniqueTo": "Duchy of Ostia"
+		"cityStrength": 6,
+		"cityHealth": 75,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured","[+1 Production] from every [Strategic Resource]"]
+	},
 
 
 //Three Houses
 	{
-	"name": "Holy Tomb"
+	"name": "Holy Tomb",
 	"cost": 125,
 	"culture": 1,
 	"faith": 8,
