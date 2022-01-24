@@ -1,6 +1,6 @@
 Nations Icons:
-League of Elibe Icon - Creative Stall, PK from the Noun Project
-https://thenounproject.com/search/?q=sword+and+axe&i=147921
+Axe by Nurutdinov Timur from NounProject.com - (Ostia)
+https://thenounproject.com/icon/axe-30512/
 
 Sword by Aisyah from NounProject.com - (Lycia)
 https://thenounproject.com/icon/sword-2006427/
@@ -8,6 +8,12 @@ https://thenounproject.com/icon/sword-2006427/
 Unit Icons:
 
 //Elibean
+Armored Knight Icon - by Andrejs Kirma, LV  from the Noun Project
+https://thenounproject.com/search/?q=Knight+Helmet&i=3864614
+
+General Icon - by zidney from the Noun Project
+https://thenounproject.com/search/?q=Knight+Helmet&i=1338617
+
 Nomad Icon - by parkjisun from the Noun Project
 https://thenounproject.com/search/?q=Archer+Cavalry&i=440130
 
@@ -36,14 +42,8 @@ Roy the Young Lion Icon - by Tivi Lupercio Ordonez from the Noun Project
 https://thenounproject.com/search/?q=Fire+Sword&i=340266
 
 //FE 8
-Armored Knight Icon - by Andrejs Kirma, LV  from the Noun Project
-https://thenounproject.com/search/?q=Knight+Helmet&i=3864614
-
 Troubadour Icon - by Hamish from the Noun Project
 https://thenounproject.com/hamishbuchanan/uploads/?i=819849
-
-Great Knight Icon - by zidney from the Noun Project
-https://thenounproject.com/search/?q=Knight+Helmet&i=1338617
 
 Mage Knigth Icon - by Michael T, US
 https://thenounproject.com/search/?q=Staff&i=921085
@@ -55,6 +55,9 @@ https://thenounproject.com/search/?q=Magical+Sword&i=1764934
 
 Marquess's Castle - Castle by Kieu Thi Kim Cuong from NounProject.com
 https://thenounproject.com/icon/castle-2904148/
+
+Castle by Lil Squid from NounProject.com (Ostian Walls)
+https://thenounproject.com/icon/castle-26224/
 
 //Promotion Icons
 Forgive by Adrien Coquet from NounProject.com
@@ -72,6 +75,18 @@ https://thenounproject.com/icon/castle-4477510/
 Gold Crown by Mu'as from NounProject.com (Noble Fortitude)
 https://thenounproject.com/icon/gold-crown-3699799/
 
+
 //Religion Icons
 Sparkle by OneShoot from NounProject.com - (Eliminism)
 https://thenounproject.com/icon/sparkle-1829144/
+
+
+Music:
+(Note: Original music compositions rightfully belongs to Nintendo and Intelligent System, all attributions are remaster versions from individual composers)
+
+//Elibean
+Friendship and Adventure - gazpacho 146
+https://www.youtube.com/watch?v=0j0zCCkfjYw&list=WL&index=8&t=44s&ab_channel=gazpacho146
+
+Distant Travels - gazpacho 146
+https://www.youtube.com/watch?v=lXhsrEkVhhI&t=37s&ab_channel=gazpacho146

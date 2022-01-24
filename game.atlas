@@ -6,224 +6,259 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Binding Blade
   rotate: false
-  xy: 512, 778
+  xy: 512, 604
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Marquess's Castle
   rotate: false
-  xy: 720, 570
+  xy: 720, 396
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-LeaderIcons/Roy
+BuildingIcons/Ostian Walls
   rotate: false
-  xy: 4, 478
+  xy: 928, 396
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/Lilina
+  rotate: false
+  xy: 4, 512
   size: 500, 500
   orig: 500, 500
   offset: 0, 0
   index: -1
+LeaderIcons/Roy
+  rotate: false
+  xy: 4, 4
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+NationIcons/Duchy of Ostia
+  rotate: false
+  xy: 1344, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/The Lycian League
   rotate: false
-  xy: 1868, 878
+  xy: 1136, 288
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Eliminism
   rotate: false
-  xy: 1760, 878
+  xy: 1552, 912
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Binding Blade
   rotate: false
-  xy: 1552, 670
+  xy: 512, 80
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Armored Knight
+  rotate: false
+  xy: 1452, 772
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/General
+  rotate: false
+  xy: 1552, 872
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Great Lord Roy (Atomic)
   rotate: false
-  xy: 1552, 630
+  xy: 1660, 980
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Lord Roy (Information)
   rotate: false
-  xy: 1552, 630
+  xy: 1660, 980
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Lord Roy (Modern)
   rotate: false
-  xy: 1552, 630
+  xy: 1660, 980
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Roy (Industrial)
   rotate: false
-  xy: 1660, 738
+  xy: 1136, 248
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Roy (Medieval)
   rotate: false
-  xy: 1660, 738
+  xy: 1136, 248
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Roy (Renaissance)
   rotate: false
-  xy: 1660, 738
+  xy: 1136, 248
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 UnitIcons/Armored Knight
   rotate: false
-  xy: 4, 270
+  xy: 512, 812
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Dragon Lord
   rotate: false
-  xy: 4, 62
+  xy: 720, 812
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Druid
   rotate: false
-  xy: 212, 270
+  xy: 512, 396
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Great Knight
+UnitIcons/General
   rotate: false
-  xy: 512, 570
+  xy: 720, 604
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Great Lord Roy (Atomic)
   rotate: false
-  xy: 720, 778
+  xy: 928, 812
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Great Lord Roy (Information)
   rotate: false
-  xy: 720, 778
+  xy: 928, 812
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Great Lord Roy (Modern)
   rotate: false
-  xy: 720, 778
+  xy: 928, 812
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Mage Knight
   rotate: false
-  xy: 212, 62
+  xy: 512, 188
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Nomad
   rotate: false
-  xy: 928, 778
+  xy: 928, 604
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Nomadic Cavalry
   rotate: false
-  xy: 928, 570
+  xy: 1136, 812
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Nomadic Trooper
   rotate: false
-  xy: 1136, 778
+  xy: 720, 188
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Roy (Industrial)
   rotate: false
-  xy: 1136, 570
+  xy: 1136, 604
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Roy (Medieval)
   rotate: false
-  xy: 1136, 570
+  xy: 1136, 604
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Roy (Renaissance)
   rotate: false
-  xy: 1136, 570
+  xy: 1136, 604
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Shaman
   rotate: false
-  xy: 1344, 778
+  xy: 1344, 812
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Troubadour
   rotate: false
-  xy: 1344, 570
+  xy: 928, 188
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wyvern Rider
   rotate: false
-  xy: 1552, 778
+  xy: 1136, 396
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Noble Fortitude
   rotate: false
-  xy: 4, 4
+  xy: 512, 22
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Resistance
   rotate: false
-  xy: 420, 420
+  xy: 620, 130
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Royal Pardon
   rotate: false
-  xy: 512, 512
+  xy: 1344, 646
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
