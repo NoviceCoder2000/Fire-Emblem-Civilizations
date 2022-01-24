@@ -16,8 +16,9 @@
 	
 	{
 		"name": "Ostian Walls",
-		"cost": "75"
-		"uniqueTo": "Duchy of Ostia"
+		"cost": "75",
+		"uniqueTo": "Duchy of Ostia",
+		"replaces": "Walls",
 		"cityStrength": 6,
 		"cityHealth": 75,
 		"hurryCostModifier": 25,
