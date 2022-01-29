@@ -69,5 +69,41 @@
 		"uniqueName": "Ostian Fortress",
 		"uniques": ["[-25]% Culture cost of acquiring tiles [in capital]","Gain a Free [Ostian Walls] [in capital]"],
 		"cities": ["Castle Ostia","Thria","Caelin","Antica","Fusano","Levant","Fiumincia","Zigarinim","Pomezin","Aranova","Ardea","Aprilia","Anziticum","Vecolomi","Torvarian","Ardentum","Mare","Carpocot","Vittiny","Palidor"]
+	},
+	
+	{
+		"name": "Sacae",
+		"leaderName": "Sue",
+		"adjective": ["Sacaean"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Eliminism",
+		"startBias": ["Plains"],
+		
+		"startIntroPart1": "May Father Sky and Mother Earth grace you o' lady Sue, Doe of the Plains! The land of Sacae was once a peaceful place to live within. It can be found within the north of the Kingdom of Bern and South of Ilia, and has a such vast plains where many enjoys the life of the nomad. Though from time to time, it was raided and attacked by the banditry, the lands were still a place where many nomadic tribes choose to settle. Though all of it changed when Zephiel invaded as he pursues his ambition of forging a world, ruled by dragons which was paved by the blood of many. You were later captured by those loyal to Zephiel and were supposedly used as a bargaining tool to the Silver Wolf, which is your grandfather but were liberated by General Roy of the Lycian army before it even happened, and together you fought the war with him until the downfall of Bern."
+		"startIntroPart2": "Long divided by the interests of the people, Sacae must unite now more than ever. And as the hero of the war and the granddaughter of the Silver Wolf, you are the only one who can bring unity to the people. Lady Sue, can you unite Sacae under one banner? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "The roars of thunder... the rage of the river... cries for your downfall.",
+		"attacked": "I have seen many of my friends fall from the blade before. I will not allow you to do the same.",
+		"defeated": "Beautiful Mother Earth... Ruined by the fires of war...",
+		"introduction": "I am Sue of Kutolah, may the winds guide you stranger.",
+		
+		"neutralHello": "Peace.",
+		"neutralLetsHearIt": ["What is it?","I see.","Tell me then."],
+		"neutralNo": ["Apoligies, I must refuse.","No.","The winds whispered to me, no."],
+		"neutralYes": ["Very well.","Certainly.","The winds told me, yes."],
+
+		"hateHello": "",
+		"hateLetsHearIt": ["I heard you.","Let me hear it.","By the winds..."],
+		"hateNo": ["No.","I refuse.","The voices told me, no."],
+		"hateYes": ["I must accept.","I have no choice.","Father sky wills it."],
+		
+		"afterPeace": "Grass tainted by blood... May it repeat no more.",
+		"tradeRequest": "What can you think of this one?",
+
+		"outerColor": [73, 159, 28],
+		"innerColor": [161, 2, 2],
+		"uniqueName": "Winds of the Plains",
+		"uniques": ["[+1 Culture] from every [Plains]","Double quantity of [Horses] produced"], //should be plains without Hills and Forest
+		"cities": ["Bulgar","Kutolah","Djute","Lorca","Mulagir","Hunnia","Mongul","Siogna","Scituma","Transokur","Korum-Korum","Sogdiakar","Sianba","Saramatu","Taliver","Thraka","Gokturka","Turkkikik","Cumani","Kipapachak","Manchupiuka","Berbrik","Kazakahal","Bedou-ani","Sintikop"]
 	}
 ]

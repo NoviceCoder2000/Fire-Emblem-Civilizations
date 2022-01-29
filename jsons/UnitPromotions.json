@@ -103,6 +103,8 @@
 		"name": "Noble Fortitude", // should be exclusive to lord units only
 		"uniques": ["[+100]% XP gained from combat"]
 	},
+
+
 	//Updated for New Unit Types
 	{
 		"name": "Heal Instantly",
@@ -110,7 +112,7 @@
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Flying Mount","Dark Magic","Light Magic","Anima Magic","Lord Melee","Lord Ranged","Lord Mounted","Lord Magic","King of Liberation"]
 	},
 	
-	//Melee/Mounted/Flying Mounts/KoL
+	//Melee/Mounted/Flying Mounts/King of Liberation
 	{
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
@@ -241,6 +243,7 @@
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Flying Mount"]
 	},
+	
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic"],

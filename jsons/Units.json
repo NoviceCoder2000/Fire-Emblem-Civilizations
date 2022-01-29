@@ -36,7 +36,7 @@
 	{
 		"name": "Nomad",
 		"unitType": "Archery",
-		"uniqueTo": "League of Elibe" 
+		"uniqueTo": "Sacae", 
 		"replaces": "Chariot Archer",
 		"cost": "50",
 		"range": "2",
@@ -53,13 +53,13 @@
 	
 	{
 		"name": "Nomadic Trooper",
+		"uniqueTo": "Sacae",
 		"unitType": "Archery",
 		"replaces": "Knight",
 		"cost": "120",
 		"movement": "4",
 		"strength": "16",
 		"rangedStrength": "16",
-		"uniqueTo": "League of Elibe" 
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
@@ -72,13 +72,13 @@
 	{
 		"name": "Nomadic Cavalry",
 		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Sacae",
 		"replaces": "Cavalry",
 		"cost": "225",
 		"range": "1",
 		"movement": "4",
 		"strength": "34",
 		"rangedStrength": "34",
-		"uniqueTo": "League of Elibe" 
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
@@ -87,6 +87,39 @@
 		"attackSound": "shot"
 	},
 	
+	{
+		"name": "Myrmidon",
+		"unitType": "Sword",
+		"uniqueTo": "Sacae",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Swordsmaster",
+		"uniques": ["May withdraw before melee ([33]%)","[+50]% Strength <when attacking>","Upgrades to a stronger version"],
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Swordsmaster",
+		"unitType": "Sword",
+		"uniqueTo": "Sacae",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 17,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Rifleman",
+		"uniques": ["May withdraw before melee ([33]%)","[+50]% Strength <when attacking>","Will not be displayed in Civilopedia"],
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+
 	{
 		"name": "Wyvern Rider",
 		"unitType": "Flying Mount",
