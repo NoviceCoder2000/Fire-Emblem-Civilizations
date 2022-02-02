@@ -7,10 +7,10 @@
 		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Eliminism",
 		
-		"startIntroPart1": "May the favor of Elimine, may be given upon you o' master Roy! For years, Lycia has been a loosely connected set of lands held by different Marquesses. There is no real unity among us and were constantly divided by conflicting interests. This was the case until the Kingdom of Bern has decided to wage war across the whole continet of Elibe, subduing many countries and people to their control. But under your guidance despite being such a young man, you were able to defeat the most powerful kingdom in the continent and even had defeated the Demon Dragon Idunn with your own hands.",
+		"startIntroPart1": "May the favor of Elimine, may be given upon you o' master Roy, The brave descendant of Roland! For years, Lycia has been a loosely connected set of lands held by different Marquesses. There is no real unity among us and were constantly divided by conflicting interests. This was the case until the Kingdom of Bern has decided to wage war across the whole continet of Elibe, subduing many countries and people to their control. But under your guidance despite being such a young man within the age of 15, you were able to defeat the most powerful kingdom in the continent and even had defeated the Demon Dragon Idunn with your own hands.",
 		"startIntroPart2": "Master Roy, times has changed, the people needs you to lead for once more. Can you unite the people once more? Can you bring peace to this world of chaos? Can you build a great civilization that can stand the test of time?",
 		
-		"declaringWar": "I am not keen in engaging in war, but your hostilities are unacceptable. Therefore prepare for war!",
+		"declaringWar": "I am not keen in engaging in war, but your hostilities are unacceptable. Therefore, prepare for war!",
 		"attacked": "What did we do to deserve this? Black-heart! I shall not allow you to hurt my people!",
 		"defeated": "Nngh... everyone... please forgive me... for I have failed you all.",
 		"introduction": "Greetings! I am Roy of Pherae, son of Eliwood. I am pleased to make your acquaintance.",
@@ -67,7 +67,7 @@
 		"outerColor": [50,74,178],
 		"innerColor": [194,59,34],
 		"uniqueName": "Ostian Fortress",
-		"uniques": ["[-25]% Culture cost of acquiring tiles [in capital]","Gain a Free [Ostian Walls] [in capital]"],
+		"uniques": ["-[25]% Culture cost of acquiring tiles [in capital]","Gain a Free [Ostian Walls] [in capital]"],
 		"cities": ["Castle Ostia","Thria","Caelin","Antica","Fusano","Levant","Fiumincia","Zigarinim","Pomezin","Aranova","Ardea","Aprilia","Anziticum","Vecolomi","Torvarian","Ardentum","Mare","Carpocot","Vittiny","Palidor"]
 	},
 	
@@ -89,7 +89,7 @@
 		
 		"neutralHello": "Peace.",
 		"neutralLetsHearIt": ["What is it?","I see.","Tell me then."],
-		"neutralNo": ["Apoligies, I must refuse.","No.","The winds whispered to me, no."],
+		"neutralNo": ["Apologies, I must refuse.","No.","The winds whispered to me, no."],
 		"neutralYes": ["Very well.","Certainly.","The winds told me, yes."],
 
 		"hateHello": "",
@@ -105,5 +105,41 @@
 		"uniqueName": "Winds of the Plains",
 		"uniques": ["[+1 Culture] from every [Plains]","Double quantity of [Horses] produced"], //should be plains without Hills and Forest
 		"cities": ["Bulgar","Kutolah","Djute","Lorca","Mulagir","Hunnia","Mongul","Siogna","Scituma","Transokur","Korum-Korum","Sogdiakar","Sianba","Saramatu","Taliver","Thraka","Gokturka","Turkkikik","Cumani","Kipapachak","Manchupiuka","Berbrik","Kazakahal","Bedou-ani","Sintikop"]
+	},
+	
+	{
+		"name": "Kingdom of Bern",
+		"leaderName": "Zephiel",
+		"adjective": ["Bernese"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Eliminism",
+		"startBias": ["Hill","Mountain"],
+		
+		"startIntroPart1": "Hail to you King Zephiel! The valiant king of Bern and the judicious descendant of Hartmut! You were a brilliant and a wise ruler with a great will to remove the corrupted rulers of this world which are men. With a great desire to uproot them and replace mankind with dragonkind who are not corrupted by the greed and the wrath of this world. Unfortunately, many were envious and were utter fools to understand your will and many nations have plotted to overthrow you and succeeded with such wicked plot, depraving this world with a just ruler."
+		"startIntroPart2": "Fate does indeed works in mysterious for once again you were given a second chance to continue to pursue your dreams of ridding this world of the corruption that were caused by mankind. King Zephiel, do you have what it takes to rid this world of human rule? Can you lead mankind to their proper ruler? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I must put an end to the rule of men at all cost! And you shall not stop my ambition!",
+		"attacked": "Bah! Your threats do not frighten me. Face me in the battlefield if you truly dare!",
+		"defeated": "You have defeated me. But remember this: My will shall never die. As long as humans retain control, madness will reign...",
+		"introduction": "I am Zephiel, King of Bern! I hope you do not spout nonsense about hopes on humanity.",
+		
+		"neutralHello": "Yes?",
+		"neutralLetsHearIt": ["Tell me.","Your offer?","You have my attention."],
+		"neutralNo": ["Certainly not.","No.","I cannot agree."],
+		"neutralYes": ["Fair enough.","Very well.","So be it."],
+
+		"hateHello": "Speak your mind!",
+		"hateLetsHearIt": ["Speak!","What do you want?","Waste no time."],
+		"hateNo": ["No.","I will not accept it.","I'd rather not."],
+		"hateYes": ["Hmph.","Fine.","So it be."],
+		
+		"afterPeace": "You fought well, I shall not underestimate you next time.",
+		"tradeRequest": "This offer will surely serve both of our interests.",
+
+		"outerColor": [67, 27, 107],
+		"innerColor": [207, 209, 86],
+		"uniqueName": "A World Ruled by Dragonkind",
+		"uniques": ["[+2 Production] from every [Mountains] <after discovering [Mining]>","[+1 Production] from every [Mountains] <after discovering [Chemistry]>","[+1 Production] from every [Mountains] <after discovering [Dynamite]>","[-33]% unhappiness from population [in annexed cities]"], //Should not suffer from resistance penalties instead. Also +1 Production from mountains in an event after discovering dynamite instead.
+		"cities": ["Bern","Zuria","Gweneva","Churica","Valais","Freibourg","Holligen","Britefield","Altenburg","Könizia","Beruth","Alaman","Rosewerg","Lieberaum","Giswyl","Guivarum","Acturica","Thun","Lucren","Dragon Sanctuary","Shrine of Seals"]
 	}
 ]

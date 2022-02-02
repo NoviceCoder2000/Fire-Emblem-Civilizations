@@ -1,5 +1,5 @@
 [
-	//FE6 Units 
+	//Elibean
 	{
 		"name": "Armored Knight",
 		"unitType": "Armored",
@@ -122,31 +122,41 @@
 
 	{
 		"name": "Wyvern Rider",
-		"unitType": "Flying Mount",
+		"unitType": "Flying Mount", 
+		"replaces": "Pikeman",
 		"movement": "5",
 		"strength": "24",
 		"cost": "120",
-		"uniqueTo": "League of Elibe"
-		"requiredTech": "Chivalry",
+		"uniqueTo": "Kingdom of Bern"
+		"requiredTech": "Civil Service",
 		"obsoleteTech": "Metallurgy",
-		"upgradesTo": "Dragon Lord",
-		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Can pass through impassable tiles","[-75]% Strength <vs [Archery] units>","[-75]% Strength <vs [Ranged Gunpowder] units>","[-15]% Strength <vs [Gunpowder] units> <when defending>","Ignores terrain cost"],
+		"upgradesTo": "Wyvern Lord",
+		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Can pass through impassable tiles","Ignores terrain cost","Upgrades to a stronger version"],
 		"attackSound": "metalhit"
 	},
 	
 	{
-		"name": "Dragon Lord",
+		"name": "Wyvern Lord",
 		"unitType": "Flying Mount",
 		"replaces": "Lancer",
 		"movement": "6",
 		"strength": "36",
 		"cost": "195",
-		"uniqueTo": "League of Elibe"
+		"uniqueTo": "Kingdom of Bern"
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Helicopter Gunship",
-		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Can pass through impassable tiles","[-75]% Strength <vs [Archery] units>","[-75]% Strength <vs [Ranged Gunpowder] units>","[-10]% Strength <vs [Gunpowder] units>","Ignores terrain cost","Will not be displayed in Civilopedia"],
+		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Can pass through impassable tiles","Ignores terrain cost","Will not be displayed in Civilopedia"],
 		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Wyvern General",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Kingdom of Bern",
+		"uniques": ["Bonus for units in 2 tile radius 15%", "Can construct [Citadel]","Great Person - [War]", "Unbuildable", "Uncapturable","Can pass through impassable tiles","Ignores terrain cost"], //Hovering Unit
+		"movement": 6
 	},
 	
 	{
@@ -249,5 +259,5 @@
 		"attackSound": "metalhit"
 	},
 	
-	//Lords but with more upgrades
+	//Magvelian
 ]
