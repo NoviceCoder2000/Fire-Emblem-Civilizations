@@ -90,7 +90,7 @@
 	{
 		"name": "Flier Shield",
 		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["[+75]% Strength <vs [Archery] units>","[+75]% Strength <vs [Ranged Gunpowder] units>"],
+		"uniques": ["[+50]% Strength <vs [Archery] units>","[+50]% Strength <vs [Ranged Gunpowder] units>","[+25]% Strength <vs [Gunpowder] units> <when defending>"],
 		"unitTypes": ["Flying Mount"]
 	},
 	

@@ -47,7 +47,7 @@
 	{
         "name": "Flying Mount",
         "movementType": "Land", //Hovering
-        "uniques": ["Can pass through impassable tiles","[-50]% Strength <vs [Archery] units>","[-50]% Strength <vs [Ranged Gunpowder] units>","[-10]% Strength <vs [Gunpowder] units> <when defending>","[-200]% Strength <vs [Anti-Aircraft Gun] units>","[-200]% Strength <vs [Mobile SAM] units>","[-200]% Strength <vs [Fighter] units>"]
+        "uniques": ["Can pass through impassable tiles","[-50]% Strength <vs [Archery] units>","[-50]% Strength <vs [Ranged Gunpowder] units>","[-25]% Strength <vs [Gunpowder] units> <when defending>","[-200]% Strength <vs [Anti-Aircraft Gun] units>","[-200]% Strength <vs [Mobile SAM] units>","[-200]% Strength <vs [Fighter] units>"]
     },
 	
 	{
