@@ -104,91 +104,91 @@ ResourceIcons/Binding Blade
   index: -1
 TileSets/FantasyHex/Units/Armored Knight
   rotate: false
-  xy: 1852, 2012
+  xy: 420, 488
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/General
   rotate: false
-  xy: 420, 488
+  xy: 1020, 1072
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Lord Roy (Atomic)
   rotate: false
-  xy: 1020, 1072
+  xy: 1128, 1180
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Lord Roy (Information)
   rotate: false
-  xy: 1020, 1072
+  xy: 1128, 1180
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Lord Roy (Modern)
   rotate: false
-  xy: 1020, 1072
+  xy: 1128, 1180
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Myrmidon
   rotate: false
-  xy: 1128, 1180
+  xy: 1436, 1488
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Roy (Industrial)
   rotate: false
-  xy: 1436, 1488
+  xy: 1544, 1596
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Roy (Medieval)
   rotate: false
-  xy: 1436, 1488
+  xy: 1544, 1596
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Roy (Renaissance)
   rotate: false
-  xy: 1436, 1488
+  xy: 1544, 1596
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsmaster
   rotate: false
-  xy: 1544, 1596
+  xy: 570, 580
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wyvern General
   rotate: false
-  xy: 570, 580
+  xy: 928, 938
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wyvern Lord
   rotate: false
-  xy: 928, 938
+  xy: 1644, 1746
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wyvern Rider
   rotate: false
-  xy: 1644, 1746
+  xy: 1702, 1804
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -333,23 +333,30 @@ UnitIcons/Wyvern Rider
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Noble Fortitude
+UnitPromotionIcons/Flier Shield
   rotate: false
   xy: 512, 562
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Resistance
+UnitPromotionIcons/Noble Fortitude
   rotate: false
   xy: 928, 978
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Royal Pardon
+UnitPromotionIcons/Resistance
   rotate: false
   xy: 1644, 1786
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Royal Pardon
+  rotate: false
+  xy: 1852, 1994
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
