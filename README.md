@@ -1,4 +1,4 @@
-# Fire-Emblem-Civ
+# Fire-Emblem-Civilizations
 An UnCiv mod that brings Nintendo's Fire Emblem into the game, by adding custom nations, units and leaders!
 
 # Features:
