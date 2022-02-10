@@ -25,7 +25,48 @@
 		"requiredTech": "Masonry",
 		"uniques": ["Destroyed when the city is captured","[+1 Production] from every [Strategic Resource]"]
 	},
+	
+	{
+		"name": "Pegasi Stable",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniqueTo": "Kingdom of Ilia",
+		"replaces": "Stable",
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]", "[+15]% Production when constructing [Flying Mount] units [in this city]", "[+2 Gold] <after discovering [Flight]>", //Should yield tourism points
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
 
+	//Ilian Unique
+	{
+		"name": "Buy Small Food Portions",
+		"cost": "7",
+		"food": 1,
+		"uniqueTo": "Kingdom of Ilia",
+		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
+		"requiredTech": "Agriculture"
+	},
+	
+	{
+		"name": "Buy Medium Food Portions",
+		"cost": "55"
+		"food": 3,
+		"uniqueTo": "Kingdom of Ilia",
+		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
+		"requiredTech": "Agriculture"
+	},
+	
+	{
+		"name": "Buy Large Food Portions",
+		"food": 5,
+		"cost": "134"
+		"uniqueTo": "Kingdom of Ilia",
+		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
+		"requiredTech": "Agriculture"
+	},
 
 //Three Houses
 	{

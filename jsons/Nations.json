@@ -1,4 +1,9 @@
 [
+//Archanea
+
+//Valentia
+
+//Elibe
 	{
 		"name": "The Lycian League",
 		"leaderName": "Roy",
@@ -115,7 +120,7 @@
 		"favoredReligion": "Eliminism",
 		"startBias": ["Hill","Mountain"],
 		
-		"startIntroPart1": "Hail to you King Zephiel! The valiant king of Bern and the judicious descendant of Hartmut! You were a brilliant and a wise ruler with a great will to remove the corrupted rulers of this world which are men. With a great desire to uproot them and replace mankind with dragonkind who are not corrupted by the greed and the wrath of this world. Unfortunately, many were envious and were utter fools to understand your will and many nations have plotted to overthrow you and succeeded with such wicked plot, depraving this world with a just ruler."
+		"startIntroPart1": "Hail to you King Zephiel! The valiant king of Bern and the judicious descendant of Hartmut! You were a brilliant and a wise ruler with a great will to remove the corrupted rulers of this world which are men. With a great desire to uproot them and replace mankind with dragonkind who are not corrupted by the greed and the wrath of this world. Unfortunately, many were envious and were utter fools to understand your will and many nations have plotted to overthrow you and succeeded with such wicked plot, depraving this world with a just ruler.",
 		"startIntroPart2": "Fate does indeed works in mysterious for once again you were given a second chance to continue to pursue your dreams of ridding this world of the corruption that were caused by mankind. King Zephiel, do you have what it takes to rid this world of human rule? Can you lead mankind to their proper ruler? Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "I must put an end to the rule of men at all cost! And you shall not stop my ambition!",
@@ -141,5 +146,42 @@
 		"uniqueName": "A World Ruled by Dragonkind",
 		"uniques": ["[+2 Production] from every [Mountains] <after discovering [Mining]>","[+1 Production] from every [Mountains] <after discovering [Chemistry]>","[+1 Production] from every [Mountains] <after discovering [Dynamite]>","[-33]% unhappiness from population [in annexed cities]"], //Should not suffer from resistance penalties instead. Also +1 Production from mountains in an event after discovering dynamite instead.
 		"cities": ["Bern","Zuria","Gweneva","Churica","Valais","Freibourg","Holligen","Britefield","Altenburg","Könizia","Beruth","Alaman","Rosewerg","Lieberaum","Giswyl","Guivarum","Acturica","Thun","Lucren","Dragon Sanctuary","Shrine of Seals"]
+	},
+	
+	{
+		"name": "Kingdom of Ilia",
+		"leaderName": "Zelot",
+		"adjective": ["Ilian"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Eliminism",
+		"startBias": ["Snow"],
+		
+		"startIntroPart1": "Honor be to you Zelot, the just ruler of the Ilians, and the First King of our nation. Our proud nation lies within the Northmost of Elibe, making it prone to the harshest winter of this continent. Harvest is scarce and are easily ruined by the snow, thus forcing many to take arms and to work as a mercenary for the nobles and lords within the south, making the very foundation of our economy made out of blood and sacrifice. Although despite being a nation of mercenaries, many of us are just and honorable, making the Ilians one of the most trusted mercenaries throughout the land.",
+		"startIntroPart2": "King Zelot, the people need your guidance once more. Can you build a proud and prosperous nation? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "As much as I hate it, war is necessary for our people to survive.",
+		"attacked": "I will protect my people, even if it costs me death.",
+		"defeated": "Victory is yours... I hope Ilia will know peace under your rule.",
+		"introduction": "Well met glorious leader. I am Zelot, King of Ilia.",
+		
+		"neutralHello": "Welcome.",
+		"neutralLetsHearIt": ["I am listening.","Yes?","What about it?"],
+		"neutralNo": ["No.","Of course not.","This will not work."],
+		"neutralYes": ["This is good.","This shall work.","But of course."],
+
+		"hateHello": "Oh, it's you...",
+		"hateLetsHearIt": ["What is it?","What do you want?","Speak then."],
+		"hateNo": ["No.","I don't think so.","I'd rather not."],
+		"hateYes": ["Fine.","I have no choice.","This is good enough."],
+		
+		"afterPeace": "I may have been a warrior for so long, but that does not mean I enjoy the exploits of war.",
+		"tradeRequest": "This is the best that I can offer to you.",
+
+		"outerColor": [192,192,192],
+		"innerColor": [95, 102, 97],
+		"uniqueName": "Blades for Bread",
+		"uniqueText": "Receive triple Gold from Barbarian encampments and pillaging Cities. Can buy food for gold in cities, up to 9 food per cities.",
+		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","May buy [Buy Small Food Portions] buildings with [Gold] [in all cities]","May buy [Buy Medium Food Portions] buildings with [Gold] [in all cities]","May buy [Buy Large Food Portions] buildings with [Gold] [in all cities]"], //Pillaging Cities should not yield more gold.
+		"cities": ["Edessa","Carrhae","Remi","Bariganae","Port Amundsen","Frostomii","Arcticae","Arcuta","Verkut","Argana","Colport","Icylon","Fromotth","Stele","Avige","Mimel","Colmaria","Whitrun","Antartae","Valosa"]
 	}
 ]

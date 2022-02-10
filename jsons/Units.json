@@ -141,7 +141,7 @@
 		"replaces": "Lancer",
 		"movement": "6",
 		"strength": "36",
-		"cost": "195",
+		"cost": "200",
 		"uniqueTo": "Kingdom of Bern"
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
@@ -157,6 +157,38 @@
 		"uniqueTo": "Kingdom of Bern",
 		"uniques": ["Bonus for units in 2 tile radius 15%", "Can construct [Citadel]","Great Person - [War]", "Unbuildable", "Uncapturable","Can pass through impassable tiles","Ignores terrain cost"], //Hovering Unit
 		"movement": 6
+	},
+	
+	{
+		"name": "Pegasus Knight",
+		"unitType": "Flying Mount", 
+		"replaces": "Pikeman",
+		"movement": "5",
+		"strength": "18",
+		"cost": "120",
+		"uniqueTo": "Kingdom of Ilia"
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Falcon Knight",
+		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Can pass through impassable tiles","Ignores terrain cost","Upgrades to a stronger version"],
+		"promotions": ["Resistance I"],
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "Falcon Knight",
+		"unitType": "Flying Mount",
+		"replaces": "Lancer",
+		"movement": "6",
+		"strength": "28",
+		"cost": "195",
+		"uniqueTo": "Kingdom of Ilia"
+		"requiredTech": "Metallurgy",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Helicopter Gunship",
+		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Can pass through impassable tiles","Ignores terrain cost","Will not be displayed in Civilopedia"],
+		"promotions": ["Resistance I"],
+		"attackSound": "horse"
 	},
 	
 	{
