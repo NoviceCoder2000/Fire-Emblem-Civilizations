@@ -3,5 +3,10 @@
 		"name": "Binding Blade",
 		"resourceType": "Bonus",
 		"culture": 1
+	},
+	
+	{
+		"name": "Staves",
+		"resourceType": "Strategic",
 	}
 ]

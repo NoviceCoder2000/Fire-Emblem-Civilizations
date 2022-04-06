@@ -26,15 +26,17 @@
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
 	},
+	
 	{
 		"name": "Mastery II",
 		"prerequisites": ["Mastery I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
 	},
+	
 	{
 		"name": "Mastery III",
-		"prerequisites": ["Barrage II"],
+		"prerequisites": ["Mastery II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
 	},
@@ -42,12 +44,12 @@
 	{
 		"name": "Concentration",
 		"prerequisites": ["Retainment I","Mastery I"],
-		"uniques": ["[+50]% Strength <vs cities>"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
 	},
 	
 	{
-		"name": "Teleportation",
+		"name": "Warp",
 		"prerequisites": ["Retainment III","Mastery III"],
 		"uniques": ["Ignores terrain cost"],
 		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
@@ -59,7 +61,28 @@
 		"uniques": ["[+1] Range"],
 		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
 	},
-
+	
+	{
+		"name": "Torch",
+		"prerequisites": ["Staff I"],
+		"uniques": ["[+1] Sight","Can see over obstacles"],
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
+	},
+	
+	{
+		"name": "Sleep",
+		"prerequisites": ["Staff II"],
+		"uniques": ["May withdraw before melee ([25]%)"],
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
+	},
+	
+	{
+		"name": "Panic",
+		"prerequisites": ["Staff II"],
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
+	},
+	
 	{
 		"name": "Staff I",
 		"prerequisites": ["Retainment II", "Mastery II"],
@@ -84,7 +107,7 @@
 		"name": "Resistance II",
 		"prerequisites": ["Resistance I"],
 		"uniques": ["[+33]% Strength <vs [Dark Magic] units> <when defending>","[+33]% Strength <vs [Light Magic] units> <when defending>","[+33]% Strength <vs [Anima Magic] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted","Flying Mount","Dark Magic","Light Magic","Anima Magic","Lord Melee"]
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted","Flying Mount","Dark Magic","Light Magic","Anima Magic","Lord Melee","Lord Ranged","Lord Mounted","Lord Magic","King of Liberation"]
 	},
 	
 	{
@@ -247,7 +270,7 @@
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
-		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "All adjacent units heal [+5] HP when healing"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Flying Mount"]
 	},
 ]

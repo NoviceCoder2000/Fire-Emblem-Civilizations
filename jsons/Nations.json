@@ -41,7 +41,7 @@
 	},
 	
 	{
-		"name": "Duchy of Ostia",
+		"name": "Ostia",
 		"leaderName": "Lilina",
 		"adjective": ["Ostian"],
 		"preferredVictoryType": "Cultural",
@@ -72,7 +72,7 @@
 		"outerColor": [50,74,178],
 		"innerColor": [194,59,34],
 		"uniqueName": "Ostian Fortress",
-		"uniques": ["-[25]% Culture cost of acquiring tiles [in capital]","Gain a Free [Ostian Walls] [in capital]"],
+		"uniques": ["-[25]% Culture cost of natural border growth [in capital]","Gain a free [Ostian Walls] [in capital]"],
 		"cities": ["Castle Ostia","Thria","Caelin","Antica","Fusano","Levant","Fiumincia","Zigarinim","Pomezin","Aranova","Ardea","Aprilia","Anziticum","Vecolomi","Torvarian","Ardentum","Mare","Carpocot","Vittiny","Palidor"]
 	},
 	
@@ -109,11 +109,11 @@
 		"innerColor": [161, 2, 2],
 		"uniqueName": "Winds of the Plains",
 		"uniques": ["[+1 Culture] from every [Plains]","Double quantity of [Horses] produced"], //should be plains without Hills and Forest
-		"cities": ["Bulgar","Kutolah","Djute","Lorca","Mulagir","Hunnia","Mongul","Siogna","Scituma","Transokur","Korum-Korum","Sogdiakar","Sianba","Saramatu","Taliver","Thraka","Gokturka","Turkkikik","Cumani","Kipapachak","Manchupiuka","Berbrik","Kazakahal","Bedou-ani","Sintikop"]
+		"cities": ["Bulgar","Kutolah","Djute","Lorca","Taras","Mulagir","Hunnia","Mongul","Siogna","Scituma","Transokur","Korum-Korum","Sogdiakar","Sianba","Saramatu","Taliver","Thraka","Gokturka","Turkkikik","Cumani","Kipapachak","Manchupiuka","Berbrik","Kazakahal","Bedou-ani","Sintikop"]
 	},
 	
 	{
-		"name": "Kingdom of Bern",
+		"name": "Bern",
 		"leaderName": "Zephiel",
 		"adjective": ["Bernese"],
 		"preferredVictoryType": "Domination",
@@ -149,7 +149,7 @@
 	},
 	
 	{
-		"name": "Kingdom of Ilia",
+		"name": "Ilia",
 		"leaderName": "Zelot",
 		"adjective": ["Ilian"],
 		"preferredVictoryType": "Domination",
@@ -183,5 +183,75 @@
 		"uniqueText": "Receive triple Gold from Barbarian encampments and pillaging Cities. Can buy food for gold in cities, up to 9 food per cities.",
 		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","May buy [Buy Small Food Portions] buildings with [Gold] [in all cities]","May buy [Buy Medium Food Portions] buildings with [Gold] [in all cities]","May buy [Buy Large Food Portions] buildings with [Gold] [in all cities]"], //Pillaging Cities should not yield more gold.
 		"cities": ["Edessa","Carrhae","Remi","Bariganae","Port Amundsen","Frostomii","Arcticae","Arcuta","Verkut","Argana","Colport","Icylon","Fromotth","Stele","Avige","Mimel","Colmaria","Whitrun","Antartae","Valosa"]
+	},
+	
+	{
+		"name": "Etruria",
+		"leaderName": "Myrddin",
+		"adjective": ["Etrurian"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Eliminism",
+		
+		"startIntroPart1": "Peace and Grace be upon you Prince Myrddin! Descendant of the Holy Saint, Elimine! Your life as a prince was a tragic tale as you were put into danger by coupists, loyal to the warmongering nation of Bern, but with the help of General Douglas, you were able to escape. You were forced to flee your home towards the colonies within the west, and took the moniker of 'Elffin,' helping those who were in need, not knowing you are the Prince of Etruria. After meeting General Roy within the Western Isles, you agreed to help him defeat the Bernese invaders and liberated your homeland together with him, and vanquished the threat of the Demon Dragon Idunn.",
+		"startIntroPart2": "With victory achieved, you can now return home and meet your beloved father as well as show yourself to your people again. Prince Myrddin, Etruria will be needing you as it's crown prince. Can you restore the lands to it's former glory? Can you bring the people back together? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I view war as pointless, but not if it threatens my people. So brace yourself!",
+		"attacked": "I see... I could only lament for the fate of our people.",
+		"defeated": "How cruel fate must be! To exile myself once more from the place that I call home.",
+		"introduction": "Hello there, me? My name is Myrddin, Prince of Etruria. Tell me, have you heard about the tales of a bard named Elffin?"
+		
+		"neutralHello": "Hello.",
+		"neutralLetsHearIt": ["I am interested.","Yes?","What is it?"],
+		"neutralNo": ["I cannot accept it.","Of course not.","I disagree to this."],
+		"neutralYes": ["Of course.","I accept it.","Good enough."],
+
+		"hateHello": "Yes?",
+		"hateLetsHearIt": ["What?","Let's waste no time then.","Speak then."],
+		"hateNo": ["No.","It shall not work","I shall not accept it."],
+		"hateYes": ["Very well.","Good.","This is enough."],
+		
+		"afterPeace": "May the Holy Saint bless you for your mercy.",
+		"tradeRequest": "This is the best that I can offer to you.",
+
+		"outerColor": [137,207,240],
+		"innerColor": [254, 246, 91],
+		"uniqueName": "Home of the Scouring Saint",
+		"uniques": ["[+3 Faith] [in capital] <after discovering [Calendar]>", "[+2 Faith] [in all cities] <after discovering [Philosophy]>"],
+		"cities": ["Aquilea","Reglay","Eburacum","Jutes","Armagh","Edina","Port Caledon","Greater Fibernia","Lesser Fibernia","Eliminuria","Gador","Barucia","La-Croiss","Pont Regal","Alicia","Frumentia","Caroscia","Gela","Partanna","Sicillia","Antalonica","Fremont","Port Salerno","Lacostina","Forontinae","Cassini"]
+	},
+	
+	{
+		"name": "Nabata",
+		"leaderName": "Sophia",
+		"adjective": ["Nabatan"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Eliminism",
+		
+		"startIntroPart1": "A Thousand Blessings be upon you, Sophia! Prophetess of Nabata! Being born as a half-human, half-dragon, you are blessed with a very long lasting life. you were as well as blessed with the ability to forsee the future, making you as Nabata's prophetess. But years had passed, the Harmony in Arcadia never lasted as the ambitious empire of Bern have devoured the lands and engulfed it within the flames of war. But despite it, hope was not yet lost as a Great Hero named Roy came and lead his way to liberate what was once a sanctuary between men and dragonkind. And together with him, you have joined into the fray to quell the threat that was brought by the Demon Dragon Idunn.",
+		"startIntroPart2": "With Ingrene gone and Nabata ruined by the war, you have no choice but to restore what was once a peaceful land. Lady Sophia, are you up to this challenge? Can you build what was once a sanctuary between men and dragons? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Harmony will only be restored if the bringer of chaos is stopped.",
+		"attacked": "So... Th-This is what the visions have meant. I should have known better.",
+		"defeated": "The future... I see nothing but darkness for us.",
+		"introduction": "H-Hello... I am Sophia the prophet of Nabata. Here in Arcadia we live in peace along with dragons. I hope both of us can do the same as well.",
+		
+		"neutralHello": "H-Hello.",
+		"neutralLetsHearIt": ["I am listening.","Yes?","What is it?"],
+		"neutralNo": ["No.","It pleases me, but I must refuse.","Unfortunately, I cannot accept."],
+		"neutralYes": ["This is good.","This shall work.","But of course."],
+
+		"hateHello": "",
+		"hateLetsHearIt": ["Hmm?","Hmm...","I hear you."],
+		"hateNo": ["I cannot agree.","I need to decline.","I cannot accept."],
+		"hateYes": ["This is fine.","I cannot reject it.","I must accept it."],
+		
+		"afterPeace": "Peace... At last.",
+		"tradeRequest": "This is the best that I can offer to you.",
+
+		"outerColor": [153,102,204],
+		"innerColor": [125, 176, 255],
+		"uniqueName": "Harmony Between Men and Dragons",
+		"uniques": ["[25]% Yield from every [Fresh Water] <while the empire is happy> <upon discovering [Civil Service]>","[10]% [Science] [in all non-occupied cities] <during a Golden Age>"],
+		"cities": ["Arcadia","Kaftir","Missur","Petrae","Damascia","Ridal","Ridalyah","Akalamaria","Lundarr","Kasserine","Syrycause","Hakasimun","Sanadin","Reminum","Jadarf","Hurufi"]
 	}
 ]

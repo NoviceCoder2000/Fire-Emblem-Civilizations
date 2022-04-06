@@ -17,7 +17,7 @@
 	{
 		"name": "Ostian Walls",
 		"cost": "75",
-		"uniqueTo": "Duchy of Ostia",
+		"uniqueTo": "Ostia",
 		"replaces": "Walls",
 		"cityStrength": 6,
 		"cityHealth": 75,
@@ -31,7 +31,7 @@
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
-		"uniqueTo": "Kingdom of Ilia",
+		"uniqueTo": "Ilia",
 		"replaces": "Stable",
 		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]", "[+15]% Production when constructing [Flying Mount] units [in this city]", "[+2 Gold] <after discovering [Flight]>", //Should yield tourism points
 			"[+1 Production] from [Cattle] tiles [in this city]",
@@ -45,7 +45,7 @@
 		"name": "Buy Small Food Portions",
 		"cost": "7",
 		"food": 1,
-		"uniqueTo": "Kingdom of Ilia",
+		"uniqueTo": "Ilia",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
 		"requiredTech": "Agriculture"
 	},
@@ -54,7 +54,7 @@
 		"name": "Buy Medium Food Portions",
 		"cost": "55"
 		"food": 3,
-		"uniqueTo": "Kingdom of Ilia",
+		"uniqueTo": "Ilia",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
 		"requiredTech": "Agriculture"
 	},
@@ -63,9 +63,44 @@
 		"name": "Buy Large Food Portions",
 		"food": 5,
 		"cost": "134"
-		"uniqueTo": "Kingdom of Ilia",
+		"uniqueTo": "Ilia",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
 		"requiredTech": "Agriculture"
+	},
+	
+	{
+		"name": "Church of St. Elimine",
+		"faith": 3,
+		"replaces": "Temple",
+		"uniqueTo": "Etruria",
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled","Destroyed when the city is captured","Provides [1] [Staves]"]
+	},
+	
+	{
+		"name": "Water Temple",
+		"cost": 125,
+		"culture": 2,
+		"faith": 5,
+		"uniqueTo": "Nabata",
+		"replaces": "Grand Temple",
+		"uniques": ["Cost increases by [30] per owned city","Must be next to [Fresh water]","[+2 Science] from [Oasis] tiles [in all cities]","[+2 Science] from [Lakes] tiles [in all cities]"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
+	
+	{
+		"name": "Dragon Library",
+		"replaces": "Library",
+		"uniqueTo": "Nabata",
+		"hurryCostModifier": 25,
+		"culture": 3,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
 	},
 
 //Three Houses

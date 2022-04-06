@@ -1,9 +1,9 @@
 [
-	//Elibean
+	//Elibean FE6
 	{
 		"name": "Armored Knight",
 		"unitType": "Armored",
-		"uniqueTo": "Duchy of Ostia",
+		"uniqueTo": "Ostia",
 		"replaces": "Pikeman",
 		"movement": 1,
 		"strength": 23,
@@ -19,7 +19,7 @@
 	{
 		"name": "General",
 		"unitType": "Armored",
-		"uniqueTo": "Duchy of Ostia",
+		"uniqueTo": "Ostia",
 		"replaces": "Lancer",
 		"movement": 2,
 		"strength": 32,
@@ -127,7 +127,7 @@
 		"movement": "5",
 		"strength": "24",
 		"cost": "120",
-		"uniqueTo": "Kingdom of Bern"
+		"uniqueTo": "Bern"
 		"requiredTech": "Civil Service",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Wyvern Lord",
@@ -142,7 +142,7 @@
 		"movement": "6",
 		"strength": "36",
 		"cost": "200",
-		"uniqueTo": "Kingdom of Bern"
+		"uniqueTo": "Bern"
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Helicopter Gunship",
@@ -154,9 +154,52 @@
 		"name": "Wyvern General",
 		"unitType": "Civilian",
 		"replaces": "Great General",
-		"uniqueTo": "Kingdom of Bern",
+		"uniqueTo": "Bern",
 		"uniques": ["Bonus for units in 2 tile radius 15%", "Can construct [Citadel]","Great Person - [War]", "Unbuildable", "Uncapturable","Can pass through impassable tiles","Ignores terrain cost"], //Hovering Unit
 		"movement": 6
+	},
+	
+	{
+		"name": "Priest",
+		"unitType": "Civilian",
+		"uniqueTo": "Etruria",
+		"upgradesTo": "Bishop",
+		"requiredTech": "Theology"
+		"obsoleteTech": "Archaeology"
+		"requiredResource": "Staves",
+		"movement": 2,
+		"promotions": ["Staff I","Resistance I"]
+		"uniques": ["Upgrades to a stronger version"]
+	},
+	
+	{
+		"name": "Bishop",
+		"unitType": "Light Magic",
+		"uniqueTo": "Etruria",
+		"upgradesTo": "Modern Bishop",
+		"requiredTech": "Archaeology",
+		"obsoleteTech": "Pharmaceuticals"
+		"requiredResource": "Staves",
+		"movement": 2,
+		"range": 2,
+		"strength": 18,
+		"rangedStrength": 28,
+		"uniques": ["Will not be displayed in Civilopedia","Upgrades to stronger versions"]
+		"attackSound": "Light"
+	},
+	
+	{
+		"name": "Modern Bishop",
+		"unitType": "Light Magic",
+		"uniqueTo": "Etruria",
+		"requiredTech": "Pharmaceuticals",
+		"requiredResource": "Staves",
+		"movement": 2,
+		"range": 2,
+		"strength": 40,
+		"rangedStrength": 65,
+		"uniques": ["Will not be displayed in Civilopedia","Upgrades to stronger versions"]
+		"attackSound": "Light"
 	},
 	
 	{
@@ -166,7 +209,7 @@
 		"movement": "5",
 		"strength": "18",
 		"cost": "120",
-		"uniqueTo": "Kingdom of Ilia"
+		"uniqueTo": "Ilia"
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Falcon Knight",
@@ -182,7 +225,7 @@
 		"movement": "6",
 		"strength": "28",
 		"cost": "195",
-		"uniqueTo": "Kingdom of Ilia"
+		"uniqueTo": "Ilia"
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Helicopter Gunship",
@@ -290,6 +333,8 @@
 		"promotions": ["Noble Fortitude","Royal Pardon"],
 		"attackSound": "metalhit"
 	},
+	
+	//Elibean FE7
 	
 	//Magvelian
 ]
