@@ -14,6 +14,13 @@ https://thenounproject.com/icon/dragon-4052228/
 Pegasus by m. turan ercan from NounProject.com - (Ilia)
 https://thenounproject.com/icon/pegasus-1092224/
 
+Dragon by Kevin from NounProject.com - (Nabata)
+https://thenounproject.com/icon/dragon-3890628/
+
+Cross by José Manuel de Laá from NounProject.com - (Etruria)
+https://thenounproject.com/icon/cross-41280/
+
+
 Unit Icons:
 
 //Elibean
@@ -53,7 +60,14 @@ https://thenounproject.com/icon/winged-unicorn-120156/
 Pegasus Knight by Bakunetsu Kaito from NounProject.com
 https://thenounproject.com/icon/pegasus-1023756/
 
+Wizard Staff by Juicy Fish from NounProject.com - (Priest Icon)
+https://thenounproject.com/icon/wizard-staff-4243138/
 
+Shine by ainul muttaqin from NounProject.com - (Bishop Icon)
+https://thenounproject.com/icon/shine-3675013/
+
+
+//Fe8
 Shaman - by Kyle Tezak, US from the Noun Project
 https://thenounproject.com/search/?q=Pentacle&i=96279
 
@@ -96,6 +110,17 @@ https://thenounproject.com/icon/meal-3407874/
 Meat by Eucalyp from NounProject.com - (Large Food Portions)
 https://thenounproject.com/icon/meat-2290673/
 
+Pyramid by luca orlandini from NounProject.com - (Water Temple)
+https://thenounproject.com/icon/pyramid-26760/
+
+Library by Asheeqa from NounProject.com - (Dragon Library)
+https://thenounproject.com/icon/library-4048338/
+
+Church by Lil Squid from NounProject.com - (Church of St Elimine)
+https://thenounproject.com/icon/church-26222/
+
+Library by Asheeqa from NounProject.com
+
 //Promotion Icons
 Forgive by Adrien Coquet from NounProject.com
 https://thenounproject.com/icon/forgive-3203768/
@@ -115,6 +140,35 @@ https://thenounproject.com/icon/gold-crown-3699799/
 Shield by kareemovic3000 from NounProject.com
 https://thenounproject.com/icon/shield-2376325/
 
+Fire by Bohdan Burmich from NounProject.com (Torch)
+https://thenounproject.com/icon/fire-258305/
+
+Sleep by Jae Deasigner from NounProject.com (Sleep)
+https://thenounproject.com/icon/sleep-3330994/
+
+Panic by Samy Menai from NounProject.com (Panic)
+https://thenounproject.com/icon/panic-231861/
+
+Teleport by agus raharjo from NounProject.com (Warp)
+https://thenounproject.com/icon/teleport-4728539/
+
+Wizard Staff by Francisco Gonzalez from NounProject.com (Staff)
+https://thenounproject.com/icon/wizard-staff-4554457/
+
+Teleport by agus raharjo from NounProject.com (Warp)
+https://thenounproject.com/icon/teleport-4728539/
+
+Meteor Shower by merkavah from NounProject.com (Retainment)
+https://thenounproject.com/icon/meteor-shower-1903704/
+
+Pentacle by Smalllike from NounProject.com (Mastery)
+https://thenounproject.com/icon/pentacle-2408000/
+
+Tome by Ben Davis from NounProject.com (Tomebreaker)
+https://thenounproject.com/icon/tome-1848676/
+
+Mental Concentration by sachin modgekar from NounProject.com (Concenctration)
+https://thenounproject.com/icon/mental-concentration-1576429/
 
 //Religion Icons
 Sparkle by OneShoot from NounProject.com - (Eliminism)
@@ -130,3 +184,6 @@ https://www.youtube.com/watch?v=0j0zCCkfjYw&list=WL&index=8&t=44s&ab_channel=gaz
 
 Distant Travels - gazpacho 146
 https://www.youtube.com/watch?v=lXhsrEkVhhI&t=37s&ab_channel=gazpacho146
+
+SFX:
+Light Magic: https://www.youtube.com/watch?v=oh9FVzZGr1Y&ab_channel=SmashupMashups
