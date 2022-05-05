@@ -335,6 +335,37 @@
 	},
 	
 	//Elibean FE7
+	{
+		"name": "Thief",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "The Black Fang",
+		"movement": 2,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Steel",
+		"upgradesTo": "Assassin",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit"
+		"promotions": ["Swipe"]
+		"uniques": ["Can be upgraded to stronger version","May withdraw before melee ([33]%)"],
+	},
+	
+	{
+		"name": "Assassin",
+		"unitType": "Sword",
+		"replaces": "Musketman"
+		"uniqueTo": "The Black Fang",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+		"uniques": ["Will not be displayed in Civilopedia","[+100] Strength <when attacking> <with [15]% chance>","May withdraw before melee ([33]%)"],
+	},
 	
 	//Magvelian
 ]

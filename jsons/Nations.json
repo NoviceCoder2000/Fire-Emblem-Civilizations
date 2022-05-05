@@ -81,7 +81,7 @@
 		"leaderName": "Sue",
 		"adjective": ["Sacaean"],
 		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Eliminism",
+		"favoredReligion": "Naturism",
 		"startBias": ["Plains"],
 		
 		"startIntroPart1": "May Father Sky and Mother Earth grace you o' lady Sue, Doe of the Plains! The land of Sacae was once a peaceful place to live within. It can be found within the north of the Kingdom of Bern and South of Ilia, and has a such vast plains where many enjoys the life of the nomad. Though from time to time, it was raided and attacked by the banditry, the lands were still a place where many nomadic tribes choose to settle. Though all of it changed when Zephiel invaded as he pursues his ambition of forging a world, ruled by dragons which was paved by the blood of many. You were later captured by those loyal to Zephiel and were supposedly used as a bargaining tool to the Silver Wolf, which is your grandfather but were liberated by General Roy of the Lycian army before it even happened, and together you fought the war with him until the downfall of Bern."
@@ -108,7 +108,8 @@
 		"outerColor": [73, 159, 28],
 		"innerColor": [161, 2, 2],
 		"uniqueName": "Winds of the Plains",
-		"uniques": ["[+1 Culture] from every [Plains]","Double quantity of [Horses] produced"], //should be plains without Hills and Forest
+		"uniqueText": "+1 Culture from every Plains without terrain features. Double quantity of Horses produced."
+		"uniques": ["[+1 Culture] from every [Plains] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]>","Double quantity of [Horses] produced"], 
 		"cities": ["Bulgar","Kutolah","Djute","Lorca","Taras","Mulagir","Hunnia","Mongul","Siogna","Scituma","Transokur","Korum-Korum","Sogdiakar","Sianba","Saramatu","Taliver","Thraka","Gokturka","Turkkikik","Cumani","Kipapachak","Manchupiuka","Berbrik","Kazakahal","Bedou-ani","Sintikop"]
 	},
 	
@@ -253,5 +254,42 @@
 		"uniqueName": "Harmony Between Men and Dragons",
 		"uniques": ["[25]% Yield from every [Fresh Water] <while the empire is happy> <upon discovering [Civil Service]>","[10]% [Science] [in all non-occupied cities] <during a Golden Age>"],
 		"cities": ["Arcadia","Kaftir","Missur","Petrae","Damascia","Ridal","Ridalyah","Akalamaria","Lundarr","Kasserine","Syrycause","Hakasimun","Sanadin","Reminum","Jadarf","Hurufi"]
-	}
+	},
+	
+	
+	//FE7 
+	{
+		"name": "The Black Fang",
+		"leaderName": "Nergal",
+		"adjective": ["Black Fang"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Eliminism",
+		
+		"startIntroPart1": "Glory to you Lord Nergal! O' powerful one and the mastermind behind the Fang! Athos and his meddling ways for your dreams of achieving your power has been a long trife for your aspiration of being the most powerful being in Elibe. Urging you to stop over your ingenious experiment of sucking away quintessence from living beings. But eventually banishing you from Arcadia by force. Expelling you for hundreds of years into the dark. Leaving you mortally wounded forever leaving the scar, that is marked on your face. But then you found the perfect opportunity in the midst of your trial: The Black Fang, a League of Assassins. With your cunningness, you had managed to manipulate them from the dark thanks to your ability to craft morphs, spawning Sonia and Limstella as false allies for their foolish leaders to listen to. Leaving you, their shadowy leader, controlling them from the dark.",
+		"startIntroPart2": "Lord Nergal, the time has come. Athos is now at your mercy thanks to the power you have been witholding, and there is no one else to stop you from your dreams. Can you conquer the strongest to become the one on top? Can you make the Black Fang grow even stronger than before? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Your quintessence is mine! Mine! All mine!",
+		"attacked": "Hehehe... Fool!",
+		"defeated": "Nooo! Why? Why must I lose now? Not without... Achieving my true potential!",
+		"introduction": "So... It seems you have finally found me. Hehehe! A pleasure to meet you.",
+		
+		"neutralHello": "Greetings...",
+		"neutralLetsHearIt": ["Hmmmm?","Yes?","Go ahead."],
+		"neutralNo": ["No.","Not.","Unacceptable."],
+		"neutralYes": ["It pleases me.","Excellent.","Just as what I wanted."],
+
+		"hateHello": "Hehehe...",
+		"hateLetsHearIt": ["Hmm?","What!?","Speak!"],
+		"hateNo": ["Never!","Hah!","Stop wasting my time!"],
+		"hateYes": ["Good... good.","I can accept this.","Heh."],
+		
+		"afterPeace": "This war has bored me either way.",
+		"tradeRequest": "You better accept this. It shall serve you well...",
+
+		"outerColor": [0,0,51],
+		"innerColor": [204,204,0],
+		"uniqueName": "The Fang's Judgement", //Espionage based unique, must be replaced by it once espionage has been implemented.
+		"uniques": ["\"Borrows\" city names from other civilizations in the game", "[+2] Movement <when at war>", "[Land] units gain the [The Fang Watches] promotion"],
+		"cities": ["Valor"]
+	},
 ]

@@ -126,7 +126,22 @@
 		"name": "Noble Fortitude", // should be exclusive to lord units only
 		"uniques": ["[+100]% XP gained from combat"]
 	},
+	
+	{
+		"name": "Swipe", // should be unique to thief
+		"uniques": ["Earn [50]% of the damage done to [Land] units as [Gold]"]
+	},
 
+	{
+		"name": "Ransack",
+		"prerequisites": ["Swipe"],
+		"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]","[+50]% Strength <vs cities>"]
+	},
+	
+	{
+		"name": "The Fang Watches",
+		"uniques": ["Can see over obstacles"]
+	}
 
 	//Updated for New Unit Types
 	{
