@@ -155,7 +155,7 @@
 		"unitType": "Civilian",
 		"replaces": "Great General",
 		"uniqueTo": "Bern",
-		"uniques": ["Bonus for units in 2 tile radius 15%", "Can construct [Citadel]","Great Person - [War]", "Unbuildable", "Uncapturable","Can pass through impassable tiles","Ignores terrain cost"], //Hovering Unit
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]","Great Person - [War]", "Unbuildable", "Uncapturable","Can pass through impassable tiles","Ignores terrain cost"], //Hovering Unit
 		"movement": 6
 	},
 	
@@ -365,6 +365,106 @@
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 		"uniques": ["Will not be displayed in Civilopedia","[+100] Strength <when attacking> <with [15]% chance>","May withdraw before melee ([33]%)"],
+	},
+	
+	{
+		"name": "Lyn (Medieval)",
+		"unitType": "Lord Melee",
+		"uniqueTo": "Sacaean Confederacy",
+		"movement": "2",
+		"strength": "20",
+		"cost": "80",
+		"hurryCostModifier": "20",
+		"requiredTech": "Metal Casting",
+		"requiredResource": "Binding Blade"
+		"upgradesTo": "Lyn (Renaissance)",
+		"uniques": ["Can be upgraded each era","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Lyn (Renaissance)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Lyn (Industrial)",
+		"movement": "2",
+		"strength": "25",
+		"cost": "175",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Sacaean Confederacy",
+		"requiredTech": "Gunpowder",
+		"requiredResource": "Binding Blade"
+		"obsoleteTech": "Rifling",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Lyn (Industrial)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Blade Lord Lyn (Modern)",
+		"movement": "2",
+		"strength": "35",
+		"cost": "250",
+		"hurryCostModifier": "20",
+		"uniqueTo": "The Lycian League",
+		"requiredTech": "Rifling",
+		"requiredResource": "Binding Blade",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Blade Lord Lyn (Modern)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Blade Lord Lyn (Atomic)",
+		"movement": "2",
+		"strength": "65",
+		"cost": "375",
+		"hurryCostModifier": "20",
+		"uniqueTo": "The Lycian League",
+		"requiredTech": "Replaceable Parts",
+		"requiredResource": "Binding Blade",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Blade Lord Lyn (Atomic)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Blade Lord Lyn (Information)",
+		"movement": "2",
+		"strength": "75",
+		"cost": "375",
+		"hurryCostModifier": "20",
+		"uniqueTo": "The Lycian League",
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Binding Blade"
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Blade Lord Lyn (Information)",
+		"unitType": "Lord Melee",
+		"movement": "2",
+		"strength": "90",
+		"cost": "400",
+		"hurryCostModifier": "20",
+		"uniqueTo": "The Lycian League",
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Binding Blade",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
 	},
 	
 	//Magvelian
