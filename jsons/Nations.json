@@ -31,7 +31,7 @@
 		"outerColor": [65,105,225],
 		"innerColor": [200,170,132],
 		"uniqueName": "The Hero-King",
-		"uniques": ["[+5 Happiness, +3 Culture, +3 Science] from every [Palace] <before the [Industrial Era]>"],
+		"uniques": ["[+5 Happiness, +2 Culture, +2 Science] from every [Palace] <before the [Industrial Era]>"],
 		"cities": ["Castle Altea","Aritia","Sera","Anrisa","Marcelin","Aretin","Marcondia","Rolan","Casseli","Calendor","Gohor","Rolassia","Alitia","Vinlyia","Herokiv",]
 	},
 
