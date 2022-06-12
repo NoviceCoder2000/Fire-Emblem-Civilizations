@@ -1,4 +1,16 @@
 [
+//Archanea 
+	{
+		"name": "Drill Grounds",
+		"cost": "50",
+		"replaces": "Barracks",
+		"uniqueTo": "Altea",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["New [Military] units start with [20] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+
 //FE6
 	{
 		"name": "Marquess's Castle",
@@ -135,5 +147,14 @@
 	"isNationalWonder": true,
 	"uniqueTo": "The Lycian League",
 	"uniques": ["Unsellable","Free [Roy (Medieval)] appears","Will not be displayed in Civilopedia","Provides [1] [Binding Blade]","Cannot be purchased"]
+	}
+	
+	{
+	"name": "Falchion",
+	"cost": "200",
+	"requiredTech": "Metal Casting",
+	"isNationalWonder": true,
+	"uniqueTo": "Altea",
+	"uniques": ["Unsellable","Free [Marth (Medieval)] appears","Will not be displayed in Civilopedia","Provides [1] [Falchion]","Cannot be purchased"]
 	}
 ]

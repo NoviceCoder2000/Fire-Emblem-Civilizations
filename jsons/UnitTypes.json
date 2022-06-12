@@ -3,25 +3,25 @@
     {
         "name": "Lord Melee",
         "movementType": "Land",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [3] tiles"]
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"]
     },
 	
 	{
 		"name": "Lord Ranged",
 		"movementType": "Land",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [3] tiles"]
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"]
 	},
 	
 	{
 		"name": "Lord Magic",
 		"movementType": "Land",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [3] tiles"]
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"]
 	},
 	
 	{
 		"name": "Lord Mounted",
 		"movementType": "Land",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [3] tiles"]
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"]
 	},
 	
 	//Magic

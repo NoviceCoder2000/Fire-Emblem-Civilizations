@@ -1,4 +1,105 @@
 [
+	//Archanean
+		{
+		"name": "Marth (Medieval)",
+		"unitType": "Lord Melee",
+		"uniqueTo": "Altea",
+		"movement": "2",
+		"strength": "20",
+		"cost": "80",
+		"hurryCostModifier": "20",
+		"requiredTech": "Metal Casting",
+		"requiredResource": "Falchion"
+		"upgradesTo": "Marth (Renaissance)",
+		"uniques": ["Can be upgraded each era","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Marth (Renaissance)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Marth (Industrial)",
+		"movement": "2",
+		"strength": "25",
+		"cost": "175",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Altea"
+		"requiredTech": "Gunpowder",
+		"requiredResource": "Falchion"
+		"obsoleteTech": "Rifling",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Marth (Industrial)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Hero-King Marth (Modern)",
+		"movement": "2",
+		"strength": "35",
+		"cost": "250",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Altea",
+		"requiredTech": "Rifling",
+		"requiredResource": "Falchion",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Hero-King Marth (Modern)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Hero-King Marth (Atomic)",
+		"movement": "2",
+		"strength": "65",
+		"cost": "375",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Altea",
+		"requiredTech": "Replaceable Parts",
+		"requiredResource": "Falchion",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Hero-King Marth (Atomic)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Hero-King Marth (Information)",
+		"movement": "2",
+		"strength": "75",
+		"cost": "375",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Altea",
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Falchion"
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Hero-King Marth (Information)",
+		"unitType": "Lord Melee",
+		"movement": "2",
+		"strength": "90",
+		"cost": "400",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Altea",
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Falchion",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+
 	//Elibean FE6
 	{
 		"name": "Armored Knight",

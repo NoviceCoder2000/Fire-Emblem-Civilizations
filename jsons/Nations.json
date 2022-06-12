@@ -1,5 +1,39 @@
 [
 //Archanea
+	{
+		"name": "Altea",
+		"leaderName": "Marth",
+		"adjective": ["Altean"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "Hail to you King Marth, son of King Cornelius and descendant of the Legendary Hero, Anri. Altea is a small peaceful kingom, residing within heart of the lands of Archanea.",
+		"startIntroPart2": "",
+		
+		"declaringWar": "As much as I disdain war, such acts of cruelty is unacceptable! So prepare yourself!",
+		"attacked": "I will protect my friends and my people no matter what!",
+		"defeated": "How could I fail..? My cause is nothing but... just...",
+		"introduction": "Greetings to you, I am Marth, heir to the Altean throne. My people refer to me as the 'Hero-King', although you can call me 'friend'.",
+		
+		"neutralHello": "Peace.",
+		"neutralLetsHearIt": ["Go ahead.","You have my attention.","I am listening."],
+		"neutralNo": ["We refuse this offer.","No.","Of course not."],
+		"neutralYes": ["Very well.","Brillant.","Of course."],
+
+		"hateHello": "What?",
+		"hateLetsHearIt": ["You spoke?","Hurry then.","Say it."],
+		"hateNo": ["That's enough.","I shall never!","That is unjust."],
+		"hateYes": ["Hmm...","Very well.","It's all well."],
+		
+		"afterPeace": "So much losses and death. I pray that such tragedy shall not repeat ever again.",
+		"tradeRequest": "Greetings, does this trade sounds fair to you?",
+
+		"outerColor": [65,105,225],
+		"innerColor": [200,170,132],
+		"uniqueName": "The Hero-King",
+		"uniques": ["[+5 Happiness, +3 Culture, +3 Science] from every [Palace] <before the [Industrial Era]>"],
+		"cities": ["Castle Altea","Aritia","Sera","Anrisa","Marcelin","Aretin","Marcondia","Rolan","Casseli","Calendor","Gohor","Rolassia","Alitia","Vinlyia","Herokiv",]
+	},
 
 //Valentia
 
@@ -71,7 +105,7 @@
 
 		"outerColor": [50,74,178],
 		"innerColor": [194,59,34],
-		"uniqueName": "Ostian Fortress",
+		"uniqueName": "The Delightful Ruler",
 		"uniques": ["-[25]% Culture cost of natural border growth [in capital]","Gain a free [Ostian Walls] [in capital]"],
 		"cities": ["Castle Ostia","Thria","Caelin","Antica","Fusano","Levant","Fiumincia","Zigarinim","Pomezin","Aranova","Ardea","Aprilia","Anziticum","Vecolomi","Torvarian","Ardentum","Mare","Carpocot","Vittiny","Palidor"]
 	},
@@ -252,7 +286,7 @@
 		"outerColor": [153,102,204],
 		"innerColor": [125, 176, 255],
 		"uniqueName": "Harmony Between Men and Dragons",
-		"uniques": ["[25]% Yield from every [Fresh Water] <while the empire is happy> <upon discovering [Civil Service]>","[10]% [Science] [in all non-occupied cities] <during a Golden Age>"],
+		"uniques": ["[25]% Yield from every [Fresh Water] <while the empire is happy> <upon discovering [Civil Service]>","[15]% [Science] [in all non-occupied cities] <during a Golden Age>"],
 		"cities": ["Arcadia","Kaftir","Missur","Petrae","Damascia","Ridal","Ridalyah","Akalamaria","Lundarr","Kasserine","Syrycause","Hakasimun","Sanadin","Reminum","Jadarf","Hurufi"]
 	},
 	
@@ -291,5 +325,5 @@
 		"uniqueName": "The Fang's Judgement", //Espionage based unique, must be replaced by it once espionage has been implemented.
 		"uniques": ["\"Borrows\" city names from other civilizations in the game", "[+2] Movement <when at war>", "[Land] units gain the [The Fang Watches] promotion"],
 		"cities": ["Valor"]
-	},
+	}
 ]
