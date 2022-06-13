@@ -7,8 +7,8 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 		
-		"startIntroPart1": "Hail to you King Marth, son of King Cornelius and descendant of the Legendary Hero, Anri. Altea is a small peaceful kingom, residing within heart of the lands of Archanea.",
-		"startIntroPart2": "",
+		"startIntroPart1": "Hail to you King Marth, son of king Cornelius and descendant of the legendary hero, Anri. Altea is a small peaceful kingom, residing within the heart of the continent of Archanea, founded by Anri himself. For generations, the kingdom lived in peace, not until Dolhr instigated war, led by Medeus after being revived by Gharnef, starting the 'War of Shadows.' Within this time you have lived in great trials and hardship as you witnessed the death of your mother and father from the hands of Gra, a once trusted ally after being backstabbed in the battlefield. As well as having your sister Elice be held as a prisoner of war. But Medeus was ultimately defeated but returned once more after not more than half a decade later, after Gharnef revived him, starting the 'War of Heroes' but were defeated for good. After the war ends, Archanea were led into eons of peace, and you were wed to the woman you loved, the beautiful princess of Talys, Caeda. And have united the whole continent under the Archanean banner, and ruled the continent in peace for the rest of your days.",
+		"startIntroPart2": "King Marth, times are changing. The people no longer requires a great hero, but a wise ruler as well. Can you usher a new era of peace? Or will Altea shall be plunged into war, once more? Can you build a civilization that can stand the test of time?",
 		
 		"declaringWar": "As much as I disdain war, such acts of cruelty is unacceptable! So prepare yourself!",
 		"attacked": "I will protect my friends and my people no matter what!",
@@ -31,7 +31,7 @@
 		"outerColor": [65,105,225],
 		"innerColor": [200,170,132],
 		"uniqueName": "The Hero-King",
-		"uniques": ["[+5 Happiness, +2 Culture, +2 Science] from every [Palace] <before the [Industrial era]>"],
+		"uniques": ["[+5 Happiness, +2 Culture, +2 Production] from every [Palace] <before the [Industrial era]>"],
 		"cities": ["Castle Altea","Aritia","Sera","Anrisa","Marcelin","Aretin","Marcondia","Rolan","Casseli","Calendor","Gohor","Rolassia","Alitia","Vinlyia","Herokiv",]
 	},
 
@@ -47,7 +47,7 @@
 		"favoredReligion": "Eliminism",
 		
 		"startIntroPart1": "May the favor of Elimine, may be given upon you o' master Roy, The brave descendant of Roland! For years, Lycia has been a loosely connected set of lands held by different Marquesses. There is no real unity among us and were constantly divided by conflicting interests. This was the case until the Kingdom of Bern has decided to wage war across the whole continet of Elibe, subduing many countries and people to their control. But under your guidance despite being such a young man within the age of 15, you were able to defeat the most powerful kingdom in the continent and even had defeated the Demon Dragon Idunn with your own hands.",
-		"startIntroPart2": "Master Roy, times has changed, the people needs you to lead for once more. Can you unite the people once more? Can you bring peace to this world of chaos? Can you build a great civilization that can stand the test of time?",
+		"startIntroPart2": "Master Roy, times has changed, the people needs you to lead for once more. Can you unite the people once more? Can you bring peace to this world of chaos? Can you build a civilization that can stand the test of time?",
 		
 		"declaringWar": "I am not keen in engaging in war, but your hostilities are unacceptable. Therefore, prepare for war!",
 		"attacked": "What did we do to deserve this? Black-heart! I shall not allow you to hurt my people!",
