@@ -4,897 +4,933 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-LeaderIcons/Alm
-  rotate: false
-  xy: 4, 976
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-LeaderIcons/Corrin
-  rotate: false
-  xy: 556, 1528
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-LeaderIcons/Eliwood
-  rotate: false
-  xy: 4, 468
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-LeaderIcons/Ephraim
-  rotate: false
-  xy: 1064, 1528
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-LeaderIcons/Hector
-  rotate: false
-  xy: 512, 976
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-LeaderIcons/L'Arachel
-  rotate: false
-  xy: 512, 468
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-LeaderIcons/Lilina
-  rotate: false
-  xy: 1020, 1020
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-LeaderIcons/Lyn
-  rotate: false
-  xy: 1020, 512
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-LeaderIcons/Lyon
-  rotate: false
-  xy: 1528, 1020
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-LeaderIcons/Medeus
-  rotate: false
-  xy: 4, 1484
-  size: 544, 544
-  orig: 544, 544
-  offset: 0, 0
-  index: -1
-LeaderIcons/Myrddin
-  rotate: false
-  xy: 1528, 512
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-LeaderIcons/Nergal
-  rotate: false
-  xy: 1020, 4
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-LeaderIcons/Roy
-  rotate: false
-  xy: 1528, 4
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-
-game2.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
 BuildingIcons/Binding Blade
   rotate: false
-  xy: 262, 320
+  xy: 778, 1052
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Buy Large Food Portions
   rotate: false
-  xy: 1574, 1844
+  xy: 1294, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Buy Medium Food Portions
   rotate: false
-  xy: 512, 539
+  xy: 1552, 1826
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Buy Small Food Portions
   rotate: false
-  xy: 1782, 1844
+  xy: 4, 20
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Church of St. Elimine
   rotate: false
-  xy: 843, 1336
+  xy: 1760, 1826
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Dragon Library
   rotate: false
-  xy: 1051, 1340
+  xy: 262, 120
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Drill Grounds
   rotate: false
-  xy: 843, 1128
+  xy: 470, 536
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Falchion
   rotate: false
-  xy: 1228, 1548
+  xy: 470, 120
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Fang Headquarters
   rotate: false
-  xy: 1259, 1132
+  xy: 678, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Marquess's Castle
   rotate: false
-  xy: 1644, 1636
+  xy: 1244, 1310
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Ostian Walls
   rotate: false
-  xy: 928, 712
+  xy: 886, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Pegasi Stable
   rotate: false
-  xy: 928, 504
+  xy: 886, 170
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Water Temple
   rotate: false
-  xy: 1344, 508
+  xy: 1610, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Ger
   rotate: false
-  xy: 1260, 396
+  xy: 1560, 994
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+LeaderIcons/Alm
+  rotate: false
+  xy: 4, 1776
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Corrin
+  rotate: false
+  xy: 4, 1518
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Eliwood
+  rotate: false
+  xy: 262, 1776
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Ephraim
+  rotate: false
+  xy: 4, 1260
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
 LeaderIcons/Hardin
   rotate: false
-  xy: 1020, 1756
-  size: 288, 288
-  orig: 288, 288
+  xy: 262, 1518
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Hector
+  rotate: false
+  xy: 520, 1776
+  size: 250, 250
+  orig: 250, 250
   offset: 0, 0
   index: -1
 LeaderIcons/Innes
   rotate: false
-  xy: 4, 270
+  xy: 4, 1002
   size: 250, 250
   orig: 250, 250
   offset: 0, 0
   index: -1
 LeaderIcons/Joshua
   rotate: false
-  xy: 512, 955
+  xy: 262, 1260
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/L'Arachel
+  rotate: false
+  xy: 520, 1518
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Lilina
+  rotate: false
+  xy: 778, 1776
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Lyn
+  rotate: false
+  xy: 4, 744
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Lyon
+  rotate: false
+  xy: 262, 1002
   size: 250, 250
   orig: 250, 250
   offset: 0, 0
   index: -1
 LeaderIcons/Marth
   rotate: false
-  xy: 1316, 1794
+  xy: 520, 1260
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Medeus
+  rotate: false
+  xy: 778, 1518
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Myrddin
+  rotate: false
+  xy: 1036, 1776
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Nergal
+  rotate: false
+  xy: 4, 486
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Roy
+  rotate: false
+  xy: 262, 744
   size: 250, 250
   orig: 250, 250
   offset: 0, 0
   index: -1
 LeaderIcons/Sirius
   rotate: false
-  xy: 512, 1213
-  size: 323, 323
-  orig: 323, 323
+  xy: 520, 1002
+  size: 250, 250
+  orig: 250, 250
   offset: 0, 0
   index: -1
 LeaderIcons/Sophia
   rotate: false
-  xy: 4, 1544
-  size: 500, 500
-  orig: 500, 500
+  xy: 778, 1260
+  size: 250, 250
+  orig: 250, 250
   offset: 0, 0
   index: -1
 LeaderIcons/Sue
   rotate: false
-  xy: 4, 1036
-  size: 500, 500
-  orig: 500, 500
+  xy: 1036, 1518
+  size: 250, 250
+  orig: 250, 250
   offset: 0, 0
   index: -1
 LeaderIcons/Zelot
   rotate: false
-  xy: 512, 1544
-  size: 500, 500
-  orig: 500, 500
+  xy: 1294, 1776
+  size: 250, 250
+  orig: 250, 250
   offset: 0, 0
   index: -1
 LeaderIcons/Zephiel
   rotate: false
-  xy: 4, 528
-  size: 500, 500
-  orig: 500, 500
+  xy: 4, 228
+  size: 250, 250
+  orig: 250, 250
   offset: 0, 0
   index: -1
 NationIcons/Altea
   rotate: false
-  xy: 1852, 1736
+  xy: 1302, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Bern
   rotate: false
-  xy: 720, 396
+  xy: 1302, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Etruria
   rotate: false
-  xy: 1044, 396
+  xy: 1918, 1718
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Grust
+  rotate: false
+  xy: 1560, 886
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Ilia
   rotate: false
-  xy: 1368, 400
+  xy: 1668, 1044
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nabata
   rotate: false
-  xy: 1476, 400
+  xy: 1668, 936
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Ostia
   rotate: false
-  xy: 720, 288
+  xy: 1776, 1036
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Sacae
   rotate: false
-  xy: 828, 288
+  xy: 1776, 928
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Sacaean Confederacy
   rotate: false
-  xy: 828, 288
+  xy: 1776, 928
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Black Fang
   rotate: false
-  xy: 1044, 288
+  xy: 1776, 820
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Lycian League
   rotate: false
-  xy: 1152, 288
+  xy: 212, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Eliminism
   rotate: false
-  xy: 936, 396
+  xy: 1410, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Nagaism
   rotate: false
-  xy: 1584, 400
+  xy: 1818, 1252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Naturism
   rotate: false
-  xy: 1692, 400
+  xy: 1818, 1144
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Binding Blade
   rotate: false
-  xy: 828, 396
+  xy: 1410, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Falchion
   rotate: false
-  xy: 1152, 396
+  xy: 1918, 1610
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Staves
   rotate: false
-  xy: 936, 288
+  xy: 1668, 828
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Armored Knight
   rotate: false
-  xy: 1574, 1804
+  xy: 520, 754
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Assassin
   rotate: false
-  xy: 470, 488
+  xy: 778, 1012
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bishop
   rotate: false
-  xy: 1316, 1758
+  xy: 1036, 1274
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Modern Bishop
   rotate: false
-  xy: 1316, 1758
+  xy: 1036, 1274
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Cavalier
+  rotate: false
+  xy: 1294, 1532
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Falcon Knight
   rotate: false
-  xy: 1467, 1134
+  xy: 1552, 1790
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/General
   rotate: false
-  xy: 262, 280
+  xy: 936, 804
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Lord Roy (Atomic)
   rotate: false
-  xy: 1852, 1638
+  xy: 1194, 1062
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Lord Roy (Information)
   rotate: false
-  xy: 1852, 1638
+  xy: 1194, 1062
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Lord Roy (Modern)
   rotate: false
-  xy: 1852, 1638
+  xy: 1194, 1062
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hero-King Marth (Atomic)
   rotate: false
-  xy: 1318, 356
+  xy: 1452, 1320
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hero-King Marth (Information)
   rotate: false
-  xy: 1318, 356
+  xy: 1452, 1320
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hero-King Marth (Modern)
   rotate: false
-  xy: 1318, 356
+  xy: 1452, 1320
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Marth (Industrial)
   rotate: false
-  xy: 470, 448
+  xy: 1710, 1578
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Marth (Medieval)
   rotate: false
-  xy: 470, 448
+  xy: 1710, 1578
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Marth (Renaissance)
   rotate: false
-  xy: 470, 448
+  xy: 1710, 1578
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Myrmidon
   rotate: false
-  xy: 302, 280
+  xy: 1352, 854
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Paladin
+  rotate: false
+  xy: 1610, 1112
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pegasus Knight
   rotate: false
-  xy: 1356, 1758
+  xy: 1884, 1108
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Priest
   rotate: false
-  xy: 1396, 1758
+  xy: 212, 192
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Roy (Industrial)
   rotate: false
-  xy: 1892, 1638
+  xy: 320, 22
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Roy (Medieval)
   rotate: false
-  xy: 1892, 1638
+  xy: 320, 22
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Roy (Renaissance)
   rotate: false
-  xy: 1892, 1638
+  xy: 320, 22
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsmaster
   rotate: false
-  xy: 1318, 316
+  xy: 560, 754
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Thief
   rotate: false
-  xy: 470, 408
+  xy: 818, 1012
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wooden Cavalry
+  rotate: false
+  xy: 976, 804
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wyvern General
   rotate: false
-  xy: 342, 280
+  xy: 1234, 1062
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wyvern Lord
   rotate: false
-  xy: 470, 368
+  xy: 1492, 1320
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wyvern Rider
   rotate: false
-  xy: 382, 280
+  xy: 1750, 1578
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 UnitIcons/Armored Knight
   rotate: false
-  xy: 1020, 1548
+  xy: 262, 536
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Assassin
   rotate: false
-  xy: 4, 62
+  xy: 520, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Bishop
   rotate: false
-  xy: 512, 747
+  xy: 1036, 1310
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Modern Bishop
   rotate: false
-  xy: 512, 747
+  xy: 1036, 1310
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Cavalier
+  rotate: false
+  xy: 262, 328
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Druid
   rotate: false
-  xy: 1051, 1132
+  xy: 470, 328
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Falcon Knight
   rotate: false
-  xy: 1259, 1340
+  xy: 728, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/General
   rotate: false
-  xy: 770, 920
+  xy: 678, 378
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Great Lord Roy (Atomic)
   rotate: false
-  xy: 720, 712
+  xy: 678, 170
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Great Lord Roy (Information)
   rotate: false
-  xy: 720, 712
+  xy: 678, 170
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Great Lord Roy (Modern)
   rotate: false
-  xy: 720, 712
+  xy: 678, 170
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Hero-King Marth (Atomic)
   rotate: false
-  xy: 720, 504
+  xy: 986, 1052
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Hero-King Marth (Information)
   rotate: false
-  xy: 720, 504
+  xy: 986, 1052
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Hero-King Marth (Modern)
   rotate: false
-  xy: 720, 504
+  xy: 986, 1052
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Mage Knight
   rotate: false
-  xy: 1436, 1586
+  xy: 936, 844
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Marth (Industrial)
   rotate: false
-  xy: 1467, 1378
+  xy: 1194, 1102
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Marth (Medieval)
   rotate: false
-  xy: 1467, 1378
+  xy: 1194, 1102
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Marth (Renaissance)
   rotate: false
-  xy: 1467, 1378
+  xy: 1194, 1102
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Myrmidon
   rotate: false
-  xy: 1467, 1170
+  xy: 1502, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Nomad
   rotate: false
-  xy: 1675, 1428
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/Nomadic Cavalry
-  rotate: false
-  xy: 1675, 1220
+  xy: 1452, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Nomadic Trooper
   rotate: false
-  xy: 978, 920
+  xy: 1710, 1618
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Paladin
+  rotate: false
+  xy: 886, 378
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Pegasus Knight
   rotate: false
-  xy: 1186, 924
+  xy: 1144, 844
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Priest
   rotate: false
-  xy: 1394, 924
+  xy: 1094, 636
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Roy (Industrial)
   rotate: false
-  xy: 212, 62
+  xy: 1094, 428
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Roy (Medieval)
   rotate: false
-  xy: 212, 62
+  xy: 1094, 428
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Roy (Renaissance)
   rotate: false
-  xy: 212, 62
+  xy: 1094, 428
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Shaman
   rotate: false
-  xy: 1675, 1012
+  xy: 1094, 220
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Swordsmaster
   rotate: false
-  xy: 1136, 712
+  xy: 1402, 1102
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Thief
   rotate: false
-  xy: 1136, 504
+  xy: 1352, 894
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Troubadour
   rotate: false
-  xy: 1344, 716
+  xy: 1660, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Wooden Cavalry
+  rotate: false
+  xy: 1302, 636
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wyvern General
   rotate: false
-  xy: 1552, 716
+  xy: 1302, 428
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wyvern Lord
   rotate: false
-  xy: 1552, 508
+  xy: 1302, 220
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wyvern Rider
   rotate: false
-  xy: 512, 331
+  xy: 1094, 12
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Concentration
   rotate: false
-  xy: 4, 4
+  xy: 1968, 1976
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Flier Shield
   rotate: false
-  xy: 62, 4
+  xy: 320, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mastery
   rotate: false
-  xy: 120, 4
+  xy: 1968, 1918
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Noble Fortitude
   rotate: false
-  xy: 178, 4
+  xy: 378, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Panic
   rotate: false
-  xy: 236, 4
+  xy: 1968, 1860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ransack
   rotate: false
-  xy: 294, 4
+  xy: 436, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Resistance
   rotate: false
-  xy: 352, 4
+  xy: 494, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Retainment
   rotate: false
-  xy: 410, 4
+  xy: 552, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Royal Pardon
   rotate: false
-  xy: 1990, 1994
+  xy: 610, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sleep
   rotate: false
-  xy: 770, 1155
+  xy: 678, 112
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Staff
   rotate: false
-  xy: 1852, 1678
+  xy: 736, 112
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Swipe
   rotate: false
-  xy: 1260, 338
+  xy: 794, 112
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/The Fang Watches
   rotate: false
-  xy: 1990, 1936
+  xy: 852, 112
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Tomebreaker
   rotate: false
-  xy: 1990, 1878
+  xy: 910, 112
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Torch
   rotate: false
-  xy: 1910, 1678
+  xy: 968, 112
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Warp
   rotate: false
-  xy: 1260, 280
+  xy: 1026, 112
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

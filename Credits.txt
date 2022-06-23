@@ -1,4 +1,8 @@
 Nations Icons:
+//FE1
+Shield by 4urbrand from NounProject.com - (Grust)
+https://thenounproject.com/icon/shield-4870500/
+
 Axe by Nurutdinov Timur from NounProject.com - (Ostia)
 https://thenounproject.com/icon/axe-30512/
 
@@ -23,7 +27,14 @@ https://thenounproject.com/icon/cross-41280/
 Shield by Creative Stall from NounProject.com - (Altea)
 https://thenounproject.com/icon/shield-147953/
 
-//
+FE7
+Fangs by Phạm Thanh Lộc from NounProject.com - (Black Fang)
+https://thenounproject.com/icon/fangs-3028646/
+
+Unit Icons:
+
+//Archanea
+
 FE1
 Crown by OneShoot from NounProject.com
 https://thenounproject.com/icon/crown-1811667/
@@ -31,11 +42,13 @@ https://thenounproject.com/icon/crown-1811667/
 Tiara by useiconic.com from NounProject.com
 https://thenounproject.com/icon/tiara-45352/
 
-FE7
-Fangs by Phạm Thanh Lộc from NounProject.com - (Black Fang)
-https://thenounproject.com/icon/fangs-3028646/
+Arbalest by Lars Meiertoberens from NounProject.com
+https://thenounproject.com/icon/arbalest-4559039/
 
-Unit Icons:
+(Cavalier) https://thenounproject.com/icon/horse-riding-145966/
+
+Crusader by Anton from NounProject.com - (Paladin)
+https://thenounproject.com/icon/crusader-384561/
 
 //Elibean
 Armored Knight Icon - by Andrejs Kirma, LV  from the Noun Project
@@ -49,9 +62,6 @@ https://thenounproject.com/search/?q=Archer+Cavalry&i=440130
 
 Nomadic Trooper Icon - By farra nugraha, ID 
 https://thenounproject.com/search/?q=Sword&i=3901164
-
-Nomadic Cavalry - Sabre by Robert Bjurshagen from NounProject.com
-https://thenounproject.com/icon/sabre-124591/
 
 Myrmidon - Sword by Athok from NounProject.com
 https://thenounproject.com/icon/sword-4530524/
