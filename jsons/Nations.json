@@ -6,6 +6,7 @@
 		"adjective": ["Altean"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Nagaism",
 		
 		"startIntroPart1": "Hail to you King Marth, son of king Cornelius and descendant of the legendary hero, Anri. Altea is a small peaceful kingom, residing within the heart of the continent of Archanea, founded by Anri himself. For generations, the kingdom lived in peace, not until Dolhr instigated war, led by Medeus after being revived by Gharnef, starting the 'War of Shadows.' Within this time you have lived in great trials and hardship as you witnessed the death of your mother and father from the hands of Gra, a once trusted ally after being backstabbed in the battlefield. As well as having your sister Elice be held as a prisoner of war. But Medeus was ultimately defeated but returned once more after not more than half a decade later, after Gharnef revived him, starting the 'War of Heroes' but were defeated for good. After the war ends, Archanea were led into eons of peace, and you were wed to the woman you loved, the beautiful princess of Talys, Caeda. And have united the whole continent under the Archanean banner, and ruled the continent in peace for the rest of your days.",
 		"startIntroPart2": "King Marth, times are changing. The people no longer requires a great hero, but a wise ruler as well. Can you usher a new era of peace? Or will Altea shall be plunged into war, once more? Can you build a civilization that can stand the test of time?",
@@ -35,6 +36,42 @@
 		"cities": ["Castle Altea","Aritia","Sera","Anrisa","Marcelin","Aretin","Marcondia","Rolan","Casseli","Calendor","Gohor","Rolassia","Alitia","Vinlyia","Herokiv",]
 	},
 
+	{
+		"name": "Grust",
+		"leaderName": "Sirius",
+		"adjective": ["Grustian"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Nagaism",
+		
+		"startIntroPart1": "Honor to you Sir Sirius, noble soldier of Grust! Your name 'Sirius' is just a mere guise to your true identiy, whom you were formerly known as 'Camus the Sable', the man who were once the great general of the Sable Order, though all of it changed after leading the capture to the princess of Archanea, Nyna, your relatioship with her were at first were filled with hate, but over time, the hatred that was felt turned into love. Though fate is truly cruel after Medeus ordered her capture and you were forced to fight hundred of his soldiers as you desert from your post along with a few but loyal followers, Princess Nyna managed to escape, but at the expense of you being held prisoner and tortured for days. Eventually Medeus gave you a second chance, but were forced to turn your blade against Prince Marth and, Nyna whom you love but were defeated and were thought to be dead. But you later re-emerged within the lands of Valentia, there you have fought for Emperor Rudolf and were eventually ordered to follow a man with a mark on his hand which was the Saint-King Alm. After the war in Valentia was over, your memories returned and came back for one final battle against Medeus, which shall lead into the 'War of Heroes'.",
+		"startIntroPart2": "'To live as a knight and to die as one', that is your oath. And for once more, Grust requires your services. Sir Sirius, shall you lead Grust back into it's former glory? Are you still a worthy Sable Knight? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "If you wish to truly prove yourself, then demonstrate your mettle to me!",
+		"attacked": "T'is a shame, for regret shall come, too late for you to even realize it.",
+		"defeated": "Tatiana... Sorry.",
+		"introduction": "I am Sirius! I am nothing but a mere servant of Grust. If you seek peace, then you are welcome here.",
+		
+		"neutralHello": "Yes?",
+		"neutralLetsHearIt": ["Go ahead.","You have my attention.","I am listening."],
+		"neutralNo": ["Nay.","No.","Of course not."],
+		"neutralYes": ["Excellent.","You have my agreement.","By all means."],
+
+		"hateHello": "What?",
+		"hateLetsHearIt": ["You spoke?","Hurry then.","Say it."],
+		"hateNo": ["By no means.","You must be joking.","Never."],
+		"hateYes": ["Fine.","Hmph.","I must agree."],
+		
+		"afterPeace": "I shall yield this war to you. You have my respect.",
+		"tradeRequest": "Think carefully of this offer.",
+
+		"outerColor": [203,96,21],
+		"innerColor": [255,219,81],
+		"uniqueName": "Sable Order",
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in all cities]","Free [Great General] appears <after adopting [Honor]>","[Great General] is earned [+50]% faster <after adopting [Military Tradition]>"],
+		"cities": ["Grust","Olbern Castle","Holm","Grunia","Chiasmir","Ordwinum","Blatoise","Pyrenes","Occitane","Grayfor","Cerny","Furoge","Bernede","Ariol","Souna","Saligos","Visos","Pruos","Barges","Loudes"]
+	},
+
 //Valentia
 
 //Elibe
@@ -46,7 +83,7 @@
 		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Eliminism",
 		
-		"startIntroPart1": "May the favor of Elimine, may be given upon you o' master Roy, The brave descendant of Roland! For years, Lycia has been a loosely connected set of lands held by different Marquesses. There is no real unity among us and were constantly divided by conflicting interests. This was the case until the Kingdom of Bern has decided to wage war across the whole continet of Elibe, subduing many countries and people to their control. But under your guidance despite being such a young man within the age of 15, you were able to defeat the most powerful kingdom in the continent and even had defeated the Demon Dragon Idunn with your own hands.",
+		"startIntroPart1": "May the favor of Elimine, may be given upon you o' master Roy, The son of Eliwood and the brave descendant of Roland! For years, Lycia has been a loosely connected set of lands held by different Marquesses. There is no real unity among us and were constantly divided by conflicting interests. This was the case until the Kingdom of Bern has decided to wage war across the whole continet of Elibe, subduing many countries and people to their control. But under your guidance despite being such a young man within the age of 15, you were able to defeat the most powerful kingdom in the continent and even had defeated the Demon Dragon Idunn with your own hands.",
 		"startIntroPart2": "Master Roy, times has changed, the people needs you to lead for once more. Can you unite the people once more? Can you bring peace to this world of chaos? Can you build a civilization that can stand the test of time?",
 		
 		"declaringWar": "I am not keen in engaging in war, but your hostilities are unacceptable. Therefore, prepare for war!",

@@ -2,6 +2,41 @@
 
 //New Promotions
 
+	{
+		"name": "Wooden Cavalry",
+		"uniques": ["Unlocks Exclusive Promotions"],
+	},
+	
+	{
+		"name": "Stonehoist",
+		"prerequisites": ["Wooden Cavalry"]
+		"uniques": ["[+100]% Strength <vs cities>"],
+	},
+	
+	{
+		"name": "Arrowspate",
+		"prerequisites": ["Wooden Cavalry"]
+		"uniques": ["[+100]% Strength <vs [Flying Mount] units>","[+50]% Strength <vs [Helicopter] units>"],
+	},
+	
+	{
+		"name": "Thunderbolt",
+		"prerequisites": ["Wooden Cavalry"]
+		"uniques": ["[+50]% Strength <vs [Armored] units>"],
+	},
+	
+	{
+		"name": "Hoistflamme",
+		"prerequisites": ["Wooden Cavalry"]
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+	},
+	
+	{
+		"name": "Pachyderm",
+		"prerequisites": ["Hoistflamme"]
+		"uniques": ["[+20]% Strength <when fighting in [Forest] tiles>","[+20]% Strength <when fighting in [Jungle] tiles>","[+25]% Strength <when fighting in [Grassland] tiles>"],
+	},
+	
 //Magical Units
 	{
 		"name": "Retainment I",

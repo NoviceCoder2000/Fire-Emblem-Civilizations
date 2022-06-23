@@ -99,6 +99,57 @@
 		"promotions": ["Noble Fortitude","Royal Pardon"],
 		"attackSound": "metalhit"
 	},
+	
+	{
+		"name": "Wooden Cavalry",
+		"unitType": "Siege",
+		"uniqueTo": "Grust",
+		"replaces": "Trebuchet",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 14,
+		"cost": 120,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Chemistry",
+		"upgradesTo": "Cannon",
+		"uniques": ["No defensive terrain bonus"],
+		"promotions": ["Wooden Cavalry"],
+		"attackSound": "throw"
+	},
+	
+	{
+		"name": "Cavalier",
+		"unitType": "Mounted",
+		"uniqueTo": "Grust",
+		"replaces": "Horseman"
+		"movement": 4,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Paladin",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","Updgrades to a stronger version"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "Paladin",
+		"unitType": "Mounted",
+		"uniqueTo": "Grust",
+		"replaces": "Knight",
+		"movement": 5,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Will not be displayed in Civilopedia"],
+		"promotions": ["Resistance I"]
+		"attackSound": "horse"
+	},
 
 	//Elibean FE6
 	{
@@ -148,7 +199,7 @@
 		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Nomadic Trooper",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Upgrades to stronger versions"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "arrow"
 	},
 	
@@ -168,24 +219,6 @@
 		"promotions": ["Mobility"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Will not be displayed in Civilopedia"],
 		"attackSound": "arrow"
-	},
-	
-	{
-		"name": "Nomadic Cavalry",
-		"unitType": "Ranged Gunpowder",
-		"uniqueTo": "Sacae",
-		"replaces": "Cavalry",
-		"cost": "225",
-		"range": "1",
-		"movement": "4",
-		"strength": "34",
-		"rangedStrength": "34",
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Landship",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Will not be displayed in Civilopedia"],
-		"attackSound": "shot"
 	},
 	
 	{
