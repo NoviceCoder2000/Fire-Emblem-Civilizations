@@ -68,7 +68,7 @@
 		"outerColor": [203,96,21],
 		"innerColor": [255,219,81],
 		"uniqueName": "Sable Order",
-		"uniques": ["[+15]% Production when constructing [Mounted] units [in all cities]","Free [Great General] appears <after adopting [Honor]>","[Great General] is earned [+50]% faster <after adopting [Military Tradition]>"],
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in all cities]","Starts with [Honor] adopted","[Great General] is earned [+50]% faster <after adopting [Military Tradition]>"],
 		"cities": ["Grust","Olbern Castle","Holm","Grunia","Chiasmir","Ordwinum","Blatoise","Pyrenes","Occitane","Grayfor","Cerny","Furoge","Bernede","Ariol","Souna","Saligos","Visos","Pruos","Barges","Loudes"]
 	},
 
@@ -216,7 +216,7 @@
 		"outerColor": [67, 27, 107],
 		"innerColor": [207, 209, 86],
 		"uniqueName": "A World Ruled by Dragonkind",
-		"uniques": ["[+2 Production] from every [Mountains] <after discovering [Mining]>","[+1 Production] from every [Mountains] <after discovering [Chemistry]>","[+1 Production] from every [Mountains] <after discovering [Dynamite]>","[-33]% unhappiness from population [in annexed cities]"], //Should not suffer from resistance penalties instead. Also +1 Production from mountains in an event after discovering dynamite instead.
+		"uniques": ["[+2 Production] from every [Mountains] <after discovering [Mining]>","[+1 Production] from every [Mountains] <after discovering [Chemistry]>","[+1 Production] from every [Mountains] <after discovering [Dynamite]>","[-33]% Unhappiness from [Population] [in annexed cities]"], //Should not suffer from resistance penalties instead. Also +1 Production from mountains in an event after discovering dynamite instead.
 		"cities": ["Bern","Zuria","Gweneva","Churica","Valais","Freibourg","Holligen","Britefield","Altenburg","Könizia","Beruth","Alaman","Rosewerg","Lieberaum","Giswyl","Guivarum","Acturica","Thun","Lucren","Dragon Sanctuary","Shrine of Seals"]
 	},
 	
@@ -323,12 +323,49 @@
 		"outerColor": [153,102,204],
 		"innerColor": [125, 176, 255],
 		"uniqueName": "Harmony Between Men and Dragons",
-		"uniques": ["[25]% Yield from every [Fresh Water] <while the empire is happy> <upon discovering [Civil Service]>","[15]% [Science] [in all non-occupied cities] <during a Golden Age>"],
+		"uniques": ["[50]% Yield from every [Fresh Water] <while the empire is happy> <upon discovering [Civil Service]>","[15]% [Science] [in all non-occupied cities] <during a Golden Age>"],
 		"cities": ["Arcadia","Kaftir","Missur","Petrae","Damascia","Ridal","Ridalyah","Akalamaria","Lundarr","Kasserine","Syrycause","Hakasimun","Sanadin","Reminum","Jadarf","Hurufi"]
 	},
 	
 	
-	//FE7 
+//FE7
+	
+	{
+		"name": "Sacaean",
+		"leaderName": "Lyn",
+		"adjective": ["Sacaean"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Naturism",
+		"startBias": ["Plains"],
+		
+		"startIntroPart1": "A thousand blessings upon you, and may a thousand curses may rain upon your foes, Lady Lyn; The Noblewoman of Sacae."
+		"startIntroPart2": "Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "You have brought too much suffering within this world. I cannot allow you to hurt many more people!",
+		"attacked": "We shal",
+		"defeated": "You people call yourselves civilized men, but in my eyes you are nothing but glorified barbarians. Sacae shall be free one day, remember that.",
+		"introduction": "Hello! I am Lyn of Sacae. May a thousand blessings be bestowed upon you friend.",
+		
+		"neutralHello": "Welcome.",
+		"neutralLetsHearIt": ["Need anything friend?","I shall lend my ears","I hear you."],
+		"neutralNo": ["Certainly not.","Sorry.","It shall not work."],
+		"neutralYes": ["Of course.","Certainly.","Gladly."],
+
+		"hateHello": "Why did YOU come here?",
+		"hateLetsHearIt": ["Say it.","Go.","Waste no time then."],
+		"hateNo": ["No.","Absolutely not.","Never."],
+		"hateYes": ["I have no option.","It shall work.","I must accept it."],
+		
+		"afterPeace": "I am grateful for you, giving peace a chance once more.",
+		"tradeRequest": "I shall offer you the finest of Sacae.",
+
+		"outerColor": [135,206,235],
+		"innerColor": [0,100,0],
+		"uniqueName": "Sacaean Valor",
+		"uniques": ["[+1] Movement <in [Plains] tiles>","+[10]% combat bonus for units fighting in [Plains]","[+17]% Strength <vs [Barbarian] units>"], 
+		"cities": ["Bulgar","Kutolah","Djute","Lorca","Taras","Mulagir","Hunnia","Mongul","Siogna","Scituma","Transokur","Korum-Korum","Sogdiakar","Sianba","Saramatu","Taliver","Thraka","Gokturka","Turkkikik","Cumani","Kipapachak","Manchupiuka","Berbrik","Kazakahal","Bedou-ani","Sintikop"]
+	},		
+
 	{
 		"name": "The Black Fang",
 		"leaderName": "Nergal",
@@ -363,4 +400,8 @@
 		"uniques": ["\"Borrows\" city names from other civilizations in the game", "[+2] Movement <when at war>", "[Land] units gain the [The Fang Watches] promotion"],
 		"cities": ["Valor"]
 	}
+
+//Magvelian
+
 ]
+

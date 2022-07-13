@@ -129,7 +129,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Paladin",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","Updgrades to a stronger version"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Updgrades to a stronger version"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -146,7 +146,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Will not be displayed in Civilopedia"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Will not be displayed in Civilopedia"],
 		"promotions": ["Resistance I"]
 		"attackSound": "horse"
 	},
@@ -265,7 +265,7 @@
 		"requiredTech": "Civil Service",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Wyvern Lord",
-		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Can pass through impassable tiles","Ignores terrain cost","Upgrades to a stronger version"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Can pass through impassable tiles","Ignores terrain cost","Upgrades to a stronger version"],
 		"attackSound": "metalhit"
 	},
 	
@@ -280,7 +280,7 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Helicopter Gunship",
-		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Can pass through impassable tiles","Ignores terrain cost","Will not be displayed in Civilopedia"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Can pass through impassable tiles","Ignores terrain cost","Will not be displayed in Civilopedia"],
 		"attackSound": "metalhit"
 	},
 	
@@ -347,7 +347,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Falcon Knight",
-		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Can pass through impassable tiles","Ignores terrain cost","Upgrades to a stronger version"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Can pass through impassable tiles","Ignores terrain cost","Upgrades to a stronger version"],
 		"promotions": ["Resistance I"],
 		"attackSound": "horse"
 	},
@@ -363,7 +363,7 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Helicopter Gunship",
-		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Can pass through impassable tiles","Ignores terrain cost","Will not be displayed in Civilopedia"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Can pass through impassable tiles","Ignores terrain cost","Will not be displayed in Civilopedia"],
 		"promotions": ["Resistance I"],
 		"attackSound": "horse"
 	},
@@ -602,4 +602,10 @@
 	},
 	
 	//Magvelian
+	
+	
+	
+	//Draconic Barbarians
+
+	//Undead Barbarians
 ]
