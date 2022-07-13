@@ -487,86 +487,100 @@ TileSets/FantasyHex/Units/Myrmidon
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Paladin
+TileSets/FantasyHex/Units/Nomad
   rotate: false
   xy: 1352, 846
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Nomadic Trooper
+  rotate: false
+  xy: 1610, 1104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Paladin
+  rotate: false
+  xy: 1668, 880
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Pegasus Knight
   rotate: false
-  xy: 1610, 1108
+  xy: 1776, 1108
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Priest
   rotate: false
-  xy: 1668, 884
+  xy: 1726, 942
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Roy (Industrial)
   rotate: false
-  xy: 1776, 1104
+  xy: 560, 746
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Roy (Medieval)
   rotate: false
-  xy: 1776, 1104
+  xy: 560, 746
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Roy (Renaissance)
   rotate: false
-  xy: 1776, 1104
+  xy: 560, 746
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsmaster
   rotate: false
-  xy: 1726, 938
+  xy: 818, 1004
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Thief
   rotate: false
-  xy: 560, 746
+  xy: 976, 796
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wooden Cavalry
   rotate: false
-  xy: 818, 1004
+  xy: 1234, 1054
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wyvern General
   rotate: false
-  xy: 976, 796
+  xy: 1492, 1312
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wyvern Lord
   rotate: false
-  xy: 1234, 1054
+  xy: 212, 140
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wyvern Rider
   rotate: false
-  xy: 1492, 1312
+  xy: 1750, 1570
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
