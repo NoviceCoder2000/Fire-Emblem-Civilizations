@@ -330,41 +330,7 @@
 	
 //FE7
 	
-	{
-		"name": "Sacaean",
-		"leaderName": "Lyn",
-		"adjective": ["Sacaean"],
-		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Naturism",
-		"startBias": ["Plains"],
-		
-		"startIntroPart1": "A thousand blessings upon you, and may a thousand curses may rain upon your foes, Lady Lyn; The Noblewoman of Sacae."
-		"startIntroPart2": "Can you build a civilization that can stand the test of time?",
-		
-		"declaringWar": "You have brought too much suffering within this world. I cannot allow you to hurt many more people!",
-		"attacked": "We shal",
-		"defeated": "You people call yourselves civilized men, but in my eyes you are nothing but glorified barbarians. Sacae shall be free one day, remember that.",
-		"introduction": "Hello! I am Lyn of Sacae. May a thousand blessings be bestowed upon you friend.",
-		
-		"neutralHello": "Welcome.",
-		"neutralLetsHearIt": ["Need anything friend?","I shall lend my ears","I hear you."],
-		"neutralNo": ["Certainly not.","Sorry.","It shall not work."],
-		"neutralYes": ["Of course.","Certainly.","Gladly."],
-
-		"hateHello": "Why did YOU come here?",
-		"hateLetsHearIt": ["Say it.","Go.","Waste no time then."],
-		"hateNo": ["No.","Absolutely not.","Never."],
-		"hateYes": ["I have no option.","It shall work.","I must accept it."],
-		
-		"afterPeace": "I am grateful for you, giving peace a chance once more.",
-		"tradeRequest": "I shall offer you the finest of Sacae.",
-
-		"outerColor": [135,206,235],
-		"innerColor": [0,100,0],
-		"uniqueName": "Sacaean Valor",
-		"uniques": ["[+1] Movement <in [Plains] tiles>","+[10]% combat bonus for units fighting in [Plains]","[+17]% Strength <vs [Barbarian] units>"], 
-		"cities": ["Bulgar","Kutolah","Djute","Lorca","Taras","Mulagir","Hunnia","Mongul","Siogna","Scituma","Transokur","Korum-Korum","Sogdiakar","Sianba","Saramatu","Taliver","Thraka","Gokturka","Turkkikik","Cumani","Kipapachak","Manchupiuka","Berbrik","Kazakahal","Bedou-ani","Sintikop"]
-	},		
+	
 
 	{
 		"name": "The Black Fang",
