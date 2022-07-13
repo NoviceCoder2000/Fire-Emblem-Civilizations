@@ -482,7 +482,7 @@
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
 		"promotions": ["Swipe"]
-		"uniques": ["Can be upgraded to stronger version","May withdraw before melee ([33]%)"],
+		"uniques": ["Can be upgraded to stronger version","Invisible to non-adjacent units","May enter foreign tiles without open borders"],
 	},
 	
 	{
@@ -491,14 +491,14 @@
 		"replaces": "Musketman"
 		"uniqueTo": "The Black Fang",
 		"movement": 2,
-		"strength": 24,
+		"strength": 23,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
-		"uniques": ["Will not be displayed in Civilopedia","[+100] Strength <when attacking> <with [15]% chance>","May withdraw before melee ([33]%)"],
+		"uniques": ["Will not be displayed in Civilopedia","[+100] Strength <when attacking> <with [15]% chance>","Invisible to non-adjacent units","May enter foreign tiles without open borders"],
 	},
 	
 	{
