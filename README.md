@@ -14,3 +14,6 @@ An UnCiv mod that brings Nintendo's Fire Emblem into the game, by adding custom 
 # Disclaimer:
 
 I do not own Fire Emblem or its franchise. This mod is based over Nintendo and Intelligent System's game, Fire Emblem. This mod is absolutely NON-PROFIT and made just for fun.
+
+Origin of the Repository Banner:
+https://wallpaperaccess.com/fire-emblem-4k
