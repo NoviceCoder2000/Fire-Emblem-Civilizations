@@ -6,7 +6,7 @@
 		"production": 1,
 		"culture": 2,
 		"turnsToBuild": 5,
-		"uniques": ["Cannot be built on [Forest] tiles","Cannot be built on [Hill] tiles", "Gives a defensive bonus of [15]%", "[+1 Culture, +2 Gold] <after discovering [Flight]>", "[+1 Production] <after discovering [Economics]>"],
+		"uniques": ["Cannot be built on [Forest] tiles","Cannot be built on [Hill] tiles","Cannot be built on [Jungle] tiles", "Gives a defensive bonus of [15]%", "[+2 Gold, +1 Culture] <after discovering [Flight]>", "[+2 Production] <after discovering [Economics]>"],
 		"techRequired": "Horseback Riding",
 		"shortcutKey": "G"
 	}

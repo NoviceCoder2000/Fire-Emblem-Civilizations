@@ -2,6 +2,28 @@
 
 //New Promotions
 
+/*Unit Exclusive Promotions*/
+		
+/*For Lords */
+
+	{
+		"name": "Royal Pardon"
+		"uniques": ["May capture killed [Military] units"]
+	},
+	
+	{
+		"name": "Noble Fortitude", // should be exclusive to lord units only
+		"uniques": ["[+100]% XP gained from combat"]
+	},
+	
+	{
+		"name": "Sacaean Justice", // should be unique to thief
+		"uniques": ["Earn [100]% of the damage done to [Barbarians] units as [Culture]","[+100]% Strength <vs [Barbarians] units>"]
+	},
+
+
+//Units
+
 	{
 		"name": "Wooden Cavalry",
 		"uniques": ["Unlocks Exclusive Promotions"],
@@ -16,13 +38,13 @@
 	{
 		"name": "Arrowspate",
 		"prerequisites": ["Wooden Cavalry"]
-		"uniques": ["[+100]% Strength <vs [Flying Mount] units>","[+50]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[+100]% Strength <vs [Flying Mount] units>","[+50]% Strength <vs [Helicopter] units>","[+50]% Strength <vs [Air] units> <when defending>"],
 	},
 	
 	{
 		"name": "Thunderbolt",
 		"prerequisites": ["Wooden Cavalry"]
-		"uniques": ["[+50]% Strength <vs [Armored] units>"],
+		"uniques": ["[+50]% Strength <vs [Siege] units>"],
 	},
 	
 	{
@@ -37,18 +59,36 @@
 		"uniques": ["[+20]% Strength <when fighting in [Forest] tiles>","[+20]% Strength <when fighting in [Jungle] tiles>","[+25]% Strength <when fighting in [Grassland] tiles>"],
 	},
 	
+	{
+		"name": "Swipe", // should be unique to thief
+		"uniques": ["Earn [50]% of the damage done to [Land] units as [Gold]"]
+	},
+	
+	{
+		"name": "Ransack",
+		"prerequisites": ["Swipe"],
+		"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]","[+50]% Strength <vs cities>"]
+	},
+	
+	{
+		"name": "The Fang Watches",
+		"uniques": ["Can see over obstacles"]
+	},
+	
 //Magical Units
 	{
 		"name": "Retainment I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
 	},
+	
 	{
 		"name": "Retainment II",
 		"prerequisites": ["Retainment I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
 	},
+	
 	{
 		"name": "Retainment III",
 		"prerequisites": ["Retainment II"],
@@ -151,32 +191,9 @@
 		"uniques": ["[+50]% Strength <vs [Archery] units>","[+50]% Strength <vs [Ranged Gunpowder] units>","[+25]% Strength <vs [Gunpowder] units> <when defending>"],
 		"unitTypes": ["Flying Mount"]
 	},
-	
-	{
-		"name": "Royal Pardon"
-		"uniques": ["May capture killed [Military] units"]
-	},
-	
-	{
-		"name": "Noble Fortitude", // should be exclusive to lord units only
-		"uniques": ["[+100]% XP gained from combat"]
-	},
-	
-	{
-		"name": "Swipe", // should be unique to thief
-		"uniques": ["Earn [50]% of the damage done to [Land] units as [Gold]"]
-	},
 
-	{
-		"name": "Ransack",
-		"prerequisites": ["Swipe"],
-		"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]","[+50]% Strength <vs cities>"]
-	},
-	
-	{
-		"name": "The Fang Watches",
-		"uniques": ["Can see over obstacles"]
-	}
+
+
 
 	//Updated for New Unit Types
 	{

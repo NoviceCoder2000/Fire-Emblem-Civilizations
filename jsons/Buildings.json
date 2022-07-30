@@ -86,10 +86,10 @@
 		"replaces": "Temple",
 		"uniqueTo": "Etruria",
 		"requiredBuilding": "Shrine",
-		"maintenance": 2,
+		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled","Destroyed when the city is captured","Provides [1] [Staves]"]
+		"uniques": ["Hidden when religion is disabled","Destroyed when the city is captured"]
 	},
 	
 	{
@@ -129,32 +129,44 @@
 
 //Three Houses
 	{
-	"name": "Holy Tomb",
-	"cost": 125,
-	"culture": 1,
-	"faith": 8,
-	"uniqueTo": "The Church of Seiros",
-	"uniques": ["Requires a [Temple] in all cities", "Cost increases by [30] per owned city", "[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
-	"requiredTech": "Theology",
-	"isNationalWonder": true
+		"name": "Holy Tomb",
+		"cost": 125,
+		"culture": 1,
+		"faith": 8,
+		"uniqueTo": "The Church of Seiros",
+		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [30] per owned city", "[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
 	},
 
 // For Lords
-	{
-	"name": "Binding Blade",
-	"cost": "200",
-	"requiredTech": "Metal Casting",
-	"isNationalWonder": true,
-	"uniqueTo": "The Lycian League",
-	"uniques": ["Unsellable","Free [Roy (Medieval)] appears","Will not be displayed in Civilopedia","Provides [1] [Binding Blade]","Cannot be purchased"]
-	}
 	
 	{
-	"name": "Falchion",
-	"cost": "200",
-	"requiredTech": "Metal Casting",
-	"isNationalWonder": true,
-	"uniqueTo": "Altea",
-	"uniques": ["Unsellable","Free [Marth (Medieval)] appears","Will not be displayed in Civilopedia","Provides [1] [Falchion]","Cannot be purchased"]
-	}
+		"name": "Falchion",
+		"cost": "200",
+		"requiredTech": "Metal Casting",
+		"isNationalWonder": true,
+		"uniqueTo": "Altea",
+		"uniques": ["Unsellable","Free [Marth (Medieval)] appears","Will not be displayed in Civilopedia","Provides [1] [Falchion]","Cannot be purchased"]
+	},
+	
+	{
+		"name": "Binding Blade",
+		"cost": "200",
+		"requiredTech": "Metal Casting",
+		"isNationalWonder": true,
+		"uniqueTo": "The Lycian League",
+		"uniques": ["Unsellable","Free [Roy (Medieval)] appears","Will not be displayed in Civilopedia","Provides [1] [Binding Blade]","Cannot be purchased"]
+	},
+	
+	{
+		"name": "Mani Katti Shrine",
+		"cost": "200",
+		"faith": 1,
+		"requiredTech": "Metal Casting",
+		"isNationalWonder": true,
+		"uniqueTo": "Sacaen",
+		"uniques": ["Unsellable","Free [Lyn (Medieval)] appears","Will not be displayed in Civilopedia","Provides [1] [Mani Katti]","Cannot be purchased"]
+	},
+	
 ]

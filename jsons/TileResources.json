@@ -13,12 +13,7 @@
 	
 	//FE7
 	{
-		"name": "Sol Katti",
+		"name": "Mani Katti",
 		"resourceType": "Bonus"
-	},
-	
-	{
-		"name": "Staves",
-		"resourceType": "Strategic",
 	}
 ]

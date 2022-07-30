@@ -1,6 +1,6 @@
 [
 	//Archanean
-		{
+	{
 		"name": "Marth (Medieval)",
 		"unitType": "Lord Melee",
 		"uniqueTo": "Altea",
@@ -297,13 +297,12 @@
 		"name": "Priest",
 		"unitType": "Civilian",
 		"uniqueTo": "Etruria",
+		"replaces": "Missionary",
 		"upgradesTo": "Bishop",
-		"requiredTech": "Theology"
-		"obsoleteTech": "Archaeology"
-		"requiredResource": "Staves",
-		"movement": 2,
+		"movement": 4,
+		"religiousStrength": 1000
 		"promotions": ["Staff I","Resistance I"]
-		"uniques": ["Upgrades to a stronger version"]
+		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [200] religious strength each turn it ends there","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","[-1] Sight", "Unbuildable", "Religious Unit","Upgrades to stronger versions"]
 	},
 	
 	{
@@ -313,12 +312,11 @@
 		"upgradesTo": "Modern Bishop",
 		"requiredTech": "Archaeology",
 		"obsoleteTech": "Pharmaceuticals"
-		"requiredResource": "Staves",
 		"movement": 2,
 		"range": 2,
 		"strength": 18,
 		"rangedStrength": 28,
-		"uniques": ["Will not be displayed in Civilopedia","Upgrades to stronger versions"]
+		"uniques": ["Will not be displayed in Civilopedia","Upgrades to a stronger version"]
 		"attackSound": "Light"
 	},
 	
@@ -327,7 +325,6 @@
 		"unitType": "Light Magic",
 		"uniqueTo": "Etruria",
 		"requiredTech": "Pharmaceuticals",
-		"requiredResource": "Staves",
 		"movement": 2,
 		"range": 2,
 		"strength": 40,
@@ -470,6 +467,107 @@
 	
 	//Elibean FE7
 	{
+		"name": "Lyn (Medieval)",
+		"unitType": "Lord Melee",
+		"uniqueTo": "Sacaean",
+		"movement": "2",
+		"strength": "20",
+		"cost": "80",
+		"hurryCostModifier": "20",
+		"requiredTech": "Metal Casting",
+		"requiredResource": "Mani Katti",
+		"upgradesTo": "Lyn (Renaissance)",
+		"uniques": ["Can be upgraded each era","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Lyn (Renaissance)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Lyn (Industrial)",
+		"movement": "2",
+		"strength": "25",
+		"cost": "175",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Sacaean",
+		"requiredTech": "Rifling",
+		"requiredResource": "Binding Blade"
+		"obsoleteTech": "Rifling",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Lyn (Industrial)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Blade Lord Lyn (Modern)",
+		"movement": "2",
+		"strength": "35",
+		"cost": "250",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Sacaean",
+		"requiredTech": "Rifling",
+		"requiredResource": "Mani Katti",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Blade Lord Lyn (Modern)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Blade Lord Lyn (Atomic)",
+		"movement": "2",
+		"strength": "65",
+		"cost": "375",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Sacaean",
+		"requiredTech": "Replaceable Parts",
+		"requiredResource": "Mani Katti",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Blade Lord Lyn (Atomic)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Blade Lord Lyn (Information)",
+		"movement": "2",
+		"strength": "75",
+		"cost": "375",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Sacaean",
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Mani Katti",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Blade Lord Lyn (Information)",
+		"unitType": "Lord Melee",
+		"movement": "2",
+		"strength": "90",
+		"cost": "400",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Sacaean",
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Mani Katti",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"attackSound": "metalhit"
+	},
+	
+	
+	{
 		"name": "Thief",
 		"unitType": "Sword",
 		"replaces": "Longswordsman",
@@ -499,108 +597,7 @@
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 		"uniques": ["Will not be displayed in Civilopedia","[+100] Strength <when attacking> <with [15]% chance>","Invisible to non-adjacent units","May enter foreign tiles without open borders"],
-	},
-	
-	{
-		"name": "Lyn (Medieval)",
-		"unitType": "Lord Melee",
-		"uniqueTo": "Sacaean Confederacy",
-		"movement": "2",
-		"strength": "20",
-		"cost": "80",
-		"hurryCostModifier": "20",
-		"requiredTech": "Metal Casting",
-		"requiredResource": "Binding Blade"
-		"upgradesTo": "Lyn (Renaissance)",
-		"uniques": ["Can be upgraded each era","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
-		"obsoleteTech": "Gunpowder",
-		"attackSound": "metalhit"
-	},
-
-	{
-		"name": "Lyn (Renaissance)",
-		"unitType": "Lord Melee",
-		"upgradesTo": "Lyn (Industrial)",
-		"movement": "2",
-		"strength": "25",
-		"cost": "175",
-		"hurryCostModifier": "20",
-		"uniqueTo": "Sacaean Confederacy",
-		"requiredTech": "Gunpowder",
-		"requiredResource": "Binding Blade"
-		"obsoleteTech": "Rifling",
-		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
-		"attackSound": "metalhit"
-	},
-	
-	{
-		"name": "Lyn (Industrial)",
-		"unitType": "Lord Melee",
-		"upgradesTo": "Blade Lord Lyn (Modern)",
-		"movement": "2",
-		"strength": "35",
-		"cost": "250",
-		"hurryCostModifier": "20",
-		"uniqueTo": "The Lycian League",
-		"requiredTech": "Rifling",
-		"requiredResource": "Binding Blade",
-		"obsoleteTech": "Replaceable Parts",
-		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
-		"attackSound": "metalhit"
-	},
-	
-	{
-		"name": "Blade Lord Lyn (Modern)",
-		"unitType": "Lord Melee",
-		"upgradesTo": "Blade Lord Lyn (Atomic)",
-		"movement": "2",
-		"strength": "65",
-		"cost": "375",
-		"hurryCostModifier": "20",
-		"uniqueTo": "The Lycian League",
-		"requiredTech": "Replaceable Parts",
-		"requiredResource": "Binding Blade",
-		"obsoleteTech": "Combined Arms",
-		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
-		"attackSound": "metalhit"
-	},
-	
-	{
-		"name": "Blade Lord Lyn (Atomic)",
-		"unitType": "Lord Melee",
-		"upgradesTo": "Blade Lord Lyn (Information)",
-		"movement": "2",
-		"strength": "75",
-		"cost": "375",
-		"hurryCostModifier": "20",
-		"uniqueTo": "The Lycian League",
-		"requiredTech": "Combined Arms",
-		"requiredResource": "Binding Blade"
-		"obsoleteTech": "Mobile Tactics",
-		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
-		"attackSound": "metalhit"
-	},
-	
-	{
-		"name": "Blade Lord Lyn (Information)",
-		"unitType": "Lord Melee",
-		"movement": "2",
-		"strength": "90",
-		"cost": "400",
-		"hurryCostModifier": "20",
-		"uniqueTo": "The Lycian League",
-		"requiredTech": "Mobile Tactics",
-		"requiredResource": "Binding Blade",
-		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
-		"attackSound": "metalhit"
-	},
-	
+	}
 	//Magvelian
 	
 	
