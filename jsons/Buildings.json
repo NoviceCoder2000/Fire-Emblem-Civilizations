@@ -109,9 +109,8 @@
 		"replaces": "Library",
 		"uniqueTo": "Nabata",
 		"hurryCostModifier": 25,
-		"culture": 3,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]","[+3 Science] [in this city] <before the [Medieval era]>"],
 		"requiredTech": "Writing"
 	},
 	

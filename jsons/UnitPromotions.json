@@ -32,7 +32,7 @@
 	{
 		"name": "Stonehoist",
 		"prerequisites": ["Wooden Cavalry"]
-		"uniques": ["[+100]% Strength <vs cities>"],
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>"],
 	},
 	
 	{
@@ -173,15 +173,36 @@
 	},
 	
 	//Others
+	
+	{
+		"name": "Dragonkiller Weapons",
+		"prerequisites": ["Shock I", "Drill I"]
+		"uniques": ["[+50]% Strength <vs [Manekete] units>","[+50]% Strength <vs [Mage Manekete] units>","[+50]% Strength <vs [Flying Manekete] units>"],
+		"unitTypes": ["Sword","Mounted","Flying Mount","Lord Melee","Lord Mounted"]
+	},
+	
+	{
+		"name": "Legendary Dragonkillers",
+		"prerequisites": ["Dragonkiller Weapons", "Accuracy II", "Barrage II"],
+		"uniques": ["[+50]% Strength <vs [Manekete] units>","[+50]% Strength <vs [Mage Manekete] units>","[+50]% Strength <vs [Flying Manekete] units>"],
+		"unitTypes": ["Sword","Archery","Mounted","Flying Mount","Lord Melee","Lord Mounted"]
+	},
+	
+	{
+		"name": "Dragonkiller Rounds",
+		"uniques": ["[+50]% Strength <vs [Manekete] units>","[+50]% Strength <vs [Mage Manekete] units>","[+50]% Strength <vs [Flying Manekete] units>"],
+		"unitTypes": ["Gunpowder","Ranged Gunpowder","Fighter","Bomber","Siege","Armored"]
+	},
+	
 	{
 		"name": "Resistance I",
-		"uniques": ["[+33]% Strength <vs [Dark Magic] units> <when defending>","[+33]% Strength <vs [Light Magic] units> <when defending>","[+33]% Strength <vs [Anima Magic] units> <when defending>"],
+		"uniques": ["[+33]% Strength <vs [Dark Magic] units> <when defending>","[+33]% Strength <vs [Light Magic] units> <when defending>","[+33]% Strength <vs [Anima Magic] units> <when defending>","[+33]% Strength <vs [Mage Manekete] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted","Flying Mount","Dark Magic","Light Magic","Anima Magic","Lord Melee","Lord Ranged","Lord Mounted","Lord Magic","King of Liberation"]
 	},
 	{
 		"name": "Resistance II",
 		"prerequisites": ["Resistance I"],
-		"uniques": ["[+33]% Strength <vs [Dark Magic] units> <when defending>","[+33]% Strength <vs [Light Magic] units> <when defending>","[+33]% Strength <vs [Anima Magic] units> <when defending>"],
+		"uniques": ["[+33]% Strength <vs [Dark Magic] units> <when defending>","[+33]% Strength <vs [Light Magic] units> <when defending>","[+33]% Strength <vs [Anima Magic] units> <when defending>","[+33]% Strength <vs [Mage Manekete] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted","Flying Mount","Dark Magic","Light Magic","Anima Magic","Lord Melee","Lord Ranged","Lord Mounted","Lord Magic","King of Liberation"]
 	},
 	
@@ -192,7 +213,23 @@
 		"unitTypes": ["Flying Mount"]
 	},
 
+	//Dragonstones
 
+	{
+		"name": "Icestone",
+		"uniques": ["[+100]% Strength","[+5] HP when healing <in [Snow] tiles>","[+5] HP when healing <in [Tundra] tiles>","[+1] Movement <in [Snow] tiles>","[+1] Movement <in [Tundra] tiles>"]
+	},
+	
+	{
+		"name": "Firestone",
+		"uniques": ["[+100]% Strength","[+20]% Strength <when fighting in [Forest] tiles>","[+20]% Strength <when fighting in [Jungle] tiles>","[+50]% Strength <vs cities> <when attacking>"]
+	},
+	
+	{
+		"name": "Magestone",
+		"uniques": ["[+100]% Strength","[+33]% Strength <vs [Armored] units>"]
+	},
+	
 
 
 	//Updated for New Unit Types
@@ -206,64 +243,64 @@
 	{
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee","Lord Mounted"]
 	},
 	{
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee","Lord Mounted"]
 	},
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee","Lord Mounted"]
 	},
 
 	{
 		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee","Lord Mounted"]
 	},
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee","Lord Mounted"]
 	},
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee","Lord Mounted"]
 	},	
 	
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Mounted","Armored","Flying Mount"]
+		"unitTypes": ["Mounted","Armored","Flying Mount","Lord Mounted"]
 	},
 	
 	{
 		"name": "Formation I",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Flying Mount","Lord Melee"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Flying Mount","Lord Melee","Lord Mounted"]
 	},
 	{
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
 		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Flying Mount","Lord Melee"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Flying Mount","Lord Melee","Lord Mounted"]
 	},
 	
 	{
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flying Mount","Lord Melee","Lord Mounted"]
 	},
 	
 	{
@@ -271,13 +308,20 @@
 		"prerequisites": ["Shock II","Drill II","Targeting I",
 			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","Flying Mount"]
+		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","Flying Mount","Lord Mounted"]
 	},
 	{
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water","Flying Mount","Lord Melee"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water","Flying Mount","Lord Melee","Lord Mounted"]
+	},
+	
+	{
+		"name": "Besiege",
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Sword","Gunpowder","Lord Melee"]
 	},
 	
 	//Non-Mounted Units

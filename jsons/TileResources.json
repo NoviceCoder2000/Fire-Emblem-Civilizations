@@ -13,6 +13,11 @@
 	
 	//FE7
 	{
+		"name": "Durandal",
+		"resourceType": "Bonus"
+	},
+	
+	{
 		"name": "Mani Katti",
 		"resourceType": "Bonus"
 	}

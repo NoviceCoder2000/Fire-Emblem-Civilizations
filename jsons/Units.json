@@ -467,6 +467,117 @@
 	
 	//Elibean FE7
 	{
+		"name": "Eliwood (Medieval)",
+		"unitType": "Lord Melee",
+		"uniqueTo": "Pherae",
+		"movement": "2",
+		"strength": "20",
+		"cost": "80",
+		"hurryCostModifier": "20",
+		"requiredTech": "Metal Casting",
+		"requiredResource": "Durandal"
+		"upgradesTo": "Eliwood (Renaissance)",
+		"uniques": ["Can be upgraded each era","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Eliwood (Renaissance)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Eliwood (Industrial)",
+		"movement": "2",
+		"strength": "25",
+		"cost": "175",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Pherae",
+		"requiredTech": "Gunpowder",
+		"requiredResource": "Durandal"
+		"obsoleteTech": "Rifling",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Eliwood (Industrial)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Knight Lord Eliwood (Modern)",
+		"movement": "2",
+		"strength": "35",
+		"cost": "250",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Pherae",
+		"requiredTech": "Rifling",
+		"requiredResource": "Durandal",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Knight Lord Eliwood (Modern)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Knight Lord Eliwood (Atomic)",
+		"movement": "4",
+		"strength": "55",
+		"cost": "375",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Pherae",
+		"requiredTech": "Replaceable Parts",
+		"requiredResource": "Durandal",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "Knight Lord Eliwood (Atomic)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Knight Lord Eliwood (Information)",
+		"movement": "4",
+		"strength": "70",
+		"cost": "375",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Pherae",
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Durandal"
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "Knight Lord Eliwood (Information)",
+		"unitType": "Lord Melee",
+		"movement": "4",
+		"strength": "90",
+		"cost": "400",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Pherae",
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Durandal",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"attackSound": "horse"
+	},
+
+	{
+		"name": "Transporter"
+		"replaces": "Chariot Archer",
+		"unitType": "Civilian",
+		"uniqueTo": "Pherae",
+		"movement": 4,
+		"cost": 200,
+		"requiredTech": "The Wheel",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence"],
+	},
+
+	{
 		"name": "Lyn (Medieval)",
 		"unitType": "Lord Melee",
 		"uniqueTo": "Sacaean",
@@ -603,6 +714,483 @@
 	
 	
 	//Draconic Barbarians
+	
+	{
+		"name": "Feral Ice Dragon (Ancient)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 10,
+		"cost": 60,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Feral Ice Dragon (Classical)",
+		"promotions": ["Icestone"],
+		"uniques": ["Upgrades to stronger versions each era"],
+		"attackSound": "dragonbreath"
+
+	},
+	
+	{
+		"name": "Feral Ice Dragon (Classical)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians"
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Feral Ice Dragon (Medieval)",
+		"obsoleteTech": "Steel",
+		"promotions": ["Icestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Ice Dragon (Medieval)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 20,
+		"cost": 95,
+		"requiredTech": "Steel",
+		"upgradesTo": "Feral Ice Dragon (Renaissance)",
+		"obsoleteTech": "Gunpowder",
+		"promotions": ["Icestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+
+
+	{
+		"name": "Feral Ice Dragon (Renaissance)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Feral Ice Dragon (Industrial)",
+		"obsoleteTech": "Rifling",
+		"promotions": ["Icestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Ice Dragon (Industrial)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 35,
+		"cost": 250,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Feral Ice Dragon (Modern)",
+		"obsoleteTech": "Replaceable Parts",
+		"promotions": ["Icestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Ice Dragon (Modern)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 50,
+		"cost": 350,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Feral Ice Dragon (Atomic)",
+		"obsoleteTech": "Pharmaceuticals",
+		"promotions": ["Icestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Ice Dragon (Atomic)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 70,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"upgradesTo": "Feral Ice Dragon (Information)",
+		"obsoleteTech": "Mobile Tactics",
+		"promotions": ["Icestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Ice Dragon (Information)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Mobile Tactics",
+		"promotions": ["Icestone"],
+		"uniques": ["Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+
+	{
+		"name": "Feral Fire Dragon (Ancient)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 10,
+		"cost": 60,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Feral Fire Dragon (Classical)",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Fire Dragon (Classical)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Feral Fire Dragon (Medieval)",
+		"obsoleteTech": "Steel",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Fire Dragon (Medieval)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 20,
+		"cost": 95,
+		"requiredTech": "Steel",
+		"upgradesTo": "Feral Fire Dragon (Renaissance)",
+		"obsoleteTech": "Gunpowder",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+
+
+	{
+		"name": "Feral Fire Dragon (Renaissance)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Feral Fire Dragon (Industrial)",
+		"obsoleteTech": "Rifling",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Fire Dragon (Industrial)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 35,
+		"cost": 250,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Feral Fire Dragon (Modern)",
+		"obsoleteTech": "Replaceable Parts",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Fire Dragon (Modern)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 50,
+		"cost": 350,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Feral Fire Dragon (Atomic)",
+		"obsoleteTech": "Pharmaceuticals",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Fire Dragon (Atomic)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 70,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"upgradesTo": "Feral Fire Dragon (Information)",
+		"obsoleteTech": "Mobile Tactics",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Fire Dragon (Information)",
+		"unitType": "Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Mobile Tactics",
+		"promotions": ["Firestone"],
+		"uniques": ["Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Mage Dragon (Ancient)",
+		"unitType": "Mage Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 10,
+		"cost": 60,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Feral Mage Dragon (Classical)",
+		"promotions": ["Magestone","Resistance I"],
+		"uniques": ["Upgrades to stronger versions each era"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Mage Dragon (Classical)",
+		"unitType": "Mage Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Feral Mage Dragon (Medieval)",
+		"obsoleteTech": "Steel",
+		"promotions": ["Magestone","Resistance I"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Mage Dragon (Medieval)",
+		"unitType": "Mage Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 20,
+		"cost": 95,
+		"requiredTech": "Steel",
+		"upgradesTo": "Feral Mage Dragon (Renaissance)",
+		"obsoleteTech": "Gunpowder",
+		"promotions": ["Magestone","Resistance I"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+
+
+	{
+		"name": "Feral Mage Dragon (Renaissance)",
+		"unitType": "Mage Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Feral Mage Dragon (Industrial)",
+		"obsoleteTech": "Rifling",
+		"promotions": ["Magestone","Resistance I"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Mage Dragon (Industrial)",
+		"unitType": "Mage Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 35,
+		"cost": 250,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Feral Mage Dragon (Modern)",
+		"obsoleteTech": "Replaceable Parts",
+		"promotions": ["Magestone","Resistance I"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Mage Dragon (Modern)",
+		"unitType": "Mage Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 50,
+		"cost": 350,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Feral Mage Dragon (Atomic)",
+		"obsoleteTech": "Pharmaceuticals",
+		"promotions": ["Magestone","Resistance I"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Mage Dragon (Atomic)",
+		"unitType": "Mage Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 70,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"upgradesTo": "Feral Mage Dragon (Information)",
+		"obsoleteTech": "Mobile Tactics",
+		"promotions": ["Magestone","Resistance I"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Mage Dragon (Information)",
+		"unitType": "Mage Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Mobile Tactics",
+		"promotions": ["Magestone","Resistance I"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Wyvern (Ancient)",
+		"unitType": "Flying Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 5,
+		"strength": 8,
+		"cost": 60,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Feral Wyvern (Classical)",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Wyvern (Classical)",
+		"unitType": "Flying Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 5,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Feral Wyvern (Medieval)",
+		"obsoleteTech": "Steel",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Wyvern (Medieval)",
+		"unitType": "Flying Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 5,
+		"strength": 18,
+		"cost": 95,
+		"requiredTech": "Steel",
+		"upgradesTo": "Feral Wyvern (Renaissance)",
+		"obsoleteTech": "Gunpowder",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+
+
+	{
+		"name": "Feral Wyvern (Renaissance)",
+		"unitType": "Flying Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 5,
+		"strength": 23,
+		"cost": 120,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Feral Wyvern (Industrial)",
+		"obsoleteTech": "Rifling",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Wyvern (Industrial)",
+		"unitType": "Flying Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 5,
+		"strength": 32,
+		"cost": 250,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Feral Wyvern (Modern)",
+		"obsoleteTech": "Replaceable Parts",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Wyvern (Modern)",
+		"unitType": "Flying Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 5,
+		"strength": 45,
+		"cost": 350,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Feral Wyvern (Atomic)",
+		"obsoleteTech": "Pharmaceuticals",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Wyvern (Atomic)",
+		"unitType": "Flying Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 5,
+		"strength": 60,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"upgradesTo": "Feral Wyvern (Information)",
+		"obsoleteTech": "Mobile Tactics",
+		"promotions": ["Firestone"],
+		"uniques": ["Upgrades to stronger versions each era","Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
+	
+	{
+		"name": "Feral Wyvern (Information)",
+		"unitType": "Flying Manekete",
+		"uniqueTo": "Barbarians",
+		"movement": 5,
+		"strength": 90,
+		"cost": 425,
+		"requiredTech": "Mobile Tactics",
+		"promotions": ["Firestone"],
+		"uniques": ["Will not be displayed in Civilopedia"],
+		"attackSound": "dragonbreath"
+	},
 
 	//Undead Barbarians
 ]
