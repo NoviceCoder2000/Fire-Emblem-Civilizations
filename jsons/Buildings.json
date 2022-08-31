@@ -164,7 +164,7 @@
 		"faith": 1,
 		"requiredTech": "Metal Casting",
 		"isNationalWonder": true,
-		"uniqueTo": "Sacaen",
+		"uniqueTo": "Sacaean",
 		"uniques": ["Unsellable","Free [Lyn (Medieval)] appears","Will not be displayed in Civilopedia","Provides [1] [Mani Katti]","Cannot be purchased"]
 	},
 	
