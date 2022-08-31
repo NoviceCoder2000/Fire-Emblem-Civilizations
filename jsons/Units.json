@@ -604,7 +604,7 @@
 		"hurryCostModifier": "20",
 		"uniqueTo": "Sacaean",
 		"requiredTech": "Rifling",
-		"requiredResource": "Binding Blade"
+		"requiredResource": "Mani Katti"
 		"obsoleteTech": "Rifling",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
 		"promotions": ["Noble Fortitude","Sacaean Justice"],
