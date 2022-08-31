@@ -603,7 +603,7 @@
 		"cost": "175",
 		"hurryCostModifier": "20",
 		"uniqueTo": "Sacaean",
-		"requiredTech": "Rifling",
+		"requiredTech": "Gunpowder",
 		"requiredResource": "Mani Katti"
 		"obsoleteTech": "Rifling",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
