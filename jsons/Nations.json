@@ -37,42 +37,7 @@
         "spyNames": ["Kris", "Katarina", "Arran", "Gordin", "Ryan", "Norne", "Cain", "Abel", "Roederick", "Luke", "Cecil"]
 	},
 
-{
-		"name": "Dolhr",
-		"leaderName": "Medeus",
-		"adjective": ["Dolhrian"],
-		"preferredVictoryType": "Domination",
-		"favoredReligion": "Grimleal",
-		"startBias": ["Hill"],
-		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		
-		"declaringWar": "The rule of men has come to an end. Arise ye dragons! Arise! Let us crush these pathetic wretches!",
-		"attacked": "Insolent fool! You dare to disturb my slumber?!",
-		"defeated": "You may have defeated me today, but remember this; so long as there are darkness in your hearts, I shall rise from the depths of hell... Never forget that.",
-		"introduction": "Tremble before me, for I am Medeus, the one who is called the 'Shadow Dragon'. What does a feeble being such as you want from me?",
-		
-		"neutralHello": "What brings you here?",
-		"neutralLetsHearIt": ["Can you tell me?","I'm interested.","Let me hear it then."],
-		"neutralNo": ["I'm sorry.","I don't think that would work.","No thank you."],
-		"neutralYes": ["I accept it.","That is great!","That could work."],
-
-		"hateHello": "What!?",
-		"hateLetsHearIt": ["I see...","Yes?","Hmm?"],
-		"hateNo": ["No.","I refuse.","Certainly not."],
-		"hateYes": ["It's okay.","Alright.","This is good."],
-		
-		"afterPeace": "If this is what is necessary for peace then so be it.",
-		"tradeRequest": "Do you think this is good enough?",
-
-		"outerColor": [50,74,178],
-		"innerColor": [194,59,34],
-		"uniqueName": "Ostian Fortress",
-		"uniques": ["-[25]% Culture cost of natural border growth [in capital]","Gain a free [Ostian Walls] [in capital]"],
-		"cities": ["Castle Ostia","Thria","Caelin","Antica","Fusano","Levant","Fiumincia","Zigarinim","Pomezin","Aranova","Ardea","Aprilia","Anziticum","Vecolomi","Torvarian","Ardentum","Mare","Carpocot","Vittiny","Palidor"]
-		"spyNames": ["Gharnef","Khozen","Morzas","Xemcel","Brzak","Volzhin","Dejnira","Gouber"]
-	},
+	
 
 	{
 		"name": "Grust",
