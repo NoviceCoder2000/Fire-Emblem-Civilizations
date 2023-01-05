@@ -33,8 +33,45 @@
 		"innerColor": [200,170,132],
 		"uniqueName": "The Hero-King",
 		"uniques": ["[+5 Happiness, +2 Culture, +2 Production] from every [Palace]"],
-		"cities": ["Castle Altea","Aritia","Sera","Anrisa","Marcelin","Aretin","Marcondia","Rolan","Casseli","Calendor","Gohor","Rolassia","Alitia","Vinlyia","Herokiv",]
+		"cities": ["Castle Altea","Aritia","Sera","Anrisa","Marcelin","Aretin","Marcondia","Rolan","Casseli","Calendor","Gohor","Rolassia","Alitia","Vinlyia","Herokiv",],
         "spyNames": ["Kris", "Katarina", "Arran", "Gordin", "Ryan", "Norne", "Cain", "Abel", "Roederick", "Luke", "Cecil"]
+	},
+
+{
+		"name": "Dolhr",
+		"leaderName": "Medeus",
+		"adjective": ["Dolhrian"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Grimleal",
+		"startBias": ["Hill"],
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "The rule of men has come to an end. Arise ye dragons! Arise! Let us crush these pathetic wretches!",
+		"attacked": "Insolent fool! You dare to disturb my slumber?!",
+		"defeated": "You may have defeated me today, but remember this; so long as there are darkness in your hearts, I shall rise from the depths of hell... Never forget that.",
+		"introduction": "Tremble before me, for I am Medeus, the one who is called the 'Shadow Dragon'. What does a feeble being such as you want from me?",
+		
+		"neutralHello": "What brings you here?",
+		"neutralLetsHearIt": ["Can you tell me?","I'm interested.","Let me hear it then."],
+		"neutralNo": ["I'm sorry.","I don't think that would work.","No thank you."],
+		"neutralYes": ["I accept it.","That is great!","That could work."],
+
+		"hateHello": "What!?",
+		"hateLetsHearIt": ["I see...","Yes?","Hmm?"],
+		"hateNo": ["No.","I refuse.","Certainly not."],
+		"hateYes": ["It's okay.","Alright.","This is good."],
+		
+		"afterPeace": "If this is what is necessary for peace then so be it.",
+		"tradeRequest": "Do you think this is good enough?",
+
+		"outerColor": [50,74,178],
+		"innerColor": [194,59,34],
+		"uniqueName": "Ostian Fortress",
+		"uniques": ["-[25]% Culture cost of natural border growth [in capital]","Gain a free [Ostian Walls] [in capital]"],
+		"cities": ["Castle Ostia","Thria","Caelin","Antica","Fusano","Levant","Fiumincia","Zigarinim","Pomezin","Aranova","Ardea","Aprilia","Anziticum","Vecolomi","Torvarian","Ardentum","Mare","Carpocot","Vittiny","Palidor"]
+		"spyNames": ["Gharnef","Khozen","Morzas","Xemcel","Brzak","Volzhin","Dejnira","Gouber"]
 	},
 
 	{
@@ -71,6 +108,7 @@
 		"uniqueName": "Sable Order",
 		"uniques": ["[+15]% Production when constructing [Mounted] units [in all cities]","Starts with [Honor] adopted","[Great General] is earned [+50]% faster <after adopting [Military Tradition]>"],
 		"cities": ["Grust","Olbern Castle","Holm","Grunia","Chiasmir","Ordwinum","Blatoise","Pyrenes","Occitane","Grayfor","Cerny","Furoge","Bernede","Ariol","Souna","Saligos","Visos","Pruos","Barges","Loudes"]
+        "spyNames": ["Roger", "Jake", "Beck", "Marisha", "Ymir", "Roberto", "Reiden", "Belf", "Lorenz", "Tatiana"]
 	},
 
 //Valentia
@@ -111,7 +149,8 @@
 		"innerColor": [0,0,128],
 		"uniqueName": "The Lycian Alliance",
 		"uniques": ["City-State territory always counts as friendly territory","Militaristic City-States grant units [2] times as fast when you are at war with a common nation","Military Units gifted from City-States start with [+15] XP"],
-		"cities": ["Pherae","Santaruz","Laus","Port Badon","Araphen","Khathelet","Worde","Tania","Tuscana","Ryerde","Cornwell","Egina","Rodos","Russex","Branfurt","Alcourt"]
+		"cities": ["Pherae","Santaruz","Laus","Port Badon","Araphen","Khathelet","Worde","Tania","Tuscana","Ryerde","Cornwell","Egina","Rodos","Russex","Branfurt","Alcourt"],
+		"spyNames": ["Chad", "Cath", "Al", "Alen", "Lance", "Wolt", "Gant", "Tiina", "Lugh", "Merlinus"]
 	},
 	
 	{
@@ -145,9 +184,10 @@
 
 		"outerColor": [50,74,178],
 		"innerColor": [194,59,34],
-		"uniqueName": "The Delightful Ruler",
-		"uniques": ["-[25]% Culture cost of natural border growth [in capital]","Gain a free [Ostian Walls] [in capital]"],
+		"uniqueName": "Benevolent Rule",
+		"uniques": ["[+25]% of excess happiness converted to [Culture]", "[+15]% growth [in all cities] <when not at war> <while the empire is happy>"],
 		"cities": ["Castle Ostia","Thria","Caelin","Antica","Fusano","Levant","Fiumincia","Zigarinim","Pomezin","Aranova","Ardea","Aprilia","Anziticum","Vecolomi","Torvarian","Ardentum","Mare","Carpocot","Vittiny","Palidor"]
+		"spyNames": ["Astolfo", "Dieck", "Bors", "Barthe", "Ogier", "Raigh", "Gonzalez", "Gwendolyn", "Garret", "Geese"]
 	},
 	
 	{
@@ -185,6 +225,7 @@
 		"uniqueText": "+1 Culture from every Plains without terrain features.\nDouble quantity of Horses produced."
 		"uniques": ["[+1 Culture] from every [Plains] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]>","Double quantity of [Horses] produced"], 
 		"cities": ["Bulgar","Kutolah","Djute","Lorca","Taras","Mulagir","Hunnia","Mongul","Siogna","Scituma","Transokur","Korum-Korum","Sogdiakar","Sianba","Saramatu","Taliver","Thraka","Gokturka","Turkkikik","Cumani","Kipapachak","Manchupiuka","Berbrik","Kazakahal","Bedou-ani","Sintikop"]
+		"spyNames": ["Rutger", "Sin", "Fir", "Monke", "Thoril", "Marral", "Brakul", "Kudoka", "Kabul", "Dayan"]
 	},
 	
 	{
@@ -193,7 +234,7 @@
 		"adjective": ["Bernese"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Eliminism",
-		"startBias": ["Hill","Mountain"],
+		"startBias": ["Hill"],
 		
 		"startIntroPart1": "Hail to you King Zephiel! The valiant king of Bern and the judicious descendant of Hartmut! You were a brilliant and a wise ruler with a great will to remove the corrupted rulers of this world which are men. With a great desire to uproot them and replace mankind with dragonkind who are not corrupted by the greed and the wrath of this world. Unfortunately, many were envious and were utter fools to understand your will and many nations have plotted to overthrow you and succeeded with such wicked plot, depraving this world with a just ruler.",
 		"startIntroPart2": "Fate does indeed works in mysterious for once again you were given a second chance to continue to pursue your dreams of ridding this world of the corruption that were caused by mankind. King Zephiel, do you have what it takes to rid this world of human rule? Can you lead mankind to their proper ruler? Can you build a civilization that will stand the test of time?",
@@ -219,8 +260,9 @@
 		"outerColor": [67, 27, 107],
 		"innerColor": [207, 209, 86],
 		"uniqueName": "A World Ruled by Dragonkind",
-		"uniques": ["[+2 Production] from every [Mountains] <after discovering [Mining]>","[+1 Production] from every [Mountains] <after discovering [Chemistry]>","[+1 Production] from every [Mountains] <after discovering [Dynamite]>","[-33]% Unhappiness from [Population] [in annexed cities]"], //Should not suffer from resistance penalties instead. Also +1 Production from mountains in an event after discovering dynamite instead.
+		"uniques": ["[+2 Production] from every [Mountain] <after discovering [Mining]>","[+1 Production] from every [Mountain] <after discovering [Chemistry]>","[+1 Production] from every [Mountain] <after discovering [Dynamite]>","[-33]% Unhappiness from [Population] [in annexed cities]"], //Should not suffer from resistance penalties instead. Also +1 Production from mountains in an event after discovering dynamite instead.
 		"cities": ["Bern","Zuria","Gweneva","Churica","Valais","Freibourg","Holligen","Britefield","Altenburg","Könizia","Beruth","Alaman","Rosewerg","Lieberaum","Giswyl","Guivarum","Acturica","Thun","Lucren","Dragon Sanctuary","Shrine of Seals"]
+		"spyNames": ["Murdock", "Brunya", "Narcian", "Galle", "Zeiss", "Ruud", "Slater", "Raith", "Oates", "Flaer"]
 	},
 	
 	{
@@ -258,6 +300,7 @@
 		"uniqueText": "Receive triple Gold from Barbarian encampments and pillaging Cities.\nCan buy food for gold in cities, up to 9 food per cities.",
 		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","May buy [Buy Small Food Portions] buildings with [Gold] [in all cities]","May buy [Buy Medium Food Portions] buildings with [Gold] [in all cities]","May buy [Buy Large Food Portions] buildings with [Gold] [in all cities]"], //Pillaging Cities should not yield more gold.
 		"cities": ["Edessa","Carrhae","Remi","Bariganae","Port Amundsen","Frostomii","Arcticae","Arcuta","Verkut","Argana","Colport","Icylon","Fromotth","Stele","Avige","Mimel","Colmaria","Whitrun","Antartae","Valosa"]
+		"spyNames": ["Shanna", "Trec", "Noah", "Thea", "Juno", "Wade", "Lot", "Hugh", "Niime", "Sigune"]
 	},
 	
 	{
@@ -293,6 +336,7 @@
 		"uniqueName": "Home of the Scouring Saint",
 		"uniques": ["[+3 Faith] [in capital] <after discovering [Calendar]>", "[+2 Faith] [in all cities] <after discovering [Philosophy]>"],
 		"cities": ["Aquilea","Reglay","Eburacum","Jutes","Armagh","Edina","Port Caledon","Greater Fibernia","Lesser Fibernia","Eliminuria","Gador","Barucia","La-Croiss","Pont Regal","Alicia","Frumentia","Caroscia","Gela","Partanna","Sicillia","Antalonica","Fremont","Port Salerno","Lacostina","Forontinae","Cassini"]
+		"spyNames": ["Larum", "Clarine", "Klein", "Dorothy", "Saul", "Perceval", "Cecilia", "Douglas", "Yoder", "Priscilla"]
 	},
 	
 	{
@@ -326,8 +370,9 @@
 		"outerColor": [153,102,204],
 		"innerColor": [125, 176, 255],
 		"uniqueName": "Harmony Between Men and Dragons",
-		"uniques": ["[50]% Yield from every [Fresh Water] <while the empire is happy> <upon discovering [Civil Service]>","[15]% [Science] [in all non-occupied cities] <during a Golden Age>"],
+		"uniques": ["[50]% Yield from every [Fresh Water] <while the empire is happy> <after discovering [Civil Service]>","[15]% [Science] [in all non-occupied cities] <during a Golden Age>"],
 		"cities": ["Arcadia","Kaftir","Missur","Petrae","Damascia","Ridal","Ridalyah","Akalamaria","Lundarr","Kasserine","Syrycause","Hakasimun","Sanadin","Reminum","Jadarf","Hurufi"]
+		"spyNames": ["Hawkeye", "Ingrene", "Pent", "Louise", "Athos", "Fae", "Aalim", "Dina", "Carlos", "Fatimah"]
 	},
 	
 	
@@ -367,6 +412,7 @@
 		"uniqueName": "Knights of Pherae",
 		"uniques": ["[+15%] strength <for [Mounted] units> <when fighting in [Friendly] tiles>","[+2] Movement <for [Mounted] units> <in [Friendly] tiles>"],
 		"cities": ["Pherae","Santaruz","Laus","Port Badon","Araphen","Khathelet","Worde","Tania","Tuscana","Ryerde","Cornwell","Egina","Rodos","Russex","Branfurt","Alcourt"]
+		"spyNames": ["Marcus", "Rebecca", "Dorcas", "Harken", "Isadora", "Lowen", "Dart", "Geitz", "Fiora", "Ninian"]
 	},
 	
 	{
@@ -403,6 +449,7 @@
 		"uniqueName": "Sacaean Valor",
 		"uniques": ["+[15]% combat bonus for units fighting in [Ger]","+[10]% combat bonus for units fighting in [Plains]","[+1 Food, +1 Production] in cities on [Plains] tiles"], 
 		"cities": ["Bulgar","Kutolah","Djute","Lorca","Taras","Mulagir","Hunnia","Mongul","Siogna","Scituma","Transokur","Korum-Korum","Sogdiakar","Sianba","Saramatu","Taliver","Thraka","Gokturka","Turkkikik","Cumani","Kipapachak","Manchupiuka","Berbrik","Kazakahal","Bedou-ani","Sintikop"]
+		"spyNames": ["Rath", "Guy", "Florina", "Sain", "Kent", "Karel", "Karla", "Wallace", "Raven", "Lucius"]
 	},		
 
 	{
@@ -439,8 +486,12 @@
 		"uniques": ["\"Borrows\" city names from other civilizations in the game", "[+2] Movement <when at war>", "[Land] units gain the [The Fang Watches] promotion"],
 		"cities": ["Valor"]
         "spyNames": ["Limstella", "Sonia", "Ephidel", "Denning", "Brendan", "Lloyd", "Linus", "Ursula", "Jaffar", "Jerme"]
-	}
+	},
+	
+
 
 //Magvelian
+
+	
 
 ]

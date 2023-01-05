@@ -3,7 +3,7 @@
     {
         "name": "Lord Melee",
         "movementType": "Land",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles","Uncapturable","[+100]% Strength <vs [Manekete] units>","[+100]% Strength <vs [Mage Manekete] units>","[+100]% Strength <vs [Flying Manekete] units>",]
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles","Uncapturable","[+50]% Strength <vs [Manekete] units>","[+50]% Strength <vs [Mage Manekete] units>","[+50]% Strength <vs [Flying Manekete] units>",]
     },
 	
 	{

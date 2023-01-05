@@ -64,7 +64,7 @@
 		"requiredResource": "Falchion",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"promotions": ["Noble Fortitude","Royal Pardon","The Falchion"],
 		"attackSound": "metalhit"
 	},
 	
@@ -81,7 +81,7 @@
 		"requiredResource": "Falchion"
 		"obsoleteTech": "Mobile Tactics",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"promotions": ["Noble Fortitude","Royal Pardon","The Falchion"],
 		"attackSound": "metalhit"
 	},
 	
@@ -96,7 +96,7 @@
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Falchion",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"promotions": ["Noble Fortitude","Royal Pardon","The Falchion"],
 		"attackSound": "metalhit"
 	},
 	
@@ -422,6 +422,8 @@
 		"upgradesTo": "Great Lord Roy (Atomic)",
 		"movement": "2",
 		"strength": "65",
+		"rangedStrength": "65",
+		"range": "1",
 		"cost": "375",
 		"hurryCostModifier": "20",
 		"uniqueTo": "The Lycian League",
@@ -429,7 +431,7 @@
 		"requiredResource": "Binding Blade",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"promotions": ["Noble Fortitude","Royal Pardon","Sealed Sword"],
 		"attackSound": "metalhit"
 	},
 	
@@ -439,6 +441,8 @@
 		"upgradesTo": "Great Lord Roy (Information)",
 		"movement": "2",
 		"strength": "75",
+		"rangedStrength": "75",
+		"range": "1",
 		"cost": "375",
 		"hurryCostModifier": "20",
 		"uniqueTo": "The Lycian League",
@@ -446,7 +450,7 @@
 		"requiredResource": "Binding Blade"
 		"obsoleteTech": "Mobile Tactics",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"promotions": ["Noble Fortitude","Royal Pardon","Sealed Sword"],
 		"attackSound": "metalhit"
 	},
 	
@@ -455,13 +459,15 @@
 		"unitType": "Lord Melee",
 		"movement": "2",
 		"strength": "90",
+		"rangedStrength": "90",
+		"range": "1",
 		"cost": "400",
 		"hurryCostModifier": "20",
 		"uniqueTo": "The Lycian League",
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Binding Blade",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"promotions": ["Noble Fortitude","Royal Pardon","Sealed Sword"],
 		"attackSound": "metalhit"
 	},
 	
@@ -530,7 +536,7 @@
 		"requiredResource": "Durandal",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"promotions": ["Noble Fortitude","Royal Pardon","The Knight of Lycia"],
 		"attackSound": "horse"
 	},
 	
@@ -547,7 +553,7 @@
 		"requiredResource": "Durandal"
 		"obsoleteTech": "Mobile Tactics",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"promotions": ["Noble Fortitude","Royal Pardon","The Knight of Lycia"],
 		"attackSound": "horse"
 	},
 	
@@ -562,7 +568,7 @@
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Durandal",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Royal Pardon"],
+		"promotions": ["Noble Fortitude","Royal Pardon","The Knight of Lycia"],
 		"attackSound": "horse"
 	},
 
@@ -641,7 +647,7 @@
 		"requiredResource": "Mani Katti",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"promotions": ["Noble Fortitude","Sacaean Justice","Precision Strikes"],
 		"attackSound": "metalhit"
 	},
 	
@@ -658,7 +664,7 @@
 		"requiredResource": "Mani Katti",
 		"obsoleteTech": "Mobile Tactics",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"promotions": ["Noble Fortitude","Sacaean Justice","Precision Strikes"],
 		"attackSound": "metalhit"
 	},
 	
@@ -673,7 +679,7 @@
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Mani Katti",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"promotions": ["Noble Fortitude","Sacaean Justice","Precision Strikes"],
 		"attackSound": "metalhit"
 	},
 	
@@ -707,7 +713,7 @@
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
-		"uniques": ["Will not be displayed in Civilopedia","[+100] Strength <when attacking> <with [15]% chance>","Invisible to non-adjacent units","May enter foreign tiles without open borders"],
+		"uniques": ["Will not be displayed in Civilopedia","[+100]% Strength <when attacking> <with [10]% chance>","Invisible to non-adjacent units","May enter foreign tiles without open borders"],
 	}
 	//Magvelian
 	

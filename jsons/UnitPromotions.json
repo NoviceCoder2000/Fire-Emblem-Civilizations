@@ -17,8 +17,31 @@
 	},
 	
 	{
-		"name": "Sacaean Justice", // should be unique to thief
+		"name": "Sacaean Justice", 
 		"uniques": ["Earn [100]% of the damage done to [Barbarians] units as [Culture]","[+100]% Strength <vs [Barbarians] units>"]
+	},
+
+	{
+		"name": "The Falchion", //Exclusive to Marth, Chrom and Alm
+		"uniques": ["[+150]% Strength <vs [Manekete] units>","[+150]% Strength <vs [Mage Manekete] units>","[+150]% Strength <vs [Flying Manekete] units>"]
+	},
+	
+	{
+		"name": "Sealed Sword", //Exlcusive to Roy
+		"uniques": ["[+100]% Strength <vs [Manekete] units>","[+100]% Strength <vs [Mage Manekete] units>","[+100]% Strength <vs [Flying Manekete] units>"]
+	},
+
+	{
+		"name": "Precision Strikes", //Exlcusive to Lyn
+		"uniques": ["[+100]% Strength <when attacking> <with [15]% chance>"]
+	},
+	
+	{
+		"name": "The Knight of Lycia", //Exlcusive to Eliwood
+		"uniques": ["[+15]% Strength bonus for [Mounted] units within [1] tiles",
+		"[+15]% Strength bonus for [Armored] units within [1] tiles",
+		"[+10]% Strength bonus for [Mounted] units within [2] tiles",
+		"[+10]% Strength bonus for [Armored] units within [2] tiles"]
 	},
 
 
